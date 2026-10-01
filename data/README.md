@@ -2,6 +2,8 @@
 
 This repository checks in the exact fictional data used for development, validation and the frozen test evaluation. No real customer or employee data is included.
 
+For the complete data lineage, label-separation policy and connection to evaluation artifacts, see `docs/data_and_evaluation_guide.md`.
+
 ## Frozen 60-account dataset
 
 `generated/` is the fixed evaluation snapshot produced with seed `6201` and reference date `2026-09-01`. It contains 60 accounts, 360 contacts, 1,106 interaction records, 360 role labels and 128 critical-event labels. Account-level splits are fixed at 30 development, 10 validation and 20 test accounts.

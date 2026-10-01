@@ -137,7 +137,7 @@ accountlens/
 
 The core implementation, prompt development, validation, frozen test run, error analysis, Statement-alignment enhancement, clean-environment verification, five-person blinded pilot, and public repository packaging are complete. The recorded demo/video remains to be produced and submitted separately.
 
-See `docs/class5_business_case.md`, `docs/statement_alignment.md`, `docs/phase2_results.md`, `docs/final_evaluation.md`, `docs/real_user_evaluation.md`, `docs/clean_environment_verification.md`, and `docs/submission_requirements_audit.md` for the business case, design rationale, verification record, and confirmed-versus-provisional submission requirements. Remaining human-executed work is organised in `docs/demo_script.md` and `docs/submission_checklist.md`.
+See `docs/data_and_evaluation_guide.md`, `docs/class5_business_case.md`, `docs/statement_alignment.md`, `docs/phase2_results.md`, `docs/final_evaluation.md`, `docs/real_user_evaluation.md`, `docs/clean_environment_verification.md`, and `docs/submission_requirements_audit.md` for data lineage, metric definitions, the business case, design rationale, verification record, and submission requirements. Remaining human-executed work is organised in `docs/demo_script.md` and `docs/submission_checklist.md`.
 
 A submission-ready analysis of no more than 1,200 words is available at `output/Wen_Hao_AccountLens_Final_Analysis.docx`, with a matching PDF in `output/pdf/Wen_Hao_AccountLens_Final_Analysis.pdf`. The longer working report is retained at `output/AccountLens_Final_Project_Report.docx`. The complete provisional four-minute narration is in `docs/final_video_narration.md`; adjust its timing only after the official Final Project Rubric confirms the required format and duration.
 

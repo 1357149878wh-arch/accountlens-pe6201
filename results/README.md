@@ -2,6 +2,8 @@
 
 This directory checks in the machine-readable outputs used to select, freeze and critique the final system. The files contain only fictional account data or anonymous participant codes.
 
+For metric definitions, target-versus-result tables, artifact lineage and evaluation limitations, see `docs/data_and_evaluation_guide.md`.
+
 ## Experiment sequence
 
 | Stage | Files | Purpose |
