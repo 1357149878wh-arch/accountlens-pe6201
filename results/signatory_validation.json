@@ -1,0 +1,191 @@
+{
+  "definition": "The true signatory is the contact with final commercial approval authority. A procurement or legal contact who only executes paperwork is not the signatory.",
+  "model_calls_made": 0,
+  "post_freeze_supplement": true,
+  "selection_rule": "Select the highest-confidence non-abstained economic_buyer prediction for each account.",
+  "split": "validation",
+  "systems": {
+    "B0": {
+      "accounts": 10,
+      "correct_selections": 3,
+      "multiple_candidate_accounts": 0,
+      "per_account": [
+        {
+          "account_id": "ACC-014",
+          "candidate_count": 0,
+          "correct": false,
+          "selected_confidence": null,
+          "selected_signatory_contact_id": null,
+          "true_signatory_contact_id": "CON-0080"
+        },
+        {
+          "account_id": "ACC-015",
+          "candidate_count": 0,
+          "correct": false,
+          "selected_confidence": null,
+          "selected_signatory_contact_id": null,
+          "true_signatory_contact_id": "CON-0086"
+        },
+        {
+          "account_id": "ACC-020",
+          "candidate_count": 0,
+          "correct": false,
+          "selected_confidence": null,
+          "selected_signatory_contact_id": null,
+          "true_signatory_contact_id": "CON-0116"
+        },
+        {
+          "account_id": "ACC-030",
+          "candidate_count": 0,
+          "correct": false,
+          "selected_confidence": null,
+          "selected_signatory_contact_id": null,
+          "true_signatory_contact_id": "CON-0176"
+        },
+        {
+          "account_id": "ACC-034",
+          "candidate_count": 0,
+          "correct": false,
+          "selected_confidence": null,
+          "selected_signatory_contact_id": null,
+          "true_signatory_contact_id": "CON-0200"
+        },
+        {
+          "account_id": "ACC-040",
+          "candidate_count": 0,
+          "correct": false,
+          "selected_confidence": null,
+          "selected_signatory_contact_id": null,
+          "true_signatory_contact_id": "CON-0236"
+        },
+        {
+          "account_id": "ACC-042",
+          "candidate_count": 1,
+          "correct": true,
+          "selected_confidence": 0.95,
+          "selected_signatory_contact_id": "CON-0248",
+          "true_signatory_contact_id": "CON-0248"
+        },
+        {
+          "account_id": "ACC-047",
+          "candidate_count": 1,
+          "correct": true,
+          "selected_confidence": 0.95,
+          "selected_signatory_contact_id": "CON-0278",
+          "true_signatory_contact_id": "CON-0278"
+        },
+        {
+          "account_id": "ACC-058",
+          "candidate_count": 1,
+          "correct": true,
+          "selected_confidence": 0.95,
+          "selected_signatory_contact_id": "CON-0344",
+          "true_signatory_contact_id": "CON-0344"
+        },
+        {
+          "account_id": "ACC-060",
+          "candidate_count": 0,
+          "correct": false,
+          "selected_confidence": null,
+          "selected_signatory_contact_id": null,
+          "true_signatory_contact_id": "CON-0356"
+        }
+      ],
+      "precision": 1.0,
+      "recall": 0.3,
+      "selection_rate": 0.3,
+      "selections": 3
+    },
+    "M2": {
+      "accounts": 10,
+      "correct_selections": 10,
+      "multiple_candidate_accounts": 0,
+      "per_account": [
+        {
+          "account_id": "ACC-014",
+          "candidate_count": 1,
+          "correct": true,
+          "selected_confidence": 0.95,
+          "selected_signatory_contact_id": "CON-0080",
+          "true_signatory_contact_id": "CON-0080"
+        },
+        {
+          "account_id": "ACC-015",
+          "candidate_count": 1,
+          "correct": true,
+          "selected_confidence": 0.95,
+          "selected_signatory_contact_id": "CON-0086",
+          "true_signatory_contact_id": "CON-0086"
+        },
+        {
+          "account_id": "ACC-020",
+          "candidate_count": 1,
+          "correct": true,
+          "selected_confidence": 0.95,
+          "selected_signatory_contact_id": "CON-0116",
+          "true_signatory_contact_id": "CON-0116"
+        },
+        {
+          "account_id": "ACC-030",
+          "candidate_count": 1,
+          "correct": true,
+          "selected_confidence": 0.95,
+          "selected_signatory_contact_id": "CON-0176",
+          "true_signatory_contact_id": "CON-0176"
+        },
+        {
+          "account_id": "ACC-034",
+          "candidate_count": 1,
+          "correct": true,
+          "selected_confidence": 0.95,
+          "selected_signatory_contact_id": "CON-0200",
+          "true_signatory_contact_id": "CON-0200"
+        },
+        {
+          "account_id": "ACC-040",
+          "candidate_count": 1,
+          "correct": true,
+          "selected_confidence": 0.95,
+          "selected_signatory_contact_id": "CON-0236",
+          "true_signatory_contact_id": "CON-0236"
+        },
+        {
+          "account_id": "ACC-042",
+          "candidate_count": 1,
+          "correct": true,
+          "selected_confidence": 0.95,
+          "selected_signatory_contact_id": "CON-0248",
+          "true_signatory_contact_id": "CON-0248"
+        },
+        {
+          "account_id": "ACC-047",
+          "candidate_count": 1,
+          "correct": true,
+          "selected_confidence": 0.9,
+          "selected_signatory_contact_id": "CON-0278",
+          "true_signatory_contact_id": "CON-0278"
+        },
+        {
+          "account_id": "ACC-058",
+          "candidate_count": 1,
+          "correct": true,
+          "selected_confidence": 0.9,
+          "selected_signatory_contact_id": "CON-0344",
+          "true_signatory_contact_id": "CON-0344"
+        },
+        {
+          "account_id": "ACC-060",
+          "candidate_count": 1,
+          "correct": true,
+          "selected_confidence": 0.95,
+          "selected_signatory_contact_id": "CON-0356",
+          "true_signatory_contact_id": "CON-0356"
+        }
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "selection_rate": 1.0,
+      "selections": 10
+    }
+  }
+}

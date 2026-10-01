@@ -1,0 +1,24 @@
+{
+  "counts": {
+    "accounts": 60,
+    "contacts": 360,
+    "critical_truth": 128,
+    "interactions": 1106,
+    "role_truth": 360
+  },
+  "reference_date": "2026-09-01",
+  "seed": 6201,
+  "sha256": {
+    "accounts.jsonl": "29675d8006d468b2e83585717ddef9ce768cacd1357d92e66622fe61cf22ecd2",
+    "contacts.jsonl": "f154a554aa051dab7b3f0bb3258645ea4038791955aa67dcb651b40ffd4978b5",
+    "critical_event_ground_truth.jsonl": "02b5f7d03289a2ef3e22b71fedad9a0a7c8f65916ae0877f3816b0f99cded143",
+    "interactions.jsonl": "c079782bff5af031812bcab9088ad17fcc4c48d2fd54fe2a221b8a4c45fe4839",
+    "role_ground_truth.jsonl": "833cceff2dee9f5f461b4b8c2c0c3d7d7c32e7b4cba4370a92306c3c159ebd1b",
+    "splits.json": "d3b7f69fb1a4f69bc35075dac3275801c7d97ef1698cb43d3be4a92a1dbf3b3f"
+  },
+  "splits": {
+    "development": 30,
+    "test": 20,
+    "validation": 10
+  }
+}

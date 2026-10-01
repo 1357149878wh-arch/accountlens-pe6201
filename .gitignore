@@ -14,17 +14,6 @@ tmp/
 .coverage
 htmlcov/
 logs/
-results/*.json
-!results/baseline_validation.json
-!results/m2_validation.json
-!results/baseline_test.json
-!results/m2_test.json
-!results/simulated_user_evaluation.json
-!results/real_user_study.json
-!results/teacher_aligned_baseline.json
-!results/teacher_aligned_m2.json
-!results/class5_economics.json
-data/generated/
 data/user_study_responses/raw/
 docs/user_study_materials/facilitator_key.md
 .DS_Store

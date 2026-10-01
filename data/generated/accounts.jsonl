@@ -1,0 +1,60 @@
+{"account_id": "ACC-001", "annual_value_usd": 730000, "industry": "Manufacturing", "name": "Fictional Delta Group 001", "stage": "discovery", "true_signatory_contact_id": "CON-0002"}
+{"account_id": "ACC-002", "annual_value_usd": 650000, "industry": "Enterprise Software", "name": "Fictional Delta Group 002", "stage": "contracting", "true_signatory_contact_id": "CON-0008"}
+{"account_id": "ACC-003", "annual_value_usd": 100000, "industry": "Manufacturing", "name": "Fictional Delta Group 003", "stage": "contracting", "true_signatory_contact_id": "CON-0014"}
+{"account_id": "ACC-004", "annual_value_usd": 670000, "industry": "Enterprise Software", "name": "Fictional Delta Group 004", "stage": "discovery", "true_signatory_contact_id": "CON-0020"}
+{"account_id": "ACC-005", "annual_value_usd": 230000, "industry": "Enterprise Software", "name": "Fictional Beacon Group 005", "stage": "technical_validation", "true_signatory_contact_id": "CON-0026"}
+{"account_id": "ACC-006", "annual_value_usd": 460000, "industry": "Logistics", "name": "Fictional Delta Group 006", "stage": "technical_validation", "true_signatory_contact_id": "CON-0032"}
+{"account_id": "ACC-007", "annual_value_usd": 210000, "industry": "Manufacturing", "name": "Fictional Evergreen Group 007", "stage": "technical_validation", "true_signatory_contact_id": "CON-0038"}
+{"account_id": "ACC-008", "annual_value_usd": 650000, "industry": "Manufacturing", "name": "Fictional Aster Group 008", "stage": "contracting", "true_signatory_contact_id": "CON-0044"}
+{"account_id": "ACC-009", "annual_value_usd": 590000, "industry": "Enterprise Software", "name": "Fictional Evergreen Group 009", "stage": "technical_validation", "true_signatory_contact_id": "CON-0050"}
+{"account_id": "ACC-010", "annual_value_usd": 440000, "industry": "Healthcare Technology", "name": "Fictional Evergreen Group 010", "stage": "discovery", "true_signatory_contact_id": "CON-0056"}
+{"account_id": "ACC-011", "annual_value_usd": 430000, "industry": "Logistics", "name": "Fictional Delta Group 011", "stage": "contracting", "true_signatory_contact_id": "CON-0062"}
+{"account_id": "ACC-012", "annual_value_usd": 180000, "industry": "Healthcare Technology", "name": "Fictional Cobalt Group 012", "stage": "contracting", "true_signatory_contact_id": "CON-0068"}
+{"account_id": "ACC-013", "annual_value_usd": 770000, "industry": "Healthcare Technology", "name": "Fictional Evergreen Group 013", "stage": "commercial_review", "true_signatory_contact_id": "CON-0074"}
+{"account_id": "ACC-014", "annual_value_usd": 400000, "industry": "Enterprise Software", "name": "Fictional Evergreen Group 014", "stage": "contracting", "true_signatory_contact_id": "CON-0080"}
+{"account_id": "ACC-015", "annual_value_usd": 230000, "industry": "Logistics", "name": "Fictional Delta Group 015", "stage": "technical_validation", "true_signatory_contact_id": "CON-0086"}
+{"account_id": "ACC-016", "annual_value_usd": 710000, "industry": "Financial Services", "name": "Fictional Beacon Group 016", "stage": "discovery", "true_signatory_contact_id": "CON-0092"}
+{"account_id": "ACC-017", "annual_value_usd": 710000, "industry": "Logistics", "name": "Fictional Cobalt Group 017", "stage": "discovery", "true_signatory_contact_id": "CON-0098"}
+{"account_id": "ACC-018", "annual_value_usd": 550000, "industry": "Financial Services", "name": "Fictional Beacon Group 018", "stage": "commercial_review", "true_signatory_contact_id": "CON-0104"}
+{"account_id": "ACC-019", "annual_value_usd": 720000, "industry": "Enterprise Software", "name": "Fictional Aster Group 019", "stage": "commercial_review", "true_signatory_contact_id": "CON-0110"}
+{"account_id": "ACC-020", "annual_value_usd": 750000, "industry": "Healthcare Technology", "name": "Fictional Beacon Group 020", "stage": "discovery", "true_signatory_contact_id": "CON-0116"}
+{"account_id": "ACC-021", "annual_value_usd": 160000, "industry": "Manufacturing", "name": "Fictional Delta Group 021", "stage": "discovery", "true_signatory_contact_id": "CON-0122"}
+{"account_id": "ACC-022", "annual_value_usd": 410000, "industry": "Logistics", "name": "Fictional Delta Group 022", "stage": "technical_validation", "true_signatory_contact_id": "CON-0128"}
+{"account_id": "ACC-023", "annual_value_usd": 730000, "industry": "Enterprise Software", "name": "Fictional Aster Group 023", "stage": "commercial_review", "true_signatory_contact_id": "CON-0134"}
+{"account_id": "ACC-024", "annual_value_usd": 780000, "industry": "Logistics", "name": "Fictional Aster Group 024", "stage": "technical_validation", "true_signatory_contact_id": "CON-0140"}
+{"account_id": "ACC-025", "annual_value_usd": 260000, "industry": "Manufacturing", "name": "Fictional Aster Group 025", "stage": "contracting", "true_signatory_contact_id": "CON-0146"}
+{"account_id": "ACC-026", "annual_value_usd": 280000, "industry": "Manufacturing", "name": "Fictional Cobalt Group 026", "stage": "discovery", "true_signatory_contact_id": "CON-0152"}
+{"account_id": "ACC-027", "annual_value_usd": 350000, "industry": "Healthcare Technology", "name": "Fictional Cobalt Group 027", "stage": "technical_validation", "true_signatory_contact_id": "CON-0158"}
+{"account_id": "ACC-028", "annual_value_usd": 220000, "industry": "Healthcare Technology", "name": "Fictional Delta Group 028", "stage": "contracting", "true_signatory_contact_id": "CON-0164"}
+{"account_id": "ACC-029", "annual_value_usd": 360000, "industry": "Enterprise Software", "name": "Fictional Cobalt Group 029", "stage": "contracting", "true_signatory_contact_id": "CON-0170"}
+{"account_id": "ACC-030", "annual_value_usd": 90000, "industry": "Enterprise Software", "name": "Fictional Delta Group 030", "stage": "technical_validation", "true_signatory_contact_id": "CON-0176"}
+{"account_id": "ACC-031", "annual_value_usd": 260000, "industry": "Manufacturing", "name": "Fictional Cobalt Group 031", "stage": "commercial_review", "true_signatory_contact_id": "CON-0182"}
+{"account_id": "ACC-032", "annual_value_usd": 570000, "industry": "Healthcare Technology", "name": "Fictional Delta Group 032", "stage": "technical_validation", "true_signatory_contact_id": "CON-0188"}
+{"account_id": "ACC-033", "annual_value_usd": 560000, "industry": "Financial Services", "name": "Fictional Evergreen Group 033", "stage": "technical_validation", "true_signatory_contact_id": "CON-0194"}
+{"account_id": "ACC-034", "annual_value_usd": 280000, "industry": "Financial Services", "name": "Fictional Delta Group 034", "stage": "commercial_review", "true_signatory_contact_id": "CON-0200"}
+{"account_id": "ACC-035", "annual_value_usd": 410000, "industry": "Financial Services", "name": "Fictional Aster Group 035", "stage": "contracting", "true_signatory_contact_id": "CON-0206"}
+{"account_id": "ACC-036", "annual_value_usd": 700000, "industry": "Enterprise Software", "name": "Fictional Beacon Group 036", "stage": "technical_validation", "true_signatory_contact_id": "CON-0212"}
+{"account_id": "ACC-037", "annual_value_usd": 400000, "industry": "Logistics", "name": "Fictional Aster Group 037", "stage": "discovery", "true_signatory_contact_id": "CON-0218"}
+{"account_id": "ACC-038", "annual_value_usd": 180000, "industry": "Financial Services", "name": "Fictional Cobalt Group 038", "stage": "commercial_review", "true_signatory_contact_id": "CON-0224"}
+{"account_id": "ACC-039", "annual_value_usd": 120000, "industry": "Financial Services", "name": "Fictional Evergreen Group 039", "stage": "contracting", "true_signatory_contact_id": "CON-0230"}
+{"account_id": "ACC-040", "annual_value_usd": 110000, "industry": "Financial Services", "name": "Fictional Beacon Group 040", "stage": "commercial_review", "true_signatory_contact_id": "CON-0236"}
+{"account_id": "ACC-041", "annual_value_usd": 660000, "industry": "Logistics", "name": "Fictional Aster Group 041", "stage": "discovery", "true_signatory_contact_id": "CON-0242"}
+{"account_id": "ACC-042", "annual_value_usd": 420000, "industry": "Manufacturing", "name": "Fictional Beacon Group 042", "stage": "contracting", "true_signatory_contact_id": "CON-0248"}
+{"account_id": "ACC-043", "annual_value_usd": 540000, "industry": "Healthcare Technology", "name": "Fictional Evergreen Group 043", "stage": "commercial_review", "true_signatory_contact_id": "CON-0254"}
+{"account_id": "ACC-044", "annual_value_usd": 220000, "industry": "Logistics", "name": "Fictional Aster Group 044", "stage": "discovery", "true_signatory_contact_id": "CON-0260"}
+{"account_id": "ACC-045", "annual_value_usd": 770000, "industry": "Manufacturing", "name": "Fictional Beacon Group 045", "stage": "technical_validation", "true_signatory_contact_id": "CON-0266"}
+{"account_id": "ACC-046", "annual_value_usd": 160000, "industry": "Financial Services", "name": "Fictional Beacon Group 046", "stage": "contracting", "true_signatory_contact_id": "CON-0272"}
+{"account_id": "ACC-047", "annual_value_usd": 760000, "industry": "Manufacturing", "name": "Fictional Delta Group 047", "stage": "technical_validation", "true_signatory_contact_id": "CON-0278"}
+{"account_id": "ACC-048", "annual_value_usd": 310000, "industry": "Financial Services", "name": "Fictional Aster Group 048", "stage": "contracting", "true_signatory_contact_id": "CON-0284"}
+{"account_id": "ACC-049", "annual_value_usd": 180000, "industry": "Manufacturing", "name": "Fictional Cobalt Group 049", "stage": "discovery", "true_signatory_contact_id": "CON-0290"}
+{"account_id": "ACC-050", "annual_value_usd": 390000, "industry": "Logistics", "name": "Fictional Aster Group 050", "stage": "commercial_review", "true_signatory_contact_id": "CON-0296"}
+{"account_id": "ACC-051", "annual_value_usd": 260000, "industry": "Enterprise Software", "name": "Fictional Cobalt Group 051", "stage": "discovery", "true_signatory_contact_id": "CON-0302"}
+{"account_id": "ACC-052", "annual_value_usd": 590000, "industry": "Enterprise Software", "name": "Fictional Aster Group 052", "stage": "technical_validation", "true_signatory_contact_id": "CON-0308"}
+{"account_id": "ACC-053", "annual_value_usd": 780000, "industry": "Financial Services", "name": "Fictional Aster Group 053", "stage": "discovery", "true_signatory_contact_id": "CON-0314"}
+{"account_id": "ACC-054", "annual_value_usd": 130000, "industry": "Logistics", "name": "Fictional Evergreen Group 054", "stage": "commercial_review", "true_signatory_contact_id": "CON-0320"}
+{"account_id": "ACC-055", "annual_value_usd": 100000, "industry": "Enterprise Software", "name": "Fictional Aster Group 055", "stage": "commercial_review", "true_signatory_contact_id": "CON-0326"}
+{"account_id": "ACC-056", "annual_value_usd": 100000, "industry": "Healthcare Technology", "name": "Fictional Aster Group 056", "stage": "discovery", "true_signatory_contact_id": "CON-0332"}
+{"account_id": "ACC-057", "annual_value_usd": 270000, "industry": "Logistics", "name": "Fictional Evergreen Group 057", "stage": "commercial_review", "true_signatory_contact_id": "CON-0338"}
+{"account_id": "ACC-058", "annual_value_usd": 490000, "industry": "Manufacturing", "name": "Fictional Beacon Group 058", "stage": "technical_validation", "true_signatory_contact_id": "CON-0344"}
+{"account_id": "ACC-059", "annual_value_usd": 420000, "industry": "Logistics", "name": "Fictional Cobalt Group 059", "stage": "technical_validation", "true_signatory_contact_id": "CON-0350"}
+{"account_id": "ACC-060", "annual_value_usd": 160000, "industry": "Financial Services", "name": "Fictional Evergreen Group 060", "stage": "contracting", "true_signatory_contact_id": "CON-0356"}

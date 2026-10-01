@@ -1,0 +1,11 @@
+{
+  "accounts": 10,
+  "api_calls_planned": 10,
+  "average_payload_characters": 8675.5,
+  "experiment": "M1",
+  "mode": "dry_run",
+  "model": "openai/gpt-4o",
+  "prompt": "account_briefing_m1.txt",
+  "split": "validation",
+  "test_split_frozen": false
+}
