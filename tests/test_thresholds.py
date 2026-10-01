@@ -1,3 +1,5 @@
+"""Test quality-first threshold selection and deterministic tie-breaking."""
+
 from __future__ import annotations
 
 import unittest

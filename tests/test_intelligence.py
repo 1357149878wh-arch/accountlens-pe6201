@@ -1,3 +1,5 @@
+"""Test recent-event filtering, risk detection and account-intelligence aggregation."""
+
 from __future__ import annotations
 
 import unittest

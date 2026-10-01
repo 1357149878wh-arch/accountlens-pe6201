@@ -1,3 +1,5 @@
+"""Test role-classification and commercial-signatory selection metrics."""
+
 from __future__ import annotations
 
 import unittest

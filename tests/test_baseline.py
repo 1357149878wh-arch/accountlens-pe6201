@@ -1,3 +1,5 @@
+"""Test deterministic decision-role inference and abstention behaviour."""
+
 from __future__ import annotations
 
 import unittest

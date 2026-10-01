@@ -1,3 +1,5 @@
+"""Test reproducible synthetic-data generation and saved-dataset loading."""
+
 from __future__ import annotations
 
 import unittest

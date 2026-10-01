@@ -1,3 +1,5 @@
+"""Test single-page PDF and Slack-ready Markdown briefing exports."""
+
 from __future__ import annotations
 
 import unittest

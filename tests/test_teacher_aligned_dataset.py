@@ -1,3 +1,5 @@
+"""Test the instructor-aligned dataset shape, determinism and hidden-label integrity."""
+
 from __future__ import annotations
 
 import unittest

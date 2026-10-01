@@ -1,3 +1,5 @@
+"""Test reproducibility and validation-split isolation of the synthetic user pilot."""
+
 import unittest
 from pathlib import Path
 

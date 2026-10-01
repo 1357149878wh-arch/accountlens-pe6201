@@ -1,3 +1,5 @@
+"""Test blinded participant-packet generation and facilitator-key separation."""
+
 import unittest
 from pathlib import Path
 

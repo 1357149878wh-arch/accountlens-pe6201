@@ -1,3 +1,5 @@
+"""Test cost-to-serve layers and break-even calculations."""
+
 from __future__ import annotations
 
 import unittest

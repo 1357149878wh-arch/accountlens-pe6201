@@ -1,3 +1,5 @@
+"""Test experiment dry runs and hybrid-context payload construction."""
+
 from __future__ import annotations
 
 import unittest
