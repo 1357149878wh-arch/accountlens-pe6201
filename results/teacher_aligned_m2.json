@@ -1,0 +1,2267 @@
+{
+  "accounts": 10,
+  "briefings": [
+    {
+      "account_id": "TA-001",
+      "cross_team_activity": [
+        {
+          "event_ids": [
+            "TEVT-001-01",
+            "TEVT-001-02",
+            "TEVT-001-03"
+          ],
+          "importance": "High",
+          "summary": "Key discussions around budget approval and investment decisions involving multiple departments, including Finance, Operations, and Procurement."
+        }
+      ],
+      "decision_roles": [
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "TCON-001-01",
+          "evidence_ids": [
+            "TEVT-001-01",
+            "TEVT-001-03"
+          ],
+          "reason": "Maya Chen is actively involved in coordinating the budget case and ROI documentation, indicating a role in promoting and aligning stakeholders.",
+          "role": "champion",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.95,
+          "contact_id": "TCON-001-02",
+          "evidence_ids": [
+            "TEVT-001-01",
+            "TEVT-001-02",
+            "TEVT-001-03",
+            "TEVT-001-06"
+          ],
+          "reason": "Elena Park is identified as having final approval authority for the financial commitment and chairs investment decisions.",
+          "role": "economic_buyer",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.85,
+          "contact_id": "TCON-001-03",
+          "evidence_ids": [
+            "TEVT-001-04"
+          ],
+          "reason": "Victor Tan is involved in technical issues such as single sign-on testing, indicating a role in technical evaluation.",
+          "role": "technical_evaluator",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "TCON-001-04",
+          "evidence_ids": [
+            "TEVT-001-03"
+          ],
+          "reason": "Laura Gomez confirms procurement execution post-approval, indicating a role in procurement processes.",
+          "role": "procurement_legal",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.8,
+          "contact_id": "TCON-001-05",
+          "evidence_ids": [
+            "TEVT-001-05"
+          ],
+          "reason": "Noah Lim is involved in workflow testing, suggesting a role as an end user or representative of operational requirements.",
+          "role": "end_user",
+          "source": "llm"
+        },
+        {
+          "abstained": true,
+          "confidence": 0.5,
+          "contact_id": "TCON-001-06",
+          "evidence_ids": [],
+          "reason": "There is insufficient information about Iris Wong's involvement in decision-making processes.",
+          "role": "unknown",
+          "source": "llm"
+        }
+      ],
+      "limitations": [
+        "The role of Iris Wong is unclear due to lack of specific interaction data."
+      ],
+      "recommended_actions": [
+        {
+          "action": "Address the single sign-on issue urgently to unblock production approval.",
+          "evidence_ids": [
+            "TEVT-001-04"
+          ],
+          "rationale": "The technical issue is a high-severity risk that is preventing the final commercial sign-off."
+        }
+      ],
+      "risks": [
+        {
+          "category": "Technical",
+          "description": "Single sign-on testing failure is blocking production approval.",
+          "evidence_ids": [
+            "TEVT-001-04"
+          ],
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "account_id": "TA-002",
+      "cross_team_activity": [
+        {
+          "event_ids": [
+            "TEVT-002-01",
+            "TEVT-002-03"
+          ],
+          "importance": "High",
+          "summary": "Discussions on regional funding and rollout approval involving multiple departments."
+        },
+        {
+          "event_ids": [
+            "TEVT-002-04",
+            "TEVT-002-05"
+          ],
+          "importance": "Medium",
+          "summary": "Operational issues with scanner latency and data export format corrections."
+        }
+      ],
+      "decision_roles": [
+        {
+          "abstained": false,
+          "confidence": 0.8,
+          "contact_id": "TCON-002-01",
+          "evidence_ids": [
+            "TEVT-002-01",
+            "TEVT-002-03"
+          ],
+          "reason": "Jon Bell is actively involved in discussions about regional funding and rollout, indicating a role in coordinating stakeholders.",
+          "role": "champion",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "TCON-002-02",
+          "evidence_ids": [
+            "TEVT-002-01",
+            "TEVT-002-02",
+            "TEVT-002-03",
+            "TEVT-002-06"
+          ],
+          "reason": "Marcus Lee is identified as controlling the regional investment budget and making final approval decisions.",
+          "role": "economic_buyer",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.85,
+          "contact_id": "TCON-002-03",
+          "evidence_ids": [
+            "TEVT-002-05"
+          ],
+          "reason": "Sara Kim's involvement in accepting the corrected export format suggests a technical evaluation role.",
+          "role": "technical_evaluator",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "TCON-002-04",
+          "evidence_ids": [
+            "TEVT-002-02",
+            "TEVT-002-06"
+          ],
+          "reason": "Olivia Grant is involved in signing documents and legal execution, indicating a procurement/legal role.",
+          "role": "procurement_legal",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.8,
+          "contact_id": "TCON-002-05",
+          "evidence_ids": [
+            "TEVT-002-04"
+          ],
+          "reason": "Ethan Cole's involvement in depot operations and scanner latency issues suggests he is an end user.",
+          "role": "end_user",
+          "source": "llm"
+        },
+        {
+          "abstained": true,
+          "confidence": 0.5,
+          "contact_id": "TCON-002-06",
+          "evidence_ids": [],
+          "reason": "No specific interactions or responsibilities are detailed for Nina Shah.",
+          "role": "unknown",
+          "source": "llm"
+        }
+      ],
+      "limitations": [
+        "Limited information on Nina Shah's role and involvement.",
+        "No direct evidence of Marcus Lee's decision-making process beyond stated responsibilities."
+      ],
+      "recommended_actions": [
+        {
+          "action": "Ensure Marcus Lee receives the final cost case promptly.",
+          "evidence_ids": [
+            "TEVT-002-03"
+          ],
+          "rationale": "Marcus Lee needs to approve the regional rollout, and timely delivery of the cost case is crucial for decision-making."
+        },
+        {
+          "action": "Address scanner latency issues at depots.",
+          "evidence_ids": [
+            "TEVT-002-04"
+          ],
+          "rationale": "Operational efficiency may be impacted, and resolving these issues is important for customer satisfaction."
+        }
+      ],
+      "risks": [
+        {
+          "category": "Operational",
+          "description": "Scanner latency issues at two depots could affect operational efficiency.",
+          "evidence_ids": [
+            "TEVT-002-04"
+          ],
+          "severity": "Medium"
+        }
+      ]
+    },
+    {
+      "account_id": "TA-003",
+      "cross_team_activity": [
+        {
+          "event_ids": [
+            "TEVT-003-01",
+            "TEVT-003-02",
+            "TEVT-003-03"
+          ],
+          "importance": "High",
+          "summary": "Multiple interactions involving investment decision discussions and committee meetings."
+        }
+      ],
+      "decision_roles": [
+        {
+          "abstained": false,
+          "confidence": 0.8,
+          "contact_id": "TCON-003-01",
+          "evidence_ids": [
+            "TEVT-003-01",
+            "TEVT-003-02",
+            "TEVT-003-03"
+          ],
+          "reason": "Leo Martins is involved in multiple interactions related to the investment decision process, indicating a role in coordinating and supporting the decision-making.",
+          "role": "champion",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.95,
+          "contact_id": "TCON-003-02",
+          "evidence_ids": [
+            "TEVT-003-01",
+            "TEVT-003-03",
+            "TEVT-003-06"
+          ],
+          "reason": "Priya Nair is identified as the chair of the investment committee and the final approver for capital purchases, indicating she holds budget authority.",
+          "role": "economic_buyer",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.75,
+          "contact_id": "TCON-003-03",
+          "evidence_ids": [
+            "TEVT-003-04"
+          ],
+          "reason": "Hugo Stein is involved in a technical issue related to the pilot connector, suggesting a role in technical evaluation.",
+          "role": "technical_evaluator",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.85,
+          "contact_id": "TCON-003-04",
+          "evidence_ids": [
+            "TEVT-003-02"
+          ],
+          "reason": "Rachel Adams is involved in vendor onboarding and clarifies that Priya's decision is required for spend, indicating a procurement role.",
+          "role": "procurement_legal",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.7,
+          "contact_id": "TCON-003-05",
+          "evidence_ids": [
+            "TEVT-003-05"
+          ],
+          "reason": "Samir Das is involved in feedback on dashboard terminology, indicating a role related to end-user experience.",
+          "role": "end_user",
+          "source": "llm"
+        },
+        {
+          "abstained": true,
+          "confidence": 0.5,
+          "contact_id": "TCON-003-06",
+          "evidence_ids": [],
+          "reason": "There is insufficient information to determine Tara Evans' role in the decision-making process.",
+          "role": "unknown",
+          "source": "llm"
+        }
+      ],
+      "limitations": [
+        "The role of Tara Evans is unclear due to lack of specific interaction data."
+      ],
+      "recommended_actions": [
+        {
+          "action": "Address the technical issue with the pilot connector to prevent operational disruptions.",
+          "evidence_ids": [
+            "TEVT-003-04"
+          ],
+          "rationale": "The high-severity technical issue could affect the client's operations and satisfaction."
+        }
+      ],
+      "risks": [
+        {
+          "category": "Technical",
+          "description": "The pilot connector times out during peak production cycles, which could impact operational efficiency.",
+          "evidence_ids": [
+            "TEVT-003-04"
+          ],
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "account_id": "TA-004",
+      "cross_team_activity": [
+        {
+          "event_ids": [
+            "TEVT-004-03"
+          ],
+          "importance": "high",
+          "summary": "Meeting held to review risk and investment, involving key stakeholders including David Wong and Farah Ali."
+        }
+      ],
+      "decision_roles": [
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "TCON-004-01",
+          "evidence_ids": [
+            "TEVT-004-01"
+          ],
+          "reason": "Alice Ng is actively involved in coordinating communication and approvals, indicating a champion role.",
+          "role": "champion",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.95,
+          "contact_id": "TCON-004-02",
+          "evidence_ids": [
+            "TEVT-004-01",
+            "TEVT-004-02",
+            "TEVT-004-03",
+            "TEVT-004-06"
+          ],
+          "reason": "David Wong is identified as the owner of the operating budget and the final approver for the program.",
+          "role": "economic_buyer",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "TCON-004-03",
+          "evidence_ids": [
+            "TEVT-004-03",
+            "TEVT-004-04",
+            "TEVT-004-06"
+          ],
+          "reason": "Farah Ali is involved in resolving data residency issues, indicating a technical evaluation role.",
+          "role": "technical_evaluator",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "TCON-004-04",
+          "evidence_ids": [
+            "TEVT-004-02"
+          ],
+          "reason": "Martin Price is involved in legal countersigning, indicating a procurement/legal role.",
+          "role": "procurement_legal",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.8,
+          "contact_id": "TCON-004-05",
+          "evidence_ids": [
+            "TEVT-004-05"
+          ],
+          "reason": "Chloe Davis is involved in resolving operational issues, suggesting an end-user role.",
+          "role": "end_user",
+          "source": "llm"
+        },
+        {
+          "abstained": true,
+          "confidence": 0.5,
+          "contact_id": "TCON-004-06",
+          "evidence_ids": [],
+          "reason": "There is insufficient information about Ryan Teo's involvement in the decision-making process.",
+          "role": "unknown",
+          "source": "llm"
+        }
+      ],
+      "limitations": [
+        "The role of Ryan Teo is unclear due to lack of interaction data."
+      ],
+      "recommended_actions": [
+        {
+          "action": "Prioritize resolution of the data residency issue.",
+          "evidence_ids": [
+            "TEVT-004-03",
+            "TEVT-004-04",
+            "TEVT-004-06"
+          ],
+          "rationale": "The data residency exception is the gating issue for final approval by David Wong."
+        }
+      ],
+      "risks": [
+        {
+          "category": "technical",
+          "description": "Data residency exception is blocking final approval.",
+          "evidence_ids": [
+            "TEVT-004-03",
+            "TEVT-004-04",
+            "TEVT-004-06"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "account_id": "TA-005",
+      "cross_team_activity": [
+        {
+          "event_ids": [
+            "TEVT-005-01",
+            "TEVT-005-02",
+            "TEVT-005-03"
+          ],
+          "importance": "High",
+          "summary": "Coordination between Sales, Finance, and Procurement for ROI approval and contracting steps."
+        },
+        {
+          "event_ids": [
+            "TEVT-005-04",
+            "TEVT-005-05"
+          ],
+          "importance": "Medium",
+          "summary": "Customer Success addressing technical issues and user workflow alignment."
+        }
+      ],
+      "decision_roles": [
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "TCON-005-01",
+          "evidence_ids": [
+            "TEVT-005-01",
+            "TEVT-005-03"
+          ],
+          "reason": "Benjamin Ho is involved in coordinating the ROI approval and is present in key meetings, indicating a role in driving alignment.",
+          "role": "champion",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.95,
+          "contact_id": "TCON-005-02",
+          "evidence_ids": [
+            "TEVT-005-01",
+            "TEVT-005-02",
+            "TEVT-005-03",
+            "TEVT-005-06"
+          ],
+          "reason": "Sofia Chen is identified as the commercial signatory and is responsible for financial approval, indicating budget ownership.",
+          "role": "economic_buyer",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.85,
+          "contact_id": "TCON-005-03",
+          "evidence_ids": [
+            "TEVT-005-04"
+          ],
+          "reason": "Amir Khan is involved in technical issues related to CRM synchronization, suggesting a technical evaluation role.",
+          "role": "technical_evaluator",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.95,
+          "contact_id": "TCON-005-04",
+          "evidence_ids": [
+            "TEVT-005-02",
+            "TEVT-005-06"
+          ],
+          "reason": "Julia Ross is responsible for contracting steps and issuing purchase orders, indicating a procurement role.",
+          "role": "procurement_legal",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.8,
+          "contact_id": "TCON-005-05",
+          "evidence_ids": [
+            "TEVT-005-05"
+          ],
+          "reason": "Megan Ford is involved in resolving user workflow issues, indicating an end-user role.",
+          "role": "end_user",
+          "source": "llm"
+        },
+        {
+          "abstained": true,
+          "confidence": 0.5,
+          "contact_id": "TCON-005-06",
+          "evidence_ids": [],
+          "reason": "Peter Low's activities are not documented in the provided records, making his role unclear.",
+          "role": "unknown",
+          "source": "llm"
+        }
+      ],
+      "limitations": [
+        "Peter Low's role is unclear due to lack of documented interactions.",
+        "The records do not provide detailed insights into the technical evaluation process beyond CRM synchronization issues."
+      ],
+      "recommended_actions": [
+        {
+          "action": "Ensure liability clause revision is expedited.",
+          "evidence_ids": [
+            "TEVT-005-02",
+            "TEVT-005-03"
+          ],
+          "rationale": "Sofia Chen's final approval is contingent on the liability clause revision, which is delaying contract closure."
+        },
+        {
+          "action": "Address CRM synchronization issues promptly.",
+          "evidence_ids": [
+            "TEVT-005-04"
+          ],
+          "rationale": "Technical issues with duplicate records could impact operational efficiency and customer satisfaction."
+        }
+      ],
+      "risks": [
+        {
+          "category": "Technical",
+          "description": "Duplicate account records in CRM synchronization test remain unresolved.",
+          "evidence_ids": [
+            "TEVT-005-04"
+          ],
+          "severity": "Medium"
+        }
+      ]
+    },
+    {
+      "account_id": "TA-006",
+      "cross_team_activity": [
+        {
+          "event_ids": [
+            "TEVT-006-01",
+            "TEVT-006-02",
+            "TEVT-006-03"
+          ],
+          "importance": "High",
+          "summary": "Multiple interactions involving Nora Jensen, Omar Rahman, and other stakeholders indicate cross-departmental coordination for approvals and technical evaluations."
+        }
+      ],
+      "decision_roles": [
+        {
+          "abstained": false,
+          "confidence": 0.8,
+          "contact_id": "TCON-006-01",
+          "evidence_ids": [
+            "TEVT-006-01",
+            "TEVT-006-02",
+            "TEVT-006-03"
+          ],
+          "reason": "Nora Jensen is involved in multiple interactions coordinating with Omar Rahman and other stakeholders, indicating a role in driving alignment and adoption.",
+          "role": "champion",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.95,
+          "contact_id": "TCON-006-02",
+          "evidence_ids": [
+            "TEVT-006-01",
+            "TEVT-006-02",
+            "TEVT-006-03",
+            "TEVT-006-06"
+          ],
+          "reason": "Omar Rahman is repeatedly identified as having final authority for commitments and approvals, indicating budget ownership and final purchase authority.",
+          "role": "economic_buyer",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.75,
+          "contact_id": "TCON-006-03",
+          "evidence_ids": [
+            "TEVT-006-03",
+            "TEVT-006-04"
+          ],
+          "reason": "Kenji Sato is involved in technical discussions and issues, such as telemetry and packet loss, indicating a role in evaluating technical feasibility.",
+          "role": "technical_evaluator",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.85,
+          "contact_id": "TCON-006-04",
+          "evidence_ids": [
+            "TEVT-006-02"
+          ],
+          "reason": "Diana Moore is involved in tender completion and mentions the need for Omar's approval to release a purchase order, indicating a role in procurement processes.",
+          "role": "procurement_legal",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.7,
+          "contact_id": "TCON-006-05",
+          "evidence_ids": [
+            "TEVT-006-03",
+            "TEVT-006-05"
+          ],
+          "reason": "Luis Ortega is involved in field operations and checklist approvals, indicating a role in day-to-day operational requirements.",
+          "role": "end_user",
+          "source": "llm"
+        },
+        {
+          "abstained": true,
+          "confidence": 0.5,
+          "contact_id": "TCON-006-06",
+          "evidence_ids": [],
+          "reason": "There is no specific interaction or evidence related to Emma Reed's role in the decision-making process.",
+          "role": "unknown",
+          "source": "llm"
+        }
+      ],
+      "limitations": [
+        "Emma Reed's role is unclear due to lack of specific interaction evidence."
+      ],
+      "recommended_actions": [
+        {
+          "action": "Address the packet loss issue urgently to prevent delays in project approval.",
+          "evidence_ids": [
+            "TEVT-006-04"
+          ],
+          "rationale": "The packet loss issue is a high-severity technical risk that could affect field operations and delay final approval from Omar Rahman."
+        }
+      ],
+      "risks": [
+        {
+          "category": "Technical",
+          "description": "Packet loss exceeds the pilot acceptance threshold at one offshore site, which may impact project timelines and approval.",
+          "evidence_ids": [
+            "TEVT-006-04"
+          ],
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "account_id": "TA-007",
+      "cross_team_activity": [
+        {
+          "event_ids": [
+            "TEVT-007-01",
+            "TEVT-007-02",
+            "TEVT-007-03"
+          ],
+          "importance": "High",
+          "summary": "Multiple interactions involving finance, digital, technology, and procurement teams discussing funding and approval for store rollout."
+        }
+      ],
+      "decision_roles": [
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "TCON-007-01",
+          "evidence_ids": [
+            "TEVT-007-01"
+          ],
+          "reason": "Hannah Brooks is actively involved in coordinating the funding request for the store rollout, indicating a role in promoting and aligning stakeholders.",
+          "role": "champion",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.95,
+          "contact_id": "TCON-007-02",
+          "evidence_ids": [
+            "TEVT-007-01",
+            "TEVT-007-02",
+            "TEVT-007-03",
+            "TEVT-007-06"
+          ],
+          "reason": "Daniel Ortiz is repeatedly identified as having final commercial decision authority and budget ownership for the rollout.",
+          "role": "economic_buyer",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.85,
+          "contact_id": "TCON-007-03",
+          "evidence_ids": [
+            "TEVT-007-04"
+          ],
+          "reason": "Wei Zhang is involved in addressing technical issues related to the point-of-sale API, indicating a technical evaluation role.",
+          "role": "technical_evaluator",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "TCON-007-04",
+          "evidence_ids": [
+            "TEVT-007-02"
+          ],
+          "reason": "Claire Brown recommends supplier awards, suggesting involvement in procurement decisions.",
+          "role": "procurement_legal",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.8,
+          "contact_id": "TCON-007-05",
+          "evidence_ids": [
+            "TEVT-007-05"
+          ],
+          "reason": "Isaac Miller's involvement in store operations and acceptance of permission updates indicates an end-user role.",
+          "role": "end_user",
+          "source": "llm"
+        },
+        {
+          "abstained": true,
+          "confidence": 0.5,
+          "contact_id": "TCON-007-06",
+          "evidence_ids": [],
+          "reason": "There is no specific interaction data available for Lena Fischer to determine her role.",
+          "role": "unknown",
+          "source": "llm"
+        }
+      ],
+      "limitations": [
+        "Lack of direct interaction data for Lena Fischer limits role determination."
+      ],
+      "recommended_actions": [
+        {
+          "action": "Address API Limit Issue",
+          "evidence_ids": [
+            "TEVT-007-04"
+          ],
+          "rationale": "The point-of-sale API limit issue needs resolution to prevent delays in the rollout."
+        }
+      ],
+      "risks": [
+        {
+          "category": "Technical",
+          "description": "The test integration is exceeding the point-of-sale API limit, which could impact deployment timelines.",
+          "evidence_ids": [
+            "TEVT-007-04"
+          ],
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "account_id": "TA-008",
+      "cross_team_activity": [
+        {
+          "event_ids": [
+            "TEVT-008-01",
+            "TEVT-008-03"
+          ],
+          "importance": "high",
+          "summary": "Lucas Meyer and Mei Lin are involved in contract approval discussions, indicating collaboration between Innovation and Executive Office."
+        },
+        {
+          "event_ids": [
+            "TEVT-008-04",
+            "TEVT-008-05"
+          ],
+          "importance": "medium",
+          "summary": "Technical and operational teams are addressing vehicle data consent and fleet alert localisation issues."
+        }
+      ],
+      "decision_roles": [
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "TCON-008-01",
+          "evidence_ids": [
+            "TEVT-008-01",
+            "TEVT-008-03"
+          ],
+          "reason": "Lucas Meyer is actively involved in discussions about contract approval and commercial direction, indicating a role in promoting and coordinating the solution.",
+          "role": "champion",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.95,
+          "contact_id": "TCON-008-02",
+          "evidence_ids": [
+            "TEVT-008-01",
+            "TEVT-008-03",
+            "TEVT-008-06"
+          ],
+          "reason": "Mei Lin is identified as having delegated authority to approve the transformation contract and is recorded as the final commercial approver.",
+          "role": "economic_buyer",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.85,
+          "contact_id": "TCON-008-03",
+          "evidence_ids": [
+            "TEVT-008-04"
+          ],
+          "reason": "Arjun Rao is involved in resolving technical issues related to vehicle data consent, indicating a role in technical evaluation.",
+          "role": "technical_evaluator",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "TCON-008-04",
+          "evidence_ids": [
+            "TEVT-008-02"
+          ],
+          "reason": "Sophie Laurent discusses legal signature requirements, indicating involvement in legal and procurement processes.",
+          "role": "procurement_legal",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.8,
+          "contact_id": "TCON-008-05",
+          "evidence_ids": [
+            "TEVT-008-05"
+          ],
+          "reason": "Tom Becker is involved in fleet alert localisation, suggesting he represents operational requirements.",
+          "role": "end_user",
+          "source": "llm"
+        },
+        {
+          "abstained": true,
+          "confidence": 0.5,
+          "contact_id": "TCON-008-06",
+          "evidence_ids": [],
+          "reason": "No specific interactions or responsibilities are documented for Yuki Mori.",
+          "role": "unknown",
+          "source": "llm"
+        }
+      ],
+      "limitations": [
+        "Limited information on Yuki Mori's role and involvement.",
+        "No direct evidence of budget discussions or contract terms beyond approval authority."
+      ],
+      "recommended_actions": [
+        {
+          "action": "Resolve the vehicle data consent issue promptly.",
+          "evidence_ids": [
+            "TEVT-008-04"
+          ],
+          "rationale": "The issue is marked as critical and affects data integrity and compliance, which could delay contract finalization."
+        }
+      ],
+      "risks": [
+        {
+          "category": "technical",
+          "description": "Consent status is not propagated to one downstream analytics service, which may affect data integrity and compliance.",
+          "evidence_ids": [
+            "TEVT-008-04"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "account_id": "TA-009",
+      "cross_team_activity": [
+        {
+          "event_ids": [
+            "TEVT-009-01",
+            "TEVT-009-02",
+            "TEVT-009-03"
+          ],
+          "importance": "high",
+          "summary": "Key discussions around budget approval and security evaluations involving multiple stakeholders."
+        }
+      ],
+      "decision_roles": [
+        {
+          "abstained": false,
+          "confidence": 0.8,
+          "contact_id": "TCON-009-01",
+          "evidence_ids": [
+            "TEVT-009-01"
+          ],
+          "reason": "Zara Ahmed is involved in discussions about enterprise platform funding and is coordinating with other stakeholders.",
+          "role": "champion",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.95,
+          "contact_id": "TCON-009-02",
+          "evidence_ids": [
+            "TEVT-009-01",
+            "TEVT-009-02",
+            "TEVT-009-03",
+            "TEVT-009-06"
+          ],
+          "reason": "Nathan Brooks is repeatedly identified as the final approver for the budget and commercial signatory.",
+          "role": "economic_buyer",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "TCON-009-03",
+          "evidence_ids": [
+            "TEVT-009-03",
+            "TEVT-009-04"
+          ],
+          "reason": "Eric Chua is responsible for confirming encryption controls and is involved in technical discussions.",
+          "role": "technical_evaluator",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.85,
+          "contact_id": "TCON-009-04",
+          "evidence_ids": [
+            "TEVT-009-02"
+          ],
+          "reason": "Monica Silva is involved in sourcing and supports the award, indicating a procurement role.",
+          "role": "procurement_legal",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.7,
+          "contact_id": "TCON-009-05",
+          "evidence_ids": [
+            "TEVT-009-05"
+          ],
+          "reason": "Paul Green is involved in user acceptance testing for search relevance, indicating end-user involvement.",
+          "role": "end_user",
+          "source": "llm"
+        },
+        {
+          "abstained": true,
+          "confidence": 0.5,
+          "contact_id": "TCON-009-06",
+          "evidence_ids": [],
+          "reason": "There is no specific evidence of Rita Das's involvement in decision-making or relevant activities.",
+          "role": "unknown",
+          "source": "llm"
+        }
+      ],
+      "limitations": [
+        "Rita Das's role is unclear due to lack of specific interaction data."
+      ],
+      "recommended_actions": [
+        {
+          "action": "Prioritize resolution of encryption key rotation issue.",
+          "evidence_ids": [
+            "TEVT-009-04",
+            "TEVT-009-06"
+          ],
+          "rationale": "The issue is critical and blocking final approval from the economic buyer."
+        }
+      ],
+      "risks": [
+        {
+          "category": "technical",
+          "description": "Encryption key rotation issue is critical and unresolved, impacting security validation.",
+          "evidence_ids": [
+            "TEVT-009-04"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "account_id": "TA-010",
+      "cross_team_activity": [
+        {
+          "event_ids": [
+            "TEVT-010-03"
+          ],
+          "importance": "High",
+          "summary": "Validated system investment board meeting involved multiple departments including Executive, Quality, Technology, Legal, and Operations."
+        }
+      ],
+      "decision_roles": [
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "TCON-010-01",
+          "evidence_ids": [
+            "TEVT-010-01"
+          ],
+          "reason": "Emily Carter is actively involved in coordinating the investment approval process, indicating a champion role.",
+          "role": "champion",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.95,
+          "contact_id": "TCON-010-02",
+          "evidence_ids": [
+            "TEVT-010-01",
+            "TEVT-010-06"
+          ],
+          "reason": "Aisha Patel has final authority for the USD 515,000 commitment and commercial approval, indicating she is the economic buyer.",
+          "role": "economic_buyer",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.85,
+          "contact_id": "TCON-010-03",
+          "evidence_ids": [
+            "TEVT-010-03",
+            "TEVT-010-04"
+          ],
+          "reason": "Marco Rossi is involved in the audit-trail issue and validated systems, indicating a technical evaluator role.",
+          "role": "technical_evaluator",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "TCON-010-04",
+          "evidence_ids": [
+            "TEVT-010-02",
+            "TEVT-010-06"
+          ],
+          "reason": "Fiona Clark is responsible for contract execution and legal matters, indicating a procurement/legal role.",
+          "role": "procurement_legal",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.8,
+          "contact_id": "TCON-010-05",
+          "evidence_ids": [
+            "TEVT-010-05"
+          ],
+          "reason": "George Evans is involved in user acceptance testing, indicating an end user role.",
+          "role": "end_user",
+          "source": "llm"
+        },
+        {
+          "abstained": true,
+          "confidence": 0.6,
+          "contact_id": "TCON-010-06",
+          "evidence_ids": [],
+          "reason": "Nadia Ibrahim's role is not clearly defined in the interactions.",
+          "role": "unknown",
+          "source": "llm"
+        }
+      ],
+      "limitations": [
+        "Limited information on Nadia Ibrahim's role and involvement.",
+        "No direct evidence of George Evans' involvement in strategic decision-making."
+      ],
+      "recommended_actions": [
+        {
+          "action": "Resolve audit trail issue",
+          "evidence_ids": [
+            "TEVT-010-03",
+            "TEVT-010-04"
+          ],
+          "rationale": "Aisha Patel requires closure of the audit-trail issue before final approval."
+        }
+      ],
+      "risks": [
+        {
+          "category": "Technical",
+          "description": "Inconsistent timestamps in the audit trail found during validation testing.",
+          "evidence_ids": [
+            "TEVT-010-04"
+          ],
+          "severity": "High"
+        }
+      ]
+    }
+  ],
+  "classification_metrics": {
+    "accuracy": 1.0,
+    "confusion_matrix": {
+      "champion": {
+        "champion": 10,
+        "economic_buyer": 0,
+        "end_user": 0,
+        "procurement_legal": 0,
+        "technical_evaluator": 0,
+        "unknown": 0
+      },
+      "economic_buyer": {
+        "champion": 0,
+        "economic_buyer": 10,
+        "end_user": 0,
+        "procurement_legal": 0,
+        "technical_evaluator": 0,
+        "unknown": 0
+      },
+      "end_user": {
+        "champion": 0,
+        "economic_buyer": 0,
+        "end_user": 10,
+        "procurement_legal": 0,
+        "technical_evaluator": 0,
+        "unknown": 0
+      },
+      "procurement_legal": {
+        "champion": 0,
+        "economic_buyer": 0,
+        "end_user": 0,
+        "procurement_legal": 10,
+        "technical_evaluator": 0,
+        "unknown": 0
+      },
+      "technical_evaluator": {
+        "champion": 0,
+        "economic_buyer": 0,
+        "end_user": 0,
+        "procurement_legal": 0,
+        "technical_evaluator": 10,
+        "unknown": 0
+      },
+      "unknown": {
+        "champion": 0,
+        "economic_buyer": 0,
+        "end_user": 0,
+        "procurement_legal": 0,
+        "technical_evaluator": 0,
+        "unknown": 10
+      }
+    },
+    "coverage": 0.8333,
+    "macro_f1": 1.0,
+    "per_class": {
+      "champion": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 10
+      },
+      "economic_buyer": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 10
+      },
+      "end_user": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 10
+      },
+      "procurement_legal": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 10
+      },
+      "technical_evaluator": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 10
+      },
+      "unknown": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 10
+      }
+    },
+    "samples": 60
+  },
+  "critical_event_recall": 1.0,
+  "dataset": "teacher_aligned_10",
+  "dataset_hashes": {
+    "accounts.jsonl": "3a764e96e2cc350ef07094125c9ef6a2cafd11a22bcbf9621b5da5b85e304af5",
+    "contacts.jsonl": "66641097d27b14159cdf75b75725a4de847eb3263f8543e2f4bd8b759b07332d",
+    "critical_event_ground_truth.jsonl": "ce34b6377bccb0488f6df33b8b934a882f472c56b059ce8231bfc7069a77c4db",
+    "crm_notes.jsonl": "0b443034fdd970303dd6f34e3c32f7997c34430548f5d7d18af7b5ec3c315b57",
+    "emails.jsonl": "e92749ca88ef9c62b831d56feaf1d310ed27907634dbf076606d6f5f98c41371",
+    "interactions.jsonl": "6689f14c89c29d8ccf4765eeb55facf19f0cbf5dbce0f8917f55eb5ab2f39140",
+    "meetings.jsonl": "d730d3236ead33642909c8f50b40fc43963ca7e76027b532e59386ac7cf31d3b",
+    "role_ground_truth.jsonl": "8be5d05ac2ec0be345cb0193aac0718848d54593904df85b0390deb68b5cf05d",
+    "tickets.jsonl": "9eacd8f28ff704e5afea9ef56921be298ec87c20099e000cf2548518148ae4ef"
+  },
+  "evidence_precision": 1.0,
+  "experiment": "M2",
+  "mode": "live",
+  "model": "openai/gpt-4o",
+  "predictions": [
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "TCON-001-01",
+      "evidence_ids": [
+        "TEVT-001-01",
+        "TEVT-001-03"
+      ],
+      "reason": "Maya Chen is actively involved in coordinating the budget case and ROI documentation, indicating a role in promoting and aligning stakeholders.",
+      "role": "champion",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.95,
+      "contact_id": "TCON-001-02",
+      "evidence_ids": [
+        "TEVT-001-01",
+        "TEVT-001-02",
+        "TEVT-001-03",
+        "TEVT-001-06"
+      ],
+      "reason": "Elena Park is identified as having final approval authority for the financial commitment and chairs investment decisions.",
+      "role": "economic_buyer",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.85,
+      "contact_id": "TCON-001-03",
+      "evidence_ids": [
+        "TEVT-001-04"
+      ],
+      "reason": "Victor Tan is involved in technical issues such as single sign-on testing, indicating a role in technical evaluation.",
+      "role": "technical_evaluator",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "TCON-001-04",
+      "evidence_ids": [
+        "TEVT-001-03"
+      ],
+      "reason": "Laura Gomez confirms procurement execution post-approval, indicating a role in procurement processes.",
+      "role": "procurement_legal",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.8,
+      "contact_id": "TCON-001-05",
+      "evidence_ids": [
+        "TEVT-001-05"
+      ],
+      "reason": "Noah Lim is involved in workflow testing, suggesting a role as an end user or representative of operational requirements.",
+      "role": "end_user",
+      "source": "llm"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.5,
+      "contact_id": "TCON-001-06",
+      "evidence_ids": [],
+      "reason": "There is insufficient information about Iris Wong's involvement in decision-making processes.",
+      "role": "unknown",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.8,
+      "contact_id": "TCON-002-01",
+      "evidence_ids": [
+        "TEVT-002-01",
+        "TEVT-002-03"
+      ],
+      "reason": "Jon Bell is actively involved in discussions about regional funding and rollout, indicating a role in coordinating stakeholders.",
+      "role": "champion",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "TCON-002-02",
+      "evidence_ids": [
+        "TEVT-002-01",
+        "TEVT-002-02",
+        "TEVT-002-03",
+        "TEVT-002-06"
+      ],
+      "reason": "Marcus Lee is identified as controlling the regional investment budget and making final approval decisions.",
+      "role": "economic_buyer",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.85,
+      "contact_id": "TCON-002-03",
+      "evidence_ids": [
+        "TEVT-002-05"
+      ],
+      "reason": "Sara Kim's involvement in accepting the corrected export format suggests a technical evaluation role.",
+      "role": "technical_evaluator",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "TCON-002-04",
+      "evidence_ids": [
+        "TEVT-002-02",
+        "TEVT-002-06"
+      ],
+      "reason": "Olivia Grant is involved in signing documents and legal execution, indicating a procurement/legal role.",
+      "role": "procurement_legal",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.8,
+      "contact_id": "TCON-002-05",
+      "evidence_ids": [
+        "TEVT-002-04"
+      ],
+      "reason": "Ethan Cole's involvement in depot operations and scanner latency issues suggests he is an end user.",
+      "role": "end_user",
+      "source": "llm"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.5,
+      "contact_id": "TCON-002-06",
+      "evidence_ids": [],
+      "reason": "No specific interactions or responsibilities are detailed for Nina Shah.",
+      "role": "unknown",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.8,
+      "contact_id": "TCON-003-01",
+      "evidence_ids": [
+        "TEVT-003-01",
+        "TEVT-003-02",
+        "TEVT-003-03"
+      ],
+      "reason": "Leo Martins is involved in multiple interactions related to the investment decision process, indicating a role in coordinating and supporting the decision-making.",
+      "role": "champion",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.95,
+      "contact_id": "TCON-003-02",
+      "evidence_ids": [
+        "TEVT-003-01",
+        "TEVT-003-03",
+        "TEVT-003-06"
+      ],
+      "reason": "Priya Nair is identified as the chair of the investment committee and the final approver for capital purchases, indicating she holds budget authority.",
+      "role": "economic_buyer",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.75,
+      "contact_id": "TCON-003-03",
+      "evidence_ids": [
+        "TEVT-003-04"
+      ],
+      "reason": "Hugo Stein is involved in a technical issue related to the pilot connector, suggesting a role in technical evaluation.",
+      "role": "technical_evaluator",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.85,
+      "contact_id": "TCON-003-04",
+      "evidence_ids": [
+        "TEVT-003-02"
+      ],
+      "reason": "Rachel Adams is involved in vendor onboarding and clarifies that Priya's decision is required for spend, indicating a procurement role.",
+      "role": "procurement_legal",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.7,
+      "contact_id": "TCON-003-05",
+      "evidence_ids": [
+        "TEVT-003-05"
+      ],
+      "reason": "Samir Das is involved in feedback on dashboard terminology, indicating a role related to end-user experience.",
+      "role": "end_user",
+      "source": "llm"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.5,
+      "contact_id": "TCON-003-06",
+      "evidence_ids": [],
+      "reason": "There is insufficient information to determine Tara Evans' role in the decision-making process.",
+      "role": "unknown",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "TCON-004-01",
+      "evidence_ids": [
+        "TEVT-004-01"
+      ],
+      "reason": "Alice Ng is actively involved in coordinating communication and approvals, indicating a champion role.",
+      "role": "champion",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.95,
+      "contact_id": "TCON-004-02",
+      "evidence_ids": [
+        "TEVT-004-01",
+        "TEVT-004-02",
+        "TEVT-004-03",
+        "TEVT-004-06"
+      ],
+      "reason": "David Wong is identified as the owner of the operating budget and the final approver for the program.",
+      "role": "economic_buyer",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "TCON-004-03",
+      "evidence_ids": [
+        "TEVT-004-03",
+        "TEVT-004-04",
+        "TEVT-004-06"
+      ],
+      "reason": "Farah Ali is involved in resolving data residency issues, indicating a technical evaluation role.",
+      "role": "technical_evaluator",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "TCON-004-04",
+      "evidence_ids": [
+        "TEVT-004-02"
+      ],
+      "reason": "Martin Price is involved in legal countersigning, indicating a procurement/legal role.",
+      "role": "procurement_legal",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.8,
+      "contact_id": "TCON-004-05",
+      "evidence_ids": [
+        "TEVT-004-05"
+      ],
+      "reason": "Chloe Davis is involved in resolving operational issues, suggesting an end-user role.",
+      "role": "end_user",
+      "source": "llm"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.5,
+      "contact_id": "TCON-004-06",
+      "evidence_ids": [],
+      "reason": "There is insufficient information about Ryan Teo's involvement in the decision-making process.",
+      "role": "unknown",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "TCON-005-01",
+      "evidence_ids": [
+        "TEVT-005-01",
+        "TEVT-005-03"
+      ],
+      "reason": "Benjamin Ho is involved in coordinating the ROI approval and is present in key meetings, indicating a role in driving alignment.",
+      "role": "champion",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.95,
+      "contact_id": "TCON-005-02",
+      "evidence_ids": [
+        "TEVT-005-01",
+        "TEVT-005-02",
+        "TEVT-005-03",
+        "TEVT-005-06"
+      ],
+      "reason": "Sofia Chen is identified as the commercial signatory and is responsible for financial approval, indicating budget ownership.",
+      "role": "economic_buyer",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.85,
+      "contact_id": "TCON-005-03",
+      "evidence_ids": [
+        "TEVT-005-04"
+      ],
+      "reason": "Amir Khan is involved in technical issues related to CRM synchronization, suggesting a technical evaluation role.",
+      "role": "technical_evaluator",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.95,
+      "contact_id": "TCON-005-04",
+      "evidence_ids": [
+        "TEVT-005-02",
+        "TEVT-005-06"
+      ],
+      "reason": "Julia Ross is responsible for contracting steps and issuing purchase orders, indicating a procurement role.",
+      "role": "procurement_legal",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.8,
+      "contact_id": "TCON-005-05",
+      "evidence_ids": [
+        "TEVT-005-05"
+      ],
+      "reason": "Megan Ford is involved in resolving user workflow issues, indicating an end-user role.",
+      "role": "end_user",
+      "source": "llm"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.5,
+      "contact_id": "TCON-005-06",
+      "evidence_ids": [],
+      "reason": "Peter Low's activities are not documented in the provided records, making his role unclear.",
+      "role": "unknown",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.8,
+      "contact_id": "TCON-006-01",
+      "evidence_ids": [
+        "TEVT-006-01",
+        "TEVT-006-02",
+        "TEVT-006-03"
+      ],
+      "reason": "Nora Jensen is involved in multiple interactions coordinating with Omar Rahman and other stakeholders, indicating a role in driving alignment and adoption.",
+      "role": "champion",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.95,
+      "contact_id": "TCON-006-02",
+      "evidence_ids": [
+        "TEVT-006-01",
+        "TEVT-006-02",
+        "TEVT-006-03",
+        "TEVT-006-06"
+      ],
+      "reason": "Omar Rahman is repeatedly identified as having final authority for commitments and approvals, indicating budget ownership and final purchase authority.",
+      "role": "economic_buyer",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.75,
+      "contact_id": "TCON-006-03",
+      "evidence_ids": [
+        "TEVT-006-03",
+        "TEVT-006-04"
+      ],
+      "reason": "Kenji Sato is involved in technical discussions and issues, such as telemetry and packet loss, indicating a role in evaluating technical feasibility.",
+      "role": "technical_evaluator",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.85,
+      "contact_id": "TCON-006-04",
+      "evidence_ids": [
+        "TEVT-006-02"
+      ],
+      "reason": "Diana Moore is involved in tender completion and mentions the need for Omar's approval to release a purchase order, indicating a role in procurement processes.",
+      "role": "procurement_legal",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.7,
+      "contact_id": "TCON-006-05",
+      "evidence_ids": [
+        "TEVT-006-03",
+        "TEVT-006-05"
+      ],
+      "reason": "Luis Ortega is involved in field operations and checklist approvals, indicating a role in day-to-day operational requirements.",
+      "role": "end_user",
+      "source": "llm"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.5,
+      "contact_id": "TCON-006-06",
+      "evidence_ids": [],
+      "reason": "There is no specific interaction or evidence related to Emma Reed's role in the decision-making process.",
+      "role": "unknown",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "TCON-007-01",
+      "evidence_ids": [
+        "TEVT-007-01"
+      ],
+      "reason": "Hannah Brooks is actively involved in coordinating the funding request for the store rollout, indicating a role in promoting and aligning stakeholders.",
+      "role": "champion",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.95,
+      "contact_id": "TCON-007-02",
+      "evidence_ids": [
+        "TEVT-007-01",
+        "TEVT-007-02",
+        "TEVT-007-03",
+        "TEVT-007-06"
+      ],
+      "reason": "Daniel Ortiz is repeatedly identified as having final commercial decision authority and budget ownership for the rollout.",
+      "role": "economic_buyer",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.85,
+      "contact_id": "TCON-007-03",
+      "evidence_ids": [
+        "TEVT-007-04"
+      ],
+      "reason": "Wei Zhang is involved in addressing technical issues related to the point-of-sale API, indicating a technical evaluation role.",
+      "role": "technical_evaluator",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "TCON-007-04",
+      "evidence_ids": [
+        "TEVT-007-02"
+      ],
+      "reason": "Claire Brown recommends supplier awards, suggesting involvement in procurement decisions.",
+      "role": "procurement_legal",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.8,
+      "contact_id": "TCON-007-05",
+      "evidence_ids": [
+        "TEVT-007-05"
+      ],
+      "reason": "Isaac Miller's involvement in store operations and acceptance of permission updates indicates an end-user role.",
+      "role": "end_user",
+      "source": "llm"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.5,
+      "contact_id": "TCON-007-06",
+      "evidence_ids": [],
+      "reason": "There is no specific interaction data available for Lena Fischer to determine her role.",
+      "role": "unknown",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "TCON-008-01",
+      "evidence_ids": [
+        "TEVT-008-01",
+        "TEVT-008-03"
+      ],
+      "reason": "Lucas Meyer is actively involved in discussions about contract approval and commercial direction, indicating a role in promoting and coordinating the solution.",
+      "role": "champion",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.95,
+      "contact_id": "TCON-008-02",
+      "evidence_ids": [
+        "TEVT-008-01",
+        "TEVT-008-03",
+        "TEVT-008-06"
+      ],
+      "reason": "Mei Lin is identified as having delegated authority to approve the transformation contract and is recorded as the final commercial approver.",
+      "role": "economic_buyer",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.85,
+      "contact_id": "TCON-008-03",
+      "evidence_ids": [
+        "TEVT-008-04"
+      ],
+      "reason": "Arjun Rao is involved in resolving technical issues related to vehicle data consent, indicating a role in technical evaluation.",
+      "role": "technical_evaluator",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "TCON-008-04",
+      "evidence_ids": [
+        "TEVT-008-02"
+      ],
+      "reason": "Sophie Laurent discusses legal signature requirements, indicating involvement in legal and procurement processes.",
+      "role": "procurement_legal",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.8,
+      "contact_id": "TCON-008-05",
+      "evidence_ids": [
+        "TEVT-008-05"
+      ],
+      "reason": "Tom Becker is involved in fleet alert localisation, suggesting he represents operational requirements.",
+      "role": "end_user",
+      "source": "llm"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.5,
+      "contact_id": "TCON-008-06",
+      "evidence_ids": [],
+      "reason": "No specific interactions or responsibilities are documented for Yuki Mori.",
+      "role": "unknown",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.8,
+      "contact_id": "TCON-009-01",
+      "evidence_ids": [
+        "TEVT-009-01"
+      ],
+      "reason": "Zara Ahmed is involved in discussions about enterprise platform funding and is coordinating with other stakeholders.",
+      "role": "champion",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.95,
+      "contact_id": "TCON-009-02",
+      "evidence_ids": [
+        "TEVT-009-01",
+        "TEVT-009-02",
+        "TEVT-009-03",
+        "TEVT-009-06"
+      ],
+      "reason": "Nathan Brooks is repeatedly identified as the final approver for the budget and commercial signatory.",
+      "role": "economic_buyer",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "TCON-009-03",
+      "evidence_ids": [
+        "TEVT-009-03",
+        "TEVT-009-04"
+      ],
+      "reason": "Eric Chua is responsible for confirming encryption controls and is involved in technical discussions.",
+      "role": "technical_evaluator",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.85,
+      "contact_id": "TCON-009-04",
+      "evidence_ids": [
+        "TEVT-009-02"
+      ],
+      "reason": "Monica Silva is involved in sourcing and supports the award, indicating a procurement role.",
+      "role": "procurement_legal",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.7,
+      "contact_id": "TCON-009-05",
+      "evidence_ids": [
+        "TEVT-009-05"
+      ],
+      "reason": "Paul Green is involved in user acceptance testing for search relevance, indicating end-user involvement.",
+      "role": "end_user",
+      "source": "llm"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.5,
+      "contact_id": "TCON-009-06",
+      "evidence_ids": [],
+      "reason": "There is no specific evidence of Rita Das's involvement in decision-making or relevant activities.",
+      "role": "unknown",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "TCON-010-01",
+      "evidence_ids": [
+        "TEVT-010-01"
+      ],
+      "reason": "Emily Carter is actively involved in coordinating the investment approval process, indicating a champion role.",
+      "role": "champion",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.95,
+      "contact_id": "TCON-010-02",
+      "evidence_ids": [
+        "TEVT-010-01",
+        "TEVT-010-06"
+      ],
+      "reason": "Aisha Patel has final authority for the USD 515,000 commitment and commercial approval, indicating she is the economic buyer.",
+      "role": "economic_buyer",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.85,
+      "contact_id": "TCON-010-03",
+      "evidence_ids": [
+        "TEVT-010-03",
+        "TEVT-010-04"
+      ],
+      "reason": "Marco Rossi is involved in the audit-trail issue and validated systems, indicating a technical evaluator role.",
+      "role": "technical_evaluator",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "TCON-010-04",
+      "evidence_ids": [
+        "TEVT-010-02",
+        "TEVT-010-06"
+      ],
+      "reason": "Fiona Clark is responsible for contract execution and legal matters, indicating a procurement/legal role.",
+      "role": "procurement_legal",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.8,
+      "contact_id": "TCON-010-05",
+      "evidence_ids": [
+        "TEVT-010-05"
+      ],
+      "reason": "George Evans is involved in user acceptance testing, indicating an end user role.",
+      "role": "end_user",
+      "source": "llm"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.6,
+      "contact_id": "TCON-010-06",
+      "evidence_ids": [],
+      "reason": "Nadia Ibrahim's role is not clearly defined in the interactions.",
+      "role": "unknown",
+      "source": "llm"
+    }
+  ],
+  "runs": [
+    {
+      "account_id": "TA-001",
+      "usage": {
+        "attempts": 1,
+        "error_type": null,
+        "estimated_cost_usd": 0.01238,
+        "experiment": "M2",
+        "input_tokens": 2576,
+        "latency_seconds": 8.0737,
+        "model": "openai/gpt-4o",
+        "output_tokens": 594,
+        "prompt_version": "account_briefing_v2",
+        "request_id": "gen-1790183239-f3kWbOquv8kZk2QgsJpk",
+        "status": "success",
+        "total_tokens": 3170,
+        "validation_passed": true
+      },
+      "validation": {
+        "errors": [],
+        "evidence_precision": 1.0,
+        "passed": true,
+        "total_reference_count": 14,
+        "valid_reference_count": 14,
+        "warnings": []
+      }
+    },
+    {
+      "account_id": "TA-002",
+      "usage": {
+        "attempts": 1,
+        "error_type": null,
+        "estimated_cost_usd": 0.01308,
+        "experiment": "M2",
+        "input_tokens": 2596,
+        "latency_seconds": 7.9365,
+        "model": "openai/gpt-4o",
+        "output_tokens": 659,
+        "prompt_version": "account_briefing_v2",
+        "request_id": "gen-1790183247-RW74MMvgQErHE6JE34ti",
+        "status": "success",
+        "total_tokens": 3255,
+        "validation_passed": true
+      },
+      "validation": {
+        "errors": [],
+        "evidence_precision": 1.0,
+        "passed": true,
+        "total_reference_count": 17,
+        "valid_reference_count": 17,
+        "warnings": []
+      }
+    },
+    {
+      "account_id": "TA-003",
+      "usage": {
+        "attempts": 1,
+        "error_type": null,
+        "estimated_cost_usd": 0.012475,
+        "experiment": "M2",
+        "input_tokens": 2562,
+        "latency_seconds": 4.9792,
+        "model": "openai/gpt-4o",
+        "output_tokens": 607,
+        "prompt_version": "account_briefing_v2",
+        "request_id": "gen-1790183255-I3X8NhIgExxmTkiaRaDy",
+        "status": "success",
+        "total_tokens": 3169,
+        "validation_passed": true
+      },
+      "validation": {
+        "errors": [],
+        "evidence_precision": 1.0,
+        "passed": true,
+        "total_reference_count": 14,
+        "valid_reference_count": 14,
+        "warnings": []
+      }
+    },
+    {
+      "account_id": "TA-004",
+      "usage": {
+        "attempts": 1,
+        "error_type": null,
+        "estimated_cost_usd": 0.012342,
+        "experiment": "M2",
+        "input_tokens": 2577,
+        "latency_seconds": 7.1732,
+        "model": "openai/gpt-4o",
+        "output_tokens": 590,
+        "prompt_version": "account_briefing_v2",
+        "request_id": "gen-1790183260-fA31xQcAVAeKpLHKMq0C",
+        "status": "success",
+        "total_tokens": 3167,
+        "validation_passed": true
+      },
+      "validation": {
+        "errors": [],
+        "evidence_precision": 1.0,
+        "passed": true,
+        "total_reference_count": 17,
+        "valid_reference_count": 17,
+        "warnings": []
+      }
+    },
+    {
+      "account_id": "TA-005",
+      "usage": {
+        "attempts": 1,
+        "error_type": null,
+        "estimated_cost_usd": 0.013255,
+        "experiment": "M2",
+        "input_tokens": 2566,
+        "latency_seconds": 5.0886,
+        "model": "openai/gpt-4o",
+        "output_tokens": 684,
+        "prompt_version": "account_briefing_v2",
+        "request_id": "gen-1790183267-BmrmhwZky1G1bVlq5czX",
+        "status": "success",
+        "total_tokens": 3250,
+        "validation_passed": true
+      },
+      "validation": {
+        "errors": [],
+        "evidence_precision": 1.0,
+        "passed": true,
+        "total_reference_count": 19,
+        "valid_reference_count": 19,
+        "warnings": []
+      }
+    },
+    {
+      "account_id": "TA-006",
+      "usage": {
+        "attempts": 1,
+        "error_type": null,
+        "estimated_cost_usd": 0.013095,
+        "experiment": "M2",
+        "input_tokens": 2570,
+        "latency_seconds": 5.2094,
+        "model": "openai/gpt-4o",
+        "output_tokens": 667,
+        "prompt_version": "account_briefing_v2",
+        "request_id": "gen-1790183272-BkT77kLx5x4zZWWUms4v",
+        "status": "success",
+        "total_tokens": 3237,
+        "validation_passed": true
+      },
+      "validation": {
+        "errors": [],
+        "evidence_precision": 1.0,
+        "passed": true,
+        "total_reference_count": 17,
+        "valid_reference_count": 17,
+        "warnings": []
+      }
+    },
+    {
+      "account_id": "TA-007",
+      "usage": {
+        "attempts": 1,
+        "error_type": null,
+        "estimated_cost_usd": 0.012233,
+        "experiment": "M2",
+        "input_tokens": 2577,
+        "latency_seconds": 6.3398,
+        "model": "openai/gpt-4o",
+        "output_tokens": 579,
+        "prompt_version": "account_briefing_v2",
+        "request_id": "gen-1790183277-4CpHxmTT1iOBQXJhE0n4",
+        "status": "success",
+        "total_tokens": 3156,
+        "validation_passed": true
+      },
+      "validation": {
+        "errors": [],
+        "evidence_precision": 1.0,
+        "passed": true,
+        "total_reference_count": 13,
+        "valid_reference_count": 13,
+        "warnings": []
+      }
+    },
+    {
+      "account_id": "TA-008",
+      "usage": {
+        "attempts": 1,
+        "error_type": null,
+        "estimated_cost_usd": 0.012715,
+        "experiment": "M2",
+        "input_tokens": 2558,
+        "latency_seconds": 4.5955,
+        "model": "openai/gpt-4o",
+        "output_tokens": 632,
+        "prompt_version": "account_briefing_v2",
+        "request_id": "gen-1790183284-bGYAYIcKJ9i2olNy8wpX",
+        "status": "success",
+        "total_tokens": 3190,
+        "validation_passed": true
+      },
+      "validation": {
+        "errors": [],
+        "evidence_precision": 1.0,
+        "passed": true,
+        "total_reference_count": 14,
+        "valid_reference_count": 14,
+        "warnings": []
+      }
+    },
+    {
+      "account_id": "TA-009",
+      "usage": {
+        "attempts": 1,
+        "error_type": null,
+        "estimated_cost_usd": 0.012165,
+        "experiment": "M2",
+        "input_tokens": 2566,
+        "latency_seconds": 8.2823,
+        "model": "openai/gpt-4o",
+        "output_tokens": 575,
+        "prompt_version": "account_briefing_v2",
+        "request_id": "gen-1790183288-zdffzVWZ8OpKot5D2wKP",
+        "status": "success",
+        "total_tokens": 3141,
+        "validation_passed": true
+      },
+      "validation": {
+        "errors": [],
+        "evidence_precision": 1.0,
+        "passed": true,
+        "total_reference_count": 15,
+        "valid_reference_count": 15,
+        "warnings": []
+      }
+    },
+    {
+      "account_id": "TA-010",
+      "usage": {
+        "attempts": 1,
+        "error_type": null,
+        "estimated_cost_usd": 0.012193,
+        "experiment": "M2",
+        "input_tokens": 2589,
+        "latency_seconds": 5.722,
+        "model": "openai/gpt-4o",
+        "output_tokens": 572,
+        "prompt_version": "account_briefing_v2",
+        "request_id": "gen-1790183297-cFnbnSNcqf4WedYWLfE6",
+        "status": "success",
+        "total_tokens": 3161,
+        "validation_passed": true
+      },
+      "validation": {
+        "errors": [],
+        "evidence_precision": 1.0,
+        "passed": true,
+        "total_reference_count": 12,
+        "valid_reference_count": 12,
+        "warnings": []
+      }
+    }
+  ],
+  "signatory_metrics": {
+    "accounts": 10,
+    "correct_selections": 10,
+    "multiple_candidate_accounts": 0,
+    "per_account": [
+      {
+        "account_id": "TA-001",
+        "candidate_count": 1,
+        "correct": true,
+        "selected_confidence": 0.95,
+        "selected_signatory_contact_id": "TCON-001-02",
+        "true_signatory_contact_id": "TCON-001-02"
+      },
+      {
+        "account_id": "TA-002",
+        "candidate_count": 1,
+        "correct": true,
+        "selected_confidence": 0.9,
+        "selected_signatory_contact_id": "TCON-002-02",
+        "true_signatory_contact_id": "TCON-002-02"
+      },
+      {
+        "account_id": "TA-003",
+        "candidate_count": 1,
+        "correct": true,
+        "selected_confidence": 0.95,
+        "selected_signatory_contact_id": "TCON-003-02",
+        "true_signatory_contact_id": "TCON-003-02"
+      },
+      {
+        "account_id": "TA-004",
+        "candidate_count": 1,
+        "correct": true,
+        "selected_confidence": 0.95,
+        "selected_signatory_contact_id": "TCON-004-02",
+        "true_signatory_contact_id": "TCON-004-02"
+      },
+      {
+        "account_id": "TA-005",
+        "candidate_count": 1,
+        "correct": true,
+        "selected_confidence": 0.95,
+        "selected_signatory_contact_id": "TCON-005-02",
+        "true_signatory_contact_id": "TCON-005-02"
+      },
+      {
+        "account_id": "TA-006",
+        "candidate_count": 1,
+        "correct": true,
+        "selected_confidence": 0.95,
+        "selected_signatory_contact_id": "TCON-006-02",
+        "true_signatory_contact_id": "TCON-006-02"
+      },
+      {
+        "account_id": "TA-007",
+        "candidate_count": 1,
+        "correct": true,
+        "selected_confidence": 0.95,
+        "selected_signatory_contact_id": "TCON-007-02",
+        "true_signatory_contact_id": "TCON-007-02"
+      },
+      {
+        "account_id": "TA-008",
+        "candidate_count": 1,
+        "correct": true,
+        "selected_confidence": 0.95,
+        "selected_signatory_contact_id": "TCON-008-02",
+        "true_signatory_contact_id": "TCON-008-02"
+      },
+      {
+        "account_id": "TA-009",
+        "candidate_count": 1,
+        "correct": true,
+        "selected_confidence": 0.95,
+        "selected_signatory_contact_id": "TCON-009-02",
+        "true_signatory_contact_id": "TCON-009-02"
+      },
+      {
+        "account_id": "TA-010",
+        "candidate_count": 1,
+        "correct": true,
+        "selected_confidence": 0.95,
+        "selected_signatory_contact_id": "TCON-010-02",
+        "true_signatory_contact_id": "TCON-010-02"
+      }
+    ],
+    "precision": 1.0,
+    "recall": 1.0,
+    "selection_rate": 1.0,
+    "selections": 10
+  },
+  "threshold": 0.65,
+  "usage": {
+    "estimated_cost_usd": 0.125933,
+    "input_tokens": 25737,
+    "output_tokens": 6159,
+    "p95_latency_seconds": 8.2823
+  }
+}

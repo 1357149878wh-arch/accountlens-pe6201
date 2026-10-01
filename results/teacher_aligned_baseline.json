@@ -1,0 +1,843 @@
+{
+  "classification_metrics": {
+    "accuracy": 0.6,
+    "confusion_matrix": {
+      "champion": {
+        "champion": 0,
+        "economic_buyer": 5,
+        "end_user": 0,
+        "procurement_legal": 0,
+        "technical_evaluator": 0,
+        "unknown": 5
+      },
+      "economic_buyer": {
+        "champion": 0,
+        "economic_buyer": 7,
+        "end_user": 0,
+        "procurement_legal": 1,
+        "technical_evaluator": 0,
+        "unknown": 2
+      },
+      "end_user": {
+        "champion": 0,
+        "economic_buyer": 0,
+        "end_user": 3,
+        "procurement_legal": 0,
+        "technical_evaluator": 0,
+        "unknown": 7
+      },
+      "procurement_legal": {
+        "champion": 0,
+        "economic_buyer": 0,
+        "end_user": 0,
+        "procurement_legal": 9,
+        "technical_evaluator": 0,
+        "unknown": 1
+      },
+      "technical_evaluator": {
+        "champion": 0,
+        "economic_buyer": 0,
+        "end_user": 0,
+        "procurement_legal": 0,
+        "technical_evaluator": 8,
+        "unknown": 2
+      },
+      "unknown": {
+        "champion": 0,
+        "economic_buyer": 0,
+        "end_user": 1,
+        "procurement_legal": 0,
+        "technical_evaluator": 0,
+        "unknown": 9
+      }
+    },
+    "coverage": 0.5667,
+    "macro_f1": 0.559,
+    "per_class": {
+      "champion": {
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 10
+      },
+      "economic_buyer": {
+        "f1": 0.6364,
+        "precision": 0.5833,
+        "recall": 0.7,
+        "support": 10
+      },
+      "end_user": {
+        "f1": 0.4286,
+        "precision": 0.75,
+        "recall": 0.3,
+        "support": 10
+      },
+      "procurement_legal": {
+        "f1": 0.9,
+        "precision": 0.9,
+        "recall": 0.9,
+        "support": 10
+      },
+      "technical_evaluator": {
+        "f1": 0.8889,
+        "precision": 1.0,
+        "recall": 0.8,
+        "support": 10
+      },
+      "unknown": {
+        "f1": 0.5,
+        "precision": 0.3462,
+        "recall": 0.9,
+        "support": 10
+      }
+    },
+    "samples": 60
+  },
+  "dataset": "teacher_aligned_10",
+  "experiment": "rules_baseline",
+  "model_calls_made": 0,
+  "predictions": [
+    {
+      "abstained": false,
+      "confidence": 0.8,
+      "contact_id": "TCON-001-01",
+      "evidence_ids": [
+        "TEVT-001-01",
+        "TEVT-001-02",
+        "TEVT-001-03",
+        "TEVT-001-06"
+      ],
+      "reason": "Rules score=5.0, margin=3.0, based on title and interaction keywords.",
+      "role": "economic_buyer",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.95,
+      "contact_id": "TCON-001-02",
+      "evidence_ids": [
+        "TEVT-001-01",
+        "TEVT-001-02",
+        "TEVT-001-03",
+        "TEVT-001-06"
+      ],
+      "reason": "Rules score=8.0, margin=6.0, based on title and interaction keywords.",
+      "role": "economic_buyer",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.95,
+      "contact_id": "TCON-001-03",
+      "evidence_ids": [
+        "TEVT-001-04"
+      ],
+      "reason": "Rules score=8.0, margin=5.0, based on title and interaction keywords.",
+      "role": "technical_evaluator",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.73,
+      "contact_id": "TCON-001-04",
+      "evidence_ids": [
+        "TEVT-001-03"
+      ],
+      "reason": "Rules score=5.0, margin=1.0, based on title and interaction keywords.",
+      "role": "procurement_legal",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.7,
+      "contact_id": "TCON-001-05",
+      "evidence_ids": [
+        "TEVT-001-05"
+      ],
+      "reason": "Rules score=3.0, margin=3.0, based on title and interaction keywords.",
+      "role": "end_user",
+      "source": "rules"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.45,
+      "contact_id": "TCON-001-06",
+      "evidence_ids": [],
+      "reason": "No role-specific title or behavioural evidence was found.",
+      "role": "unknown",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.67,
+      "contact_id": "TCON-002-01",
+      "evidence_ids": [
+        "TEVT-002-01",
+        "TEVT-002-03"
+      ],
+      "reason": "Rules score=3.0, margin=2.0, based on title and interaction keywords.",
+      "role": "economic_buyer",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.72,
+      "contact_id": "TCON-002-02",
+      "evidence_ids": [
+        "TEVT-002-01",
+        "TEVT-002-03",
+        "TEVT-002-06"
+      ],
+      "reason": "Rules score=4.0, margin=2.0, based on title and interaction keywords.",
+      "role": "economic_buyer",
+      "source": "rules"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.6,
+      "contact_id": "TCON-002-03",
+      "evidence_ids": [
+        "TEVT-002-01",
+        "TEVT-002-03"
+      ],
+      "reason": "Rules score=3.0, margin=0.0, based on title and interaction keywords.",
+      "role": "unknown",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.73,
+      "contact_id": "TCON-002-04",
+      "evidence_ids": [
+        "TEVT-002-01",
+        "TEVT-002-06"
+      ],
+      "reason": "Rules score=5.0, margin=1.0, based on title and interaction keywords.",
+      "role": "procurement_legal",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.67,
+      "contact_id": "TCON-002-05",
+      "evidence_ids": [],
+      "reason": "Rules score=3.0, margin=2.0, based on title and interaction keywords.",
+      "role": "end_user",
+      "source": "rules"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.45,
+      "contact_id": "TCON-002-06",
+      "evidence_ids": [],
+      "reason": "No role-specific title or behavioural evidence was found.",
+      "role": "unknown",
+      "source": "rules"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.5,
+      "contact_id": "TCON-003-01",
+      "evidence_ids": [
+        "TEVT-003-02"
+      ],
+      "reason": "Rules score=1.0, margin=0.0, based on title and interaction keywords.",
+      "role": "unknown",
+      "source": "rules"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.58,
+      "contact_id": "TCON-003-02",
+      "evidence_ids": [
+        "TEVT-003-03",
+        "TEVT-003-06"
+      ],
+      "reason": "Rules score=2.0, margin=1.0, based on title and interaction keywords.",
+      "role": "unknown",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.78,
+      "contact_id": "TCON-003-03",
+      "evidence_ids": [
+        "TEVT-003-03"
+      ],
+      "reason": "Rules score=4.0, margin=4.0, based on title and interaction keywords.",
+      "role": "technical_evaluator",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.95,
+      "contact_id": "TCON-003-04",
+      "evidence_ids": [
+        "TEVT-003-02"
+      ],
+      "reason": "Rules score=7.0, margin=7.0, based on title and interaction keywords.",
+      "role": "procurement_legal",
+      "source": "rules"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.53,
+      "contact_id": "TCON-003-05",
+      "evidence_ids": [
+        "TEVT-003-03"
+      ],
+      "reason": "Rules score=1.0, margin=1.0, based on title and interaction keywords.",
+      "role": "unknown",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.7,
+      "contact_id": "TCON-003-06",
+      "evidence_ids": [],
+      "reason": "Rules score=3.0, margin=3.0, based on title and interaction keywords.",
+      "role": "end_user",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.63,
+      "contact_id": "TCON-004-01",
+      "evidence_ids": [
+        "TEVT-004-01",
+        "TEVT-004-02"
+      ],
+      "reason": "Rules score=3.0, margin=1.0, based on title and interaction keywords.",
+      "role": "economic_buyer",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.72,
+      "contact_id": "TCON-004-02",
+      "evidence_ids": [
+        "TEVT-004-01",
+        "TEVT-004-02",
+        "TEVT-004-06"
+      ],
+      "reason": "Rules score=4.0, margin=2.0, based on title and interaction keywords.",
+      "role": "economic_buyer",
+      "source": "rules"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.65,
+      "contact_id": "TCON-004-03",
+      "evidence_ids": [
+        "TEVT-004-01",
+        "TEVT-004-04",
+        "TEVT-004-06"
+      ],
+      "reason": "Rules score=4.0, margin=0.0, based on title and interaction keywords.",
+      "role": "unknown",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.77,
+      "contact_id": "TCON-004-04",
+      "evidence_ids": [
+        "TEVT-004-02"
+      ],
+      "reason": "Rules score=5.0, margin=2.0, based on title and interaction keywords.",
+      "role": "procurement_legal",
+      "source": "rules"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.45,
+      "contact_id": "TCON-004-05",
+      "evidence_ids": [],
+      "reason": "No role-specific title or behavioural evidence was found.",
+      "role": "unknown",
+      "source": "rules"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.45,
+      "contact_id": "TCON-004-06",
+      "evidence_ids": [],
+      "reason": "No role-specific title or behavioural evidence was found.",
+      "role": "unknown",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.63,
+      "contact_id": "TCON-005-01",
+      "evidence_ids": [
+        "TEVT-005-01",
+        "TEVT-005-03"
+      ],
+      "reason": "Rules score=3.0, margin=1.0, based on title and interaction keywords.",
+      "role": "economic_buyer",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.85,
+      "contact_id": "TCON-005-02",
+      "evidence_ids": [
+        "TEVT-005-01",
+        "TEVT-005-03"
+      ],
+      "reason": "Rules score=6.0, margin=3.0, based on title and interaction keywords.",
+      "role": "economic_buyer",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.88,
+      "contact_id": "TCON-005-03",
+      "evidence_ids": [],
+      "reason": "Rules score=6.0, margin=4.0, based on title and interaction keywords.",
+      "role": "technical_evaluator",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.85,
+      "contact_id": "TCON-005-04",
+      "evidence_ids": [
+        "TEVT-005-02",
+        "TEVT-005-03",
+        "TEVT-005-06"
+      ],
+      "reason": "Rules score=6.0, margin=3.0, based on title and interaction keywords.",
+      "role": "procurement_legal",
+      "source": "rules"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.58,
+      "contact_id": "TCON-005-05",
+      "evidence_ids": [
+        "TEVT-005-05"
+      ],
+      "reason": "Rules score=2.0, margin=1.0, based on title and interaction keywords.",
+      "role": "unknown",
+      "source": "rules"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.45,
+      "contact_id": "TCON-005-06",
+      "evidence_ids": [],
+      "reason": "No role-specific title or behavioural evidence was found.",
+      "role": "unknown",
+      "source": "rules"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.45,
+      "contact_id": "TCON-006-01",
+      "evidence_ids": [],
+      "reason": "No role-specific title or behavioural evidence was found.",
+      "role": "unknown",
+      "source": "rules"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.53,
+      "contact_id": "TCON-006-02",
+      "evidence_ids": [
+        "TEVT-006-06"
+      ],
+      "reason": "Rules score=1.0, margin=1.0, based on title and interaction keywords.",
+      "role": "unknown",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.7,
+      "contact_id": "TCON-006-03",
+      "evidence_ids": [],
+      "reason": "Rules score=3.0, margin=3.0, based on title and interaction keywords.",
+      "role": "technical_evaluator",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.7,
+      "contact_id": "TCON-006-04",
+      "evidence_ids": [],
+      "reason": "Rules score=3.0, margin=3.0, based on title and interaction keywords.",
+      "role": "procurement_legal",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.75,
+      "contact_id": "TCON-006-05",
+      "evidence_ids": [
+        "TEVT-006-05"
+      ],
+      "reason": "Rules score=4.0, margin=3.0, based on title and interaction keywords.",
+      "role": "end_user",
+      "source": "rules"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.45,
+      "contact_id": "TCON-006-06",
+      "evidence_ids": [],
+      "reason": "No role-specific title or behavioural evidence was found.",
+      "role": "unknown",
+      "source": "rules"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.53,
+      "contact_id": "TCON-007-01",
+      "evidence_ids": [
+        "TEVT-007-01"
+      ],
+      "reason": "Rules score=1.0, margin=1.0, based on title and interaction keywords.",
+      "role": "unknown",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.78,
+      "contact_id": "TCON-007-02",
+      "evidence_ids": [
+        "TEVT-007-01"
+      ],
+      "reason": "Rules score=4.0, margin=4.0, based on title and interaction keywords.",
+      "role": "economic_buyer",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.83,
+      "contact_id": "TCON-007-03",
+      "evidence_ids": [
+        "TEVT-007-04"
+      ],
+      "reason": "Rules score=5.0, margin=4.0, based on title and interaction keywords.",
+      "role": "technical_evaluator",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.67,
+      "contact_id": "TCON-007-04",
+      "evidence_ids": [],
+      "reason": "Rules score=3.0, margin=2.0, based on title and interaction keywords.",
+      "role": "procurement_legal",
+      "source": "rules"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.45,
+      "contact_id": "TCON-007-05",
+      "evidence_ids": [],
+      "reason": "No role-specific title or behavioural evidence was found.",
+      "role": "unknown",
+      "source": "rules"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.45,
+      "contact_id": "TCON-007-06",
+      "evidence_ids": [],
+      "reason": "No role-specific title or behavioural evidence was found.",
+      "role": "unknown",
+      "source": "rules"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.6,
+      "contact_id": "TCON-008-01",
+      "evidence_ids": [
+        "TEVT-008-01",
+        "TEVT-008-02",
+        "TEVT-008-03"
+      ],
+      "reason": "Rules score=3.0, margin=0.0, based on title and interaction keywords.",
+      "role": "unknown",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.68,
+      "contact_id": "TCON-008-02",
+      "evidence_ids": [
+        "TEVT-008-01",
+        "TEVT-008-02",
+        "TEVT-008-03",
+        "TEVT-008-06"
+      ],
+      "reason": "Rules score=4.0, margin=1.0, based on title and interaction keywords.",
+      "role": "economic_buyer",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.63,
+      "contact_id": "TCON-008-03",
+      "evidence_ids": [],
+      "reason": "Rules score=3.0, margin=1.0, based on title and interaction keywords.",
+      "role": "technical_evaluator",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.85,
+      "contact_id": "TCON-008-04",
+      "evidence_ids": [
+        "TEVT-008-01",
+        "TEVT-008-02",
+        "TEVT-008-03"
+      ],
+      "reason": "Rules score=6.0, margin=3.0, based on title and interaction keywords.",
+      "role": "procurement_legal",
+      "source": "rules"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.45,
+      "contact_id": "TCON-008-05",
+      "evidence_ids": [],
+      "reason": "No role-specific title or behavioural evidence was found.",
+      "role": "unknown",
+      "source": "rules"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.45,
+      "contact_id": "TCON-008-06",
+      "evidence_ids": [],
+      "reason": "No role-specific title or behavioural evidence was found.",
+      "role": "unknown",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.7,
+      "contact_id": "TCON-009-01",
+      "evidence_ids": [
+        "TEVT-009-01",
+        "TEVT-009-02"
+      ],
+      "reason": "Rules score=3.0, margin=3.0, based on title and interaction keywords.",
+      "role": "economic_buyer",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.92,
+      "contact_id": "TCON-009-02",
+      "evidence_ids": [
+        "TEVT-009-01",
+        "TEVT-009-02"
+      ],
+      "reason": "Rules score=6.0, margin=5.0, based on title and interaction keywords.",
+      "role": "economic_buyer",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.72,
+      "contact_id": "TCON-009-03",
+      "evidence_ids": [
+        "TEVT-009-06"
+      ],
+      "reason": "Rules score=4.0, margin=2.0, based on title and interaction keywords.",
+      "role": "technical_evaluator",
+      "source": "rules"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.6,
+      "contact_id": "TCON-009-04",
+      "evidence_ids": [
+        "TEVT-009-01",
+        "TEVT-009-02"
+      ],
+      "reason": "Rules score=3.0, margin=0.0, based on title and interaction keywords.",
+      "role": "unknown",
+      "source": "rules"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.53,
+      "contact_id": "TCON-009-05",
+      "evidence_ids": [
+        "TEVT-009-05"
+      ],
+      "reason": "Rules score=1.0, margin=1.0, based on title and interaction keywords.",
+      "role": "unknown",
+      "source": "rules"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.45,
+      "contact_id": "TCON-009-06",
+      "evidence_ids": [],
+      "reason": "No role-specific title or behavioural evidence was found.",
+      "role": "unknown",
+      "source": "rules"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.58,
+      "contact_id": "TCON-010-01",
+      "evidence_ids": [
+        "TEVT-010-02"
+      ],
+      "reason": "Rules score=2.0, margin=1.0, based on title and interaction keywords.",
+      "role": "unknown",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.67,
+      "contact_id": "TCON-010-02",
+      "evidence_ids": [
+        "TEVT-010-02",
+        "TEVT-010-06"
+      ],
+      "reason": "Rules score=3.0, margin=2.0, based on title and interaction keywords.",
+      "role": "procurement_legal",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.7,
+      "contact_id": "TCON-010-03",
+      "evidence_ids": [],
+      "reason": "Rules score=3.0, margin=3.0, based on title and interaction keywords.",
+      "role": "technical_evaluator",
+      "source": "rules"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.95,
+      "contact_id": "TCON-010-04",
+      "evidence_ids": [
+        "TEVT-010-02",
+        "TEVT-010-06"
+      ],
+      "reason": "Rules score=9.0, margin=8.0, based on title and interaction keywords.",
+      "role": "procurement_legal",
+      "source": "rules"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.53,
+      "contact_id": "TCON-010-05",
+      "evidence_ids": [
+        "TEVT-010-05"
+      ],
+      "reason": "Rules score=1.0, margin=1.0, based on title and interaction keywords.",
+      "role": "unknown",
+      "source": "rules"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.45,
+      "contact_id": "TCON-010-06",
+      "evidence_ids": [],
+      "reason": "No role-specific title or behavioural evidence was found.",
+      "role": "unknown",
+      "source": "rules"
+    }
+  ],
+  "signatory_metrics": {
+    "accounts": 10,
+    "correct_selections": 7,
+    "multiple_candidate_accounts": 5,
+    "per_account": [
+      {
+        "account_id": "TA-001",
+        "candidate_count": 2,
+        "correct": true,
+        "selected_confidence": 0.95,
+        "selected_signatory_contact_id": "TCON-001-02",
+        "true_signatory_contact_id": "TCON-001-02"
+      },
+      {
+        "account_id": "TA-002",
+        "candidate_count": 2,
+        "correct": true,
+        "selected_confidence": 0.72,
+        "selected_signatory_contact_id": "TCON-002-02",
+        "true_signatory_contact_id": "TCON-002-02"
+      },
+      {
+        "account_id": "TA-003",
+        "candidate_count": 0,
+        "correct": false,
+        "selected_confidence": null,
+        "selected_signatory_contact_id": null,
+        "true_signatory_contact_id": "TCON-003-02"
+      },
+      {
+        "account_id": "TA-004",
+        "candidate_count": 2,
+        "correct": true,
+        "selected_confidence": 0.72,
+        "selected_signatory_contact_id": "TCON-004-02",
+        "true_signatory_contact_id": "TCON-004-02"
+      },
+      {
+        "account_id": "TA-005",
+        "candidate_count": 2,
+        "correct": true,
+        "selected_confidence": 0.85,
+        "selected_signatory_contact_id": "TCON-005-02",
+        "true_signatory_contact_id": "TCON-005-02"
+      },
+      {
+        "account_id": "TA-006",
+        "candidate_count": 0,
+        "correct": false,
+        "selected_confidence": null,
+        "selected_signatory_contact_id": null,
+        "true_signatory_contact_id": "TCON-006-02"
+      },
+      {
+        "account_id": "TA-007",
+        "candidate_count": 1,
+        "correct": true,
+        "selected_confidence": 0.78,
+        "selected_signatory_contact_id": "TCON-007-02",
+        "true_signatory_contact_id": "TCON-007-02"
+      },
+      {
+        "account_id": "TA-008",
+        "candidate_count": 1,
+        "correct": true,
+        "selected_confidence": 0.68,
+        "selected_signatory_contact_id": "TCON-008-02",
+        "true_signatory_contact_id": "TCON-008-02"
+      },
+      {
+        "account_id": "TA-009",
+        "candidate_count": 2,
+        "correct": true,
+        "selected_confidence": 0.92,
+        "selected_signatory_contact_id": "TCON-009-02",
+        "true_signatory_contact_id": "TCON-009-02"
+      },
+      {
+        "account_id": "TA-010",
+        "candidate_count": 0,
+        "correct": false,
+        "selected_confidence": null,
+        "selected_signatory_contact_id": null,
+        "true_signatory_contact_id": "TCON-010-02"
+      }
+    ],
+    "precision": 1.0,
+    "recall": 0.7,
+    "selection_rate": 0.7,
+    "selections": 7
+  }
+}

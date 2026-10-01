@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "accountlens"
+version = "0.1.0"
+description = "Evidence-grounded B2B account briefing assistant for PE6201"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "openai>=1.50.0",
+  "pydantic>=2.8.0",
+  "python-dotenv>=1.0.0",
+  "python-docx>=1.1.2",
+  "reportlab>=4.2.0",
+  "streamlit>=1.38.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

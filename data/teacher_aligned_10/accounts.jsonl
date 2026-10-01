@@ -1,0 +1,10 @@
+{"account_id": "TA-001", "annual_value_usd": 420000, "industry": "Healthcare Technology", "name": "Northstar Health Systems", "stage": "commercial_review", "true_signatory_contact_id": "TCON-001-02"}
+{"account_id": "TA-002", "annual_value_usd": 360000, "industry": "Logistics", "name": "Meridian Freight Group", "stage": "contracting", "true_signatory_contact_id": "TCON-002-02"}
+{"account_id": "TA-003", "annual_value_usd": 610000, "industry": "Manufacturing", "name": "Apex Precision Manufacturing", "stage": "commercial_review", "true_signatory_contact_id": "TCON-003-02"}
+{"account_id": "TA-004", "annual_value_usd": 780000, "industry": "Financial Services", "name": "Lumina Digital Bank", "stage": "technical_validation", "true_signatory_contact_id": "TCON-004-02"}
+{"account_id": "TA-005", "annual_value_usd": 295000, "industry": "Enterprise Software", "name": "Helix Enterprise Software", "stage": "contracting", "true_signatory_contact_id": "TCON-005-02"}
+{"account_id": "TA-006", "annual_value_usd": 540000, "industry": "Energy Services", "name": "BlueHarbor Energy Services", "stage": "commercial_review", "true_signatory_contact_id": "TCON-006-02"}
+{"account_id": "TA-007", "annual_value_usd": 330000, "industry": "Retail", "name": "Cedar Retail Holdings", "stage": "commercial_review", "true_signatory_contact_id": "TCON-007-02"}
+{"account_id": "TA-008", "annual_value_usd": 470000, "industry": "Mobility Technology", "name": "Quantum Mobility Labs", "stage": "contracting", "true_signatory_contact_id": "TCON-008-02"}
+{"account_id": "TA-009", "annual_value_usd": 690000, "industry": "Telecommunications", "name": "Atlas Communications", "stage": "technical_validation", "true_signatory_contact_id": "TCON-009-02"}
+{"account_id": "TA-010", "annual_value_usd": 515000, "industry": "Pharmaceuticals", "name": "Solstice Pharma Operations", "stage": "contracting", "true_signatory_contact_id": "TCON-010-02"}

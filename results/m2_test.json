@@ -1,0 +1,5250 @@
+{
+  "accounts": 20,
+  "briefings": [
+    {
+      "account_id": "ACC-003",
+      "cross_team_activity": [
+        {
+          "event_ids": [
+            "EVT-00037",
+            "EVT-00038",
+            "EVT-00039"
+          ],
+          "importance": "High",
+          "summary": "Alex Patel coordinated stakeholders, promoted the solution, and prepared for executive discussions."
+        },
+        {
+          "event_ids": [
+            "EVT-00040",
+            "EVT-00041",
+            "EVT-00042"
+          ],
+          "importance": "High",
+          "summary": "Drew Lim reviewed budget approval, requested ROI, and confirmed executive sign-off."
+        },
+        {
+          "event_ids": [
+            "EVT-00043",
+            "EVT-00044",
+            "EVT-00045"
+          ],
+          "importance": "High",
+          "summary": "Jordan Tan tested design compatibility and compared solutions against standards."
+        },
+        {
+          "event_ids": [
+            "EVT-00046",
+            "EVT-00047",
+            "EVT-00048"
+          ],
+          "importance": "High",
+          "summary": "Cameron Smith handled supplier onboarding and negotiated purchasing conditions."
+        },
+        {
+          "event_ids": [
+            "EVT-00049",
+            "EVT-00050",
+            "EVT-00051"
+          ],
+          "importance": "Medium",
+          "summary": "Drew Garcia tested workflows and provided user feedback."
+        }
+      ],
+      "decision_roles": [
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0013",
+          "evidence_ids": [
+            "EVT-00037",
+            "EVT-00038",
+            "EVT-00039"
+          ],
+          "reason": "Alex Patel coordinated stakeholders, promoted the solution, and prepared for executive discussions, indicating a champion role.",
+          "role": "champion",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0014",
+          "evidence_ids": [
+            "EVT-00040",
+            "EVT-00041",
+            "EVT-00042"
+          ],
+          "reason": "Drew Lim reviewed budget approval, requested ROI, and confirmed executive sign-off, indicating economic buyer responsibilities.",
+          "role": "economic_buyer",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0015",
+          "evidence_ids": [
+            "EVT-00043",
+            "EVT-00044",
+            "EVT-00045"
+          ],
+          "reason": "Jordan Tan tested design compatibility and compared solutions against standards, indicating a technical evaluator role.",
+          "role": "technical_evaluator",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0016",
+          "evidence_ids": [
+            "EVT-00046",
+            "EVT-00047",
+            "EVT-00048"
+          ],
+          "reason": "Cameron Smith handled supplier onboarding and negotiated purchasing conditions, indicating procurement responsibilities.",
+          "role": "procurement_legal",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0017",
+          "evidence_ids": [
+            "EVT-00049",
+            "EVT-00050",
+            "EVT-00051"
+          ],
+          "reason": "Drew Garcia tested workflows and provided user feedback, indicating an end user role.",
+          "role": "end_user",
+          "source": "llm"
+        },
+        {
+          "abstained": true,
+          "confidence": 0.8,
+          "contact_id": "CON-0018",
+          "evidence_ids": [
+            "EVT-00052",
+            "EVT-00053",
+            "EVT-00054"
+          ],
+          "reason": "Jordan Ng's activities were administrative and did not indicate a specific decision-making role.",
+          "role": "unknown",
+          "source": "llm"
+        }
+      ],
+      "limitations": [
+        "Jordan Ng's role is unclear due to lack of decision-making activities."
+      ],
+      "recommended_actions": [
+        {
+          "action": "Address the unresolved deployment issue urgently.",
+          "evidence_ids": [
+            "EVT-00055"
+          ],
+          "rationale": "The issue is high-priority and may affect customer confidence."
+        }
+      ],
+      "risks": [
+        {
+          "category": "Deployment",
+          "description": "A high-priority deployment issue remains unresolved and may affect customer confidence.",
+          "evidence_ids": [
+            "EVT-00055"
+          ],
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-006",
+      "cross_team_activity": [
+        {
+          "event_ids": [
+            "EVT-00092",
+            "EVT-00093",
+            "EVT-00094"
+          ],
+          "importance": "High",
+          "summary": "Cameron Lee coordinated cross-departmental efforts and facilitated executive introductions."
+        },
+        {
+          "event_ids": [
+            "EVT-00095",
+            "EVT-00096",
+            "EVT-00097"
+          ],
+          "importance": "High",
+          "summary": "Riley Patel engaged in budget review and executive sign-off processes."
+        },
+        {
+          "event_ids": [
+            "EVT-00098",
+            "EVT-00099",
+            "EVT-00100"
+          ],
+          "importance": "High",
+          "summary": "Drew Patel conducted technical evaluations and integration workshops."
+        }
+      ],
+      "decision_roles": [
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0031",
+          "evidence_ids": [
+            "EVT-00092",
+            "EVT-00093",
+            "EVT-00094"
+          ],
+          "reason": "Cameron Lee has coordinated multiple departments, persuaded colleagues to join evaluations, and introduced the team to executives, indicating strong advocacy and internal navigation skills.",
+          "role": "champion",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0032",
+          "evidence_ids": [
+            "EVT-00095",
+            "EVT-00096",
+            "EVT-00097"
+          ],
+          "reason": "Riley Patel reviewed commercial value, funding availability, and confirmed executive sign-off is required, indicating budget ownership and final purchase authority.",
+          "role": "economic_buyer",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0033",
+          "evidence_ids": [
+            "EVT-00098",
+            "EVT-00099",
+            "EVT-00100"
+          ],
+          "reason": "Drew Patel evaluated integration architecture, raised security requirements, and requested API documentation, indicating a focus on technical feasibility and implementation.",
+          "role": "technical_evaluator",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0034",
+          "evidence_ids": [
+            "EVT-00101",
+            "EVT-00102",
+            "EVT-00103"
+          ],
+          "reason": "Taylor Ng reviewed contract clauses, requested procurement documents, and proposed changes to commercial terms, indicating involvement in procurement and legal processes.",
+          "role": "procurement_legal",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0035",
+          "evidence_ids": [
+            "EVT-00104",
+            "EVT-00105",
+            "EVT-00106"
+          ],
+          "reason": "Quinn Patel operates the system during shifts and demonstrated current manual steps, indicating direct usage and operational requirements.",
+          "role": "end_user",
+          "source": "llm"
+        },
+        {
+          "abstained": true,
+          "confidence": 0.8,
+          "contact_id": "CON-0036",
+          "evidence_ids": [
+            "EVT-00107",
+            "EVT-00108",
+            "EVT-00109"
+          ],
+          "reason": "Jordan Patel's activities are administrative and lack decision-making evidence, such as scheduling meetings and receiving updates.",
+          "role": "unknown",
+          "source": "llm"
+        }
+      ],
+      "limitations": [
+        "Jordan Patel's role is unclear due to lack of decision-making evidence.",
+        "The account is in technical validation stage, which may limit commercial insights."
+      ],
+      "recommended_actions": [
+        {
+          "action": "Address the unresolved deployment issue urgently.",
+          "evidence_ids": [
+            "EVT-00110"
+          ],
+          "rationale": "The issue is high-priority and may affect customer confidence if not resolved."
+        }
+      ],
+      "risks": [
+        {
+          "category": "Deployment",
+          "description": "A high-priority deployment issue remains unresolved, potentially affecting customer confidence.",
+          "evidence_ids": [
+            "EVT-00110"
+          ],
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-007",
+      "cross_team_activity": [
+        {
+          "event_ids": [
+            "EVT-00111",
+            "EVT-00112",
+            "EVT-00113"
+          ],
+          "importance": "High",
+          "summary": "Taylor Wong coordinated stakeholders, promoted the solution, and prepared for executive discussions."
+        },
+        {
+          "event_ids": [
+            "EVT-00114",
+            "EVT-00115",
+            "EVT-00116"
+          ],
+          "importance": "High",
+          "summary": "Jordan Chen reviewed commercial value, funding availability, and confirmed executive sign-off."
+        },
+        {
+          "event_ids": [
+            "EVT-00117",
+            "EVT-00118",
+            "EVT-00119"
+          ],
+          "importance": "High",
+          "summary": "Taylor Lee evaluated integration architecture, security requirements, and requested technical documentation."
+        },
+        {
+          "event_ids": [
+            "EVT-00120",
+            "EVT-00121",
+            "EVT-00122"
+          ],
+          "importance": "High",
+          "summary": "Taylor Ng controlled supplier onboarding and negotiated purchasing conditions."
+        },
+        {
+          "event_ids": [
+            "EVT-00123",
+            "EVT-00124",
+            "EVT-00125"
+          ],
+          "importance": "Medium",
+          "summary": "Avery Garcia will operate the system and described current manual steps."
+        }
+      ],
+      "decision_roles": [
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0037",
+          "evidence_ids": [
+            "EVT-00111",
+            "EVT-00112",
+            "EVT-00113"
+          ],
+          "reason": "Taylor Wong coordinated stakeholders, promoted the solution, and prepared for executive discussions, indicating a champion role.",
+          "role": "champion",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.95,
+          "contact_id": "CON-0038",
+          "evidence_ids": [
+            "EVT-00114",
+            "EVT-00115",
+            "EVT-00116"
+          ],
+          "reason": "Jordan Chen reviewed commercial value, funding availability, and confirmed executive sign-off, indicating economic buyer responsibilities.",
+          "role": "economic_buyer",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0039",
+          "evidence_ids": [
+            "EVT-00117",
+            "EVT-00118",
+            "EVT-00119"
+          ],
+          "reason": "Taylor Lee evaluated integration architecture, security requirements, and requested technical documentation, indicating a technical evaluator role.",
+          "role": "technical_evaluator",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0040",
+          "evidence_ids": [
+            "EVT-00120",
+            "EVT-00121",
+            "EVT-00122"
+          ],
+          "reason": "Taylor Ng controls supplier onboarding and negotiated purchasing conditions, indicating a procurement/legal role.",
+          "role": "procurement_legal",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0041",
+          "evidence_ids": [
+            "EVT-00123",
+            "EVT-00124",
+            "EVT-00125"
+          ],
+          "reason": "Avery Garcia will operate the system and described current manual steps, indicating an end user role.",
+          "role": "end_user",
+          "source": "llm"
+        },
+        {
+          "abstained": true,
+          "confidence": 0.8,
+          "contact_id": "CON-0042",
+          "evidence_ids": [
+            "EVT-00126",
+            "EVT-00127",
+            "EVT-00128"
+          ],
+          "reason": "Riley Smith's activities were administrative and lacked decision-making evidence, leading to an unknown role classification.",
+          "role": "unknown",
+          "source": "llm"
+        }
+      ],
+      "limitations": [
+        "Limited information on Riley Smith's role and responsibilities, leading to an unknown classification.",
+        "Potential risk in procurement due to complex purchasing conditions, but no specific resolution steps identified."
+      ],
+      "recommended_actions": [
+        {
+          "action": "Engage with Taylor Wong to ensure continued stakeholder alignment and solution promotion.",
+          "evidence_ids": [
+            "EVT-00111",
+            "EVT-00112"
+          ],
+          "rationale": "Taylor Wong has been actively coordinating stakeholders and promoting the solution, which is crucial for successful adoption."
+        },
+        {
+          "action": "Confirm budget approval with Jordan Chen to secure economic buy-in.",
+          "evidence_ids": [
+            "EVT-00114",
+            "EVT-00116"
+          ],
+          "rationale": "Jordan Chen is responsible for budget approval and executive sign-off, which is critical for progressing the deal."
+        },
+        {
+          "action": "Address any technical concerns raised by Taylor Lee to ensure smooth integration.",
+          "evidence_ids": [
+            "EVT-00117",
+            "EVT-00118"
+          ],
+          "rationale": "Taylor Lee has evaluated technical aspects and raised security requirements, which need to be addressed for successful implementation."
+        }
+      ],
+      "risks": [
+        {
+          "category": "Procurement",
+          "description": "Potential delays in supplier onboarding due to complex purchasing conditions.",
+          "evidence_ids": [
+            "EVT-00120",
+            "EVT-00121"
+          ],
+          "severity": "Medium"
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-008",
+      "cross_team_activity": [
+        {
+          "event_ids": [
+            "EVT-00129",
+            "EVT-00130",
+            "EVT-00131"
+          ],
+          "importance": "High",
+          "summary": "Cameron Wong coordinated stakeholders, promoted the solution, and prepared for executive discussions."
+        },
+        {
+          "event_ids": [
+            "EVT-00132",
+            "EVT-00133",
+            "EVT-00134"
+          ],
+          "importance": "High",
+          "summary": "Taylor Lim reviewed commercial value, requested ROI, and confirmed executive sign-off."
+        },
+        {
+          "event_ids": [
+            "EVT-00135",
+            "EVT-00136",
+            "EVT-00137"
+          ],
+          "importance": "Medium",
+          "summary": "Quinn Kumar evaluated design compatibility and production standards."
+        },
+        {
+          "event_ids": [
+            "EVT-00138",
+            "EVT-00139",
+            "EVT-00140"
+          ],
+          "importance": "Medium",
+          "summary": "Alex Patel managed supplier onboarding and purchasing conditions."
+        },
+        {
+          "event_ids": [
+            "EVT-00141",
+            "EVT-00142",
+            "EVT-00143"
+          ],
+          "importance": "Medium",
+          "summary": "Casey Lee tested workflows and prepared for user pilot."
+        }
+      ],
+      "decision_roles": [
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0043",
+          "evidence_ids": [
+            "EVT-00129",
+            "EVT-00130",
+            "EVT-00131"
+          ],
+          "reason": "Cameron Wong coordinated stakeholders, promoted the solution, and prepared the team for executive discussions, indicating a champion role.",
+          "role": "champion",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0044",
+          "evidence_ids": [
+            "EVT-00132",
+            "EVT-00133",
+            "EVT-00134"
+          ],
+          "reason": "Taylor Lim reviewed commercial value, requested ROI, and confirmed executive sign-off, indicating budget ownership and purchase authority.",
+          "role": "economic_buyer",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0045",
+          "evidence_ids": [
+            "EVT-00135",
+            "EVT-00136",
+            "EVT-00137"
+          ],
+          "reason": "Quinn Kumar tested design compatibility and compared solutions against standards, indicating a technical evaluation role.",
+          "role": "technical_evaluator",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0046",
+          "evidence_ids": [
+            "EVT-00138",
+            "EVT-00139",
+            "EVT-00140"
+          ],
+          "reason": "Alex Patel controlled supplier onboarding and negotiated purchasing conditions, indicating a procurement role.",
+          "role": "procurement_legal",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0047",
+          "evidence_ids": [
+            "EVT-00141",
+            "EVT-00142",
+            "EVT-00143"
+          ],
+          "reason": "Casey Lee tested workflows and reported usability feedback, indicating an end user role.",
+          "role": "end_user",
+          "source": "llm"
+        },
+        {
+          "abstained": true,
+          "confidence": 0.8,
+          "contact_id": "CON-0048",
+          "evidence_ids": [
+            "EVT-00144",
+            "EVT-00145",
+            "EVT-00146"
+          ],
+          "reason": "Taylor Kumar's activities were administrative and did not indicate a specific decision-making role.",
+          "role": "unknown",
+          "source": "llm"
+        }
+      ],
+      "limitations": [
+        "Limited information on Taylor Kumar's role beyond administrative tasks.",
+        "No direct evidence of final contract terms or negotiation outcomes."
+      ],
+      "recommended_actions": [
+        {
+          "action": "Engage with Taylor Lim to confirm executive sign-off timeline.",
+          "evidence_ids": [
+            "EVT-00134"
+          ],
+          "rationale": "Taylor Lim holds economic buyer responsibilities and can expedite the contracting process."
+        },
+        {
+          "action": "Coordinate with Cameron Wong to ensure stakeholder alignment.",
+          "evidence_ids": [
+            "EVT-00129",
+            "EVT-00130"
+          ],
+          "rationale": "Cameron Wong is actively promoting the solution and can facilitate internal alignment."
+        }
+      ],
+      "risks": [
+        {
+          "category": "Contracting",
+          "description": "Final expenditure requires executive sign-off, which may delay contracting.",
+          "evidence_ids": [
+            "EVT-00134"
+          ],
+          "severity": "Medium"
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-011",
+      "cross_team_activity": [
+        {
+          "event_ids": [
+            "EVT-00185",
+            "EVT-00186",
+            "EVT-00187"
+          ],
+          "importance": "High",
+          "summary": "Alex Kumar coordinated cross-departmental efforts and facilitated executive introductions."
+        },
+        {
+          "event_ids": [
+            "EVT-00194",
+            "EVT-00195",
+            "EVT-00196"
+          ],
+          "importance": "Medium",
+          "summary": "Alex Patel engaged in contract review and procurement compliance activities."
+        }
+      ],
+      "decision_roles": [
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0061",
+          "evidence_ids": [
+            "EVT-00185",
+            "EVT-00186",
+            "EVT-00187"
+          ],
+          "reason": "Alex Kumar coordinated multiple departments, persuaded colleagues to join evaluations, and introduced the team to executives, indicating a champion role.",
+          "role": "champion",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.95,
+          "contact_id": "CON-0062",
+          "evidence_ids": [
+            "EVT-00188",
+            "EVT-00189",
+            "EVT-00190"
+          ],
+          "reason": "Avery Garcia reviewed budget approval, requested ROI, and confirmed executive sign-off, indicating economic buyer responsibilities.",
+          "role": "economic_buyer",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0063",
+          "evidence_ids": [
+            "EVT-00191",
+            "EVT-00192",
+            "EVT-00193"
+          ],
+          "reason": "Morgan Kumar evaluated integration architecture, security requirements, and requested technical documentation, indicating a technical evaluator role.",
+          "role": "technical_evaluator",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0064",
+          "evidence_ids": [
+            "EVT-00194",
+            "EVT-00195",
+            "EVT-00196"
+          ],
+          "reason": "Alex Patel reviewed contract clauses, requested procurement documents, and negotiated terms, indicating a procurement/legal role.",
+          "role": "procurement_legal",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0065",
+          "evidence_ids": [
+            "EVT-00197",
+            "EVT-00198",
+            "EVT-00199"
+          ],
+          "reason": "Avery Wong demonstrated manual steps, tried tasks, and reviewed working practices, indicating an end user role.",
+          "role": "end_user",
+          "source": "llm"
+        },
+        {
+          "abstained": true,
+          "confidence": 0.8,
+          "contact_id": "CON-0066",
+          "evidence_ids": [
+            "EVT-00200",
+            "EVT-00201",
+            "EVT-00202"
+          ],
+          "reason": "Jordan Chen's activities were administrative and lacked decision-making evidence, leading to an unknown role classification.",
+          "role": "unknown",
+          "source": "llm"
+        }
+      ],
+      "limitations": [
+        "Limited information on Jordan Chen's role and decision-making authority.",
+        "No direct evidence of end-user feedback influencing decision-making."
+      ],
+      "recommended_actions": [
+        {
+          "action": "Ensure alignment on contract terms with Alex Patel to expedite finalization.",
+          "evidence_ids": [
+            "EVT-00196"
+          ],
+          "rationale": "Alex Patel is actively negotiating terms, which could delay contract closure."
+        }
+      ],
+      "risks": [
+        {
+          "category": "Contracting",
+          "description": "Potential delays in contract finalization due to ongoing terms negotiation.",
+          "evidence_ids": [
+            "EVT-00196"
+          ],
+          "severity": "Medium"
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-012",
+      "cross_team_activity": [
+        {
+          "event_ids": [
+            "EVT-00203",
+            "EVT-00204",
+            "EVT-00205"
+          ],
+          "importance": "High",
+          "summary": "Morgan Lee actively coordinated stakeholders and promoted solution adoption across teams."
+        },
+        {
+          "event_ids": [
+            "EVT-00206",
+            "EVT-00207",
+            "EVT-00208"
+          ],
+          "importance": "High",
+          "summary": "Drew Ng engaged in budget review and executive sign-off discussions, crucial for contract finalization."
+        },
+        {
+          "event_ids": [
+            "EVT-00209",
+            "EVT-00210",
+            "EVT-00211"
+          ],
+          "importance": "High",
+          "summary": "Quinn Smith conducted technical evaluations and security assessments, essential for integration feasibility."
+        },
+        {
+          "event_ids": [
+            "EVT-00212",
+            "EVT-00213",
+            "EVT-00214"
+          ],
+          "importance": "High",
+          "summary": "Alex Chen managed supplier onboarding and compliance checks, vital for procurement processes."
+        }
+      ],
+      "decision_roles": [
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0067",
+          "evidence_ids": [
+            "EVT-00203",
+            "EVT-00204",
+            "EVT-00205"
+          ],
+          "reason": "Morgan Lee coordinated stakeholders, promoted the solution, and prepared the team for executive discussions, indicating a champion role.",
+          "role": "champion",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0068",
+          "evidence_ids": [
+            "EVT-00206",
+            "EVT-00207",
+            "EVT-00208"
+          ],
+          "reason": "Drew Ng reviewed budget approval, requested ROI, and confirmed executive sign-off, indicating economic buyer responsibilities.",
+          "role": "economic_buyer",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0069",
+          "evidence_ids": [
+            "EVT-00209",
+            "EVT-00210",
+            "EVT-00211"
+          ],
+          "reason": "Quinn Smith evaluated integration architecture, security requirements, and requested technical documentation, indicating a technical evaluator role.",
+          "role": "technical_evaluator",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0070",
+          "evidence_ids": [
+            "EVT-00212",
+            "EVT-00213",
+            "EVT-00214"
+          ],
+          "reason": "Alex Chen controls supplier onboarding, negotiates purchasing conditions, and reviews third-party compliance, indicating a procurement/legal role.",
+          "role": "procurement_legal",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0071",
+          "evidence_ids": [
+            "EVT-00215",
+            "EVT-00216",
+            "EVT-00217"
+          ],
+          "reason": "Drew Lim operates the system, trials tasks, and reviews working practices, indicating an end user role.",
+          "role": "end_user",
+          "source": "llm"
+        },
+        {
+          "abstained": true,
+          "confidence": 0.8,
+          "contact_id": "CON-0072",
+          "evidence_ids": [
+            "EVT-00218",
+            "EVT-00219",
+            "EVT-00220"
+          ],
+          "reason": "Taylor Wong's activities are administrative with no decision-making evidence, leading to an unknown role classification.",
+          "role": "unknown",
+          "source": "llm"
+        }
+      ],
+      "limitations": [
+        "The role of Taylor Wong is unclear due to lack of decision-making evidence.",
+        "The records do not provide detailed insights into the specific technical requirements or challenges faced during integration."
+      ],
+      "recommended_actions": [
+        {
+          "action": "Address the unresolved deployment issue urgently.",
+          "evidence_ids": [
+            "EVT-00221"
+          ],
+          "rationale": "The issue is high-priority and may affect customer confidence if not resolved promptly."
+        },
+        {
+          "action": "Engage with Morgan Lee to leverage their champion role for smoother adoption.",
+          "evidence_ids": [
+            "EVT-00203",
+            "EVT-00204",
+            "EVT-00205"
+          ],
+          "rationale": "Morgan Lee has shown strong advocacy and coordination skills, which can aid in adoption efforts."
+        }
+      ],
+      "risks": [
+        {
+          "category": "Deployment",
+          "description": "A high-priority deployment issue remains unresolved, potentially affecting customer confidence.",
+          "evidence_ids": [
+            "EVT-00221"
+          ],
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-017",
+      "cross_team_activity": [
+        {
+          "event_ids": [
+            "EVT-00295",
+            "EVT-00296",
+            "EVT-00297"
+          ],
+          "importance": "High",
+          "summary": "Quinn Ng actively coordinated stakeholders and promoted the solution across teams."
+        },
+        {
+          "event_ids": [
+            "EVT-00301",
+            "EVT-00302",
+            "EVT-00303"
+          ],
+          "importance": "Medium",
+          "summary": "Alex Tan evaluated technical aspects and raised security requirements, involving multiple teams."
+        }
+      ],
+      "decision_roles": [
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0097",
+          "evidence_ids": [
+            "EVT-00295",
+            "EVT-00296",
+            "EVT-00297"
+          ],
+          "reason": "Quinn Ng coordinated stakeholders, promoted the solution, and planned adoption activities, indicating a champion role.",
+          "role": "champion",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0098",
+          "evidence_ids": [
+            "EVT-00298",
+            "EVT-00299",
+            "EVT-00300"
+          ],
+          "reason": "Quinn Kumar reviewed budget approval, requested ROI, and confirmed executive sign-off, indicating economic buyer responsibilities.",
+          "role": "economic_buyer",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0099",
+          "evidence_ids": [
+            "EVT-00301",
+            "EVT-00302",
+            "EVT-00303"
+          ],
+          "reason": "Alex Tan evaluated architecture, security, and requested technical documentation, indicating a technical evaluator role.",
+          "role": "technical_evaluator",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0100",
+          "evidence_ids": [
+            "EVT-00304",
+            "EVT-00305",
+            "EVT-00306"
+          ],
+          "reason": "Riley Lim handled supplier onboarding, purchasing conditions, and third-party reviews, indicating procurement/legal responsibilities.",
+          "role": "procurement_legal",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0101",
+          "evidence_ids": [
+            "EVT-00307",
+            "EVT-00308",
+            "EVT-00309"
+          ],
+          "reason": "Drew Patel demonstrated manual steps, tried tasks, and explained current practices, indicating end-user involvement.",
+          "role": "end_user",
+          "source": "llm"
+        },
+        {
+          "abstained": true,
+          "confidence": 0.8,
+          "contact_id": "CON-0102",
+          "evidence_ids": [
+            "EVT-00310",
+            "EVT-00311",
+            "EVT-00312"
+          ],
+          "reason": "Alex Garcia's activities were administrative and lacked decision-making evidence, leading to an unknown role classification.",
+          "role": "unknown",
+          "source": "llm"
+        }
+      ],
+      "limitations": [
+        "The role of Alex Garcia is unclear due to lack of decision-making evidence.",
+        "The account is in the discovery stage, so future interactions may change role dynamics."
+      ],
+      "recommended_actions": [
+        {
+          "action": "Engage with Quinn Ng to leverage their champion role for smoother stakeholder alignment.",
+          "evidence_ids": [
+            "EVT-00295",
+            "EVT-00296"
+          ],
+          "rationale": "Quinn Ng has shown strong advocacy and coordination skills, which can be pivotal in driving project success."
+        },
+        {
+          "action": "Ensure all technical requirements raised by Alex Tan are addressed to prevent integration issues.",
+          "evidence_ids": [
+            "EVT-00301",
+            "EVT-00302"
+          ],
+          "rationale": "Alex Tan's evaluation of architecture and security is crucial for successful implementation."
+        }
+      ],
+      "risks": [
+        {
+          "category": "Budget Approval",
+          "description": "Final budget approval requires executive sign-off, which may delay the process.",
+          "evidence_ids": [
+            "EVT-00298",
+            "EVT-00300"
+          ],
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-026",
+      "cross_team_activity": [
+        {
+          "event_ids": [
+            "EVT-00461",
+            "EVT-00462",
+            "EVT-00463"
+          ],
+          "importance": "High",
+          "summary": "Drew Wong coordinated cross-departmental meetings and facilitated stakeholder alignment."
+        },
+        {
+          "event_ids": [
+            "EVT-00464",
+            "EVT-00465",
+            "EVT-00466"
+          ],
+          "importance": "High",
+          "summary": "Cameron Lim engaged in budget discussions and executive sign-off processes."
+        },
+        {
+          "event_ids": [
+            "EVT-00467",
+            "EVT-00468",
+            "EVT-00469"
+          ],
+          "importance": "Medium",
+          "summary": "Quinn Lim conducted technical evaluations and integration workshops."
+        },
+        {
+          "event_ids": [
+            "EVT-00470",
+            "EVT-00471",
+            "EVT-00472"
+          ],
+          "importance": "Medium",
+          "summary": "Drew Ng handled contract reviews and procurement compliance."
+        },
+        {
+          "event_ids": [
+            "EVT-00473",
+            "EVT-00474",
+            "EVT-00475"
+          ],
+          "importance": "Medium",
+          "summary": "Casey Ng participated in operational trials and workflow reviews."
+        }
+      ],
+      "decision_roles": [
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0151",
+          "evidence_ids": [
+            "EVT-00461",
+            "EVT-00462",
+            "EVT-00463"
+          ],
+          "reason": "Drew Wong coordinated stakeholders, volunteered for follow-ups, and introduced the team to executives, indicating advocacy and internal navigation.",
+          "role": "champion",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0152",
+          "evidence_ids": [
+            "EVT-00464",
+            "EVT-00465",
+            "EVT-00466"
+          ],
+          "reason": "Cameron Lim reviewed budget approval, requested ROI, and confirmed executive sign-off, indicating budget ownership and final purchase authority.",
+          "role": "economic_buyer",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0153",
+          "evidence_ids": [
+            "EVT-00467",
+            "EVT-00468",
+            "EVT-00469"
+          ],
+          "reason": "Quinn Lim evaluated integration architecture, security requirements, and requested technical documentation, indicating technical evaluation responsibilities.",
+          "role": "technical_evaluator",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0154",
+          "evidence_ids": [
+            "EVT-00470",
+            "EVT-00471",
+            "EVT-00472"
+          ],
+          "reason": "Drew Ng reviewed contract clauses, requested procurement documents, and negotiated terms, indicating procurement and legal responsibilities.",
+          "role": "procurement_legal",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0155",
+          "evidence_ids": [
+            "EVT-00473",
+            "EVT-00474",
+            "EVT-00475"
+          ],
+          "reason": "Casey Ng demonstrated manual steps, tried tasks, and explained current practices, indicating end-user responsibilities.",
+          "role": "end_user",
+          "source": "llm"
+        },
+        {
+          "abstained": true,
+          "confidence": 0.8,
+          "contact_id": "CON-0156",
+          "evidence_ids": [
+            "EVT-00476",
+            "EVT-00477",
+            "EVT-00478"
+          ],
+          "reason": "Cameron Smith's activities were administrative and lacked decision-making evidence, leading to an unknown role classification.",
+          "role": "unknown",
+          "source": "llm"
+        }
+      ],
+      "limitations": [
+        "Limited information on Cameron Smith's role and responsibilities.",
+        "No direct evidence of final budget approval beyond Cameron Lim's involvement."
+      ],
+      "recommended_actions": [
+        {
+          "action": "Engage with Drew Wong to strengthen stakeholder alignment and advocacy.",
+          "evidence_ids": [
+            "EVT-00461",
+            "EVT-00462",
+            "EVT-00463"
+          ],
+          "rationale": "Drew Wong has demonstrated strong coordination and advocacy skills, which can be leveraged to drive the initiative forward."
+        },
+        {
+          "action": "Clarify procurement timelines with Drew Ng to mitigate potential delays.",
+          "evidence_ids": [
+            "EVT-00470",
+            "EVT-00471",
+            "EVT-00472"
+          ],
+          "rationale": "Complex contract negotiations and compliance requirements may impact procurement timelines."
+        }
+      ],
+      "risks": [
+        {
+          "category": "Procurement",
+          "description": "Potential delays in procurement due to complex contract negotiations and compliance requirements.",
+          "evidence_ids": [
+            "EVT-00470",
+            "EVT-00471",
+            "EVT-00472"
+          ],
+          "severity": "Medium"
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-032",
+      "cross_team_activity": [
+        {
+          "event_ids": [
+            "EVT-00572",
+            "EVT-00573",
+            "EVT-00574"
+          ],
+          "importance": "High",
+          "summary": "Taylor Lim coordinated stakeholders, promoted the solution, and prepared for executive discussions."
+        },
+        {
+          "event_ids": [
+            "EVT-00575",
+            "EVT-00576",
+            "EVT-00577"
+          ],
+          "importance": "High",
+          "summary": "Casey Tan reviewed commercial value, requested ROI, and confirmed executive sign-off."
+        },
+        {
+          "event_ids": [
+            "EVT-00578",
+            "EVT-00579",
+            "EVT-00580"
+          ],
+          "importance": "High",
+          "summary": "Quinn Lim evaluated integration architecture, raised security requirements, and requested technical documentation."
+        },
+        {
+          "event_ids": [
+            "EVT-00581",
+            "EVT-00582",
+            "EVT-00583"
+          ],
+          "importance": "High",
+          "summary": "Quinn Wong handled supplier onboarding, negotiated purchasing conditions, and reviewed third-party compliance."
+        },
+        {
+          "event_ids": [
+            "EVT-00584",
+            "EVT-00585",
+            "EVT-00586"
+          ],
+          "importance": "Medium",
+          "summary": "Quinn Ng will operate the system, demonstrated manual steps, and described workflow changes."
+        }
+      ],
+      "decision_roles": [
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0187",
+          "evidence_ids": [
+            "EVT-00572",
+            "EVT-00573",
+            "EVT-00574"
+          ],
+          "reason": "Taylor Lim coordinated stakeholders, promoted the solution, and prepared for executive discussions, indicating a champion role.",
+          "role": "champion",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0188",
+          "evidence_ids": [
+            "EVT-00575",
+            "EVT-00576",
+            "EVT-00577"
+          ],
+          "reason": "Casey Tan reviewed commercial value, requested ROI, and confirmed executive sign-off, indicating economic buyer responsibilities.",
+          "role": "economic_buyer",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0189",
+          "evidence_ids": [
+            "EVT-00578",
+            "EVT-00579",
+            "EVT-00580"
+          ],
+          "reason": "Quinn Lim evaluated integration architecture, raised security requirements, and requested technical documentation, indicating a technical evaluator role.",
+          "role": "technical_evaluator",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0190",
+          "evidence_ids": [
+            "EVT-00581",
+            "EVT-00582",
+            "EVT-00583"
+          ],
+          "reason": "Quinn Wong handled supplier onboarding, negotiated purchasing conditions, and reviewed third-party compliance, indicating a procurement/legal role.",
+          "role": "procurement_legal",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0191",
+          "evidence_ids": [
+            "EVT-00584",
+            "EVT-00585",
+            "EVT-00586"
+          ],
+          "reason": "Quinn Ng will operate the system, demonstrated manual steps, and described workflow changes, indicating an end user role.",
+          "role": "end_user",
+          "source": "llm"
+        },
+        {
+          "abstained": true,
+          "confidence": 0.6,
+          "contact_id": "CON-0192",
+          "evidence_ids": [
+            "EVT-00587",
+            "EVT-00588",
+            "EVT-00589"
+          ],
+          "reason": "Alex Lim's activities were limited to scheduling and receiving updates, with no decision-making evidence.",
+          "role": "unknown",
+          "source": "llm"
+        }
+      ],
+      "limitations": [
+        "The role of Alex Lim remains unclear due to lack of decision-making evidence.",
+        "No direct evidence of final purchase authority beyond Casey Tan's involvement."
+      ],
+      "recommended_actions": [
+        {
+          "action": "Engage with Taylor Lim to strengthen internal advocacy and alignment.",
+          "evidence_ids": [
+            "EVT-00572",
+            "EVT-00573",
+            "EVT-00574"
+          ],
+          "rationale": "Taylor Lim is actively coordinating stakeholders and promoting the solution, indicating strong internal influence."
+        },
+        {
+          "action": "Provide Casey Tan with a detailed ROI analysis to facilitate budget approval.",
+          "evidence_ids": [
+            "EVT-00576"
+          ],
+          "rationale": "Casey Tan requires quantified ROI for final budget approval, which is critical for progressing the deal."
+        },
+        {
+          "action": "Ensure Quinn Lim has all necessary technical documentation and support for integration evaluation.",
+          "evidence_ids": [
+            "EVT-00578",
+            "EVT-00580"
+          ],
+          "rationale": "Quinn Lim is evaluating technical aspects and requires comprehensive information to proceed confidently."
+        }
+      ],
+      "risks": []
+    },
+    {
+      "account_id": "ACC-033",
+      "cross_team_activity": [
+        {
+          "event_ids": [
+            "EVT-00590",
+            "EVT-00591",
+            "EVT-00592"
+          ],
+          "importance": "high",
+          "summary": "Avery Ng coordinated stakeholders, promoted the solution, and prepared for executive discussions."
+        },
+        {
+          "event_ids": [
+            "EVT-00593",
+            "EVT-00594",
+            "EVT-00595"
+          ],
+          "importance": "high",
+          "summary": "Avery Smith reviewed budget approval, requested ROI, and confirmed executive sign-off."
+        },
+        {
+          "event_ids": [
+            "EVT-00596",
+            "EVT-00597",
+            "EVT-00598"
+          ],
+          "importance": "high",
+          "summary": "Alex Wong tested design compatibility and compared solutions against standards."
+        },
+        {
+          "event_ids": [
+            "EVT-00599",
+            "EVT-00600",
+            "EVT-00601"
+          ],
+          "importance": "high",
+          "summary": "Riley Wong handled supplier onboarding and negotiated purchasing conditions."
+        },
+        {
+          "event_ids": [
+            "EVT-00602",
+            "EVT-00603",
+            "EVT-00604"
+          ],
+          "importance": "medium",
+          "summary": "Cameron Smith tested workflows and provided user feedback."
+        }
+      ],
+      "decision_roles": [
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0193",
+          "evidence_ids": [
+            "EVT-00590",
+            "EVT-00591",
+            "EVT-00592"
+          ],
+          "reason": "Avery Ng coordinated stakeholders, promoted the solution, and prepared for executive discussions, indicating a champion role.",
+          "role": "champion",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0194",
+          "evidence_ids": [
+            "EVT-00593",
+            "EVT-00594",
+            "EVT-00595"
+          ],
+          "reason": "Avery Smith reviewed budget approval, requested ROI, and confirmed executive sign-off, indicating economic buyer responsibilities.",
+          "role": "economic_buyer",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0195",
+          "evidence_ids": [
+            "EVT-00596",
+            "EVT-00597",
+            "EVT-00598"
+          ],
+          "reason": "Alex Wong tested design compatibility and compared solutions against standards, indicating a technical evaluator role.",
+          "role": "technical_evaluator",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0196",
+          "evidence_ids": [
+            "EVT-00599",
+            "EVT-00600",
+            "EVT-00601"
+          ],
+          "reason": "Riley Wong handled supplier onboarding and negotiated purchasing conditions, indicating a procurement/legal role.",
+          "role": "procurement_legal",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0197",
+          "evidence_ids": [
+            "EVT-00602",
+            "EVT-00603",
+            "EVT-00604"
+          ],
+          "reason": "Cameron Smith tested workflows and provided user feedback, indicating an end user role.",
+          "role": "end_user",
+          "source": "llm"
+        },
+        {
+          "abstained": true,
+          "confidence": 0.6,
+          "contact_id": "CON-0198",
+          "evidence_ids": [
+            "EVT-00605",
+            "EVT-00606",
+            "EVT-00607"
+          ],
+          "reason": "Drew Chen's activities were administrative and did not indicate a specific decision-making role.",
+          "role": "unknown",
+          "source": "llm"
+        }
+      ],
+      "limitations": [
+        "The role of Drew Chen remains unclear due to lack of decision-making activities."
+      ],
+      "recommended_actions": [
+        {
+          "action": "Address the unresolved deployment issue urgently to maintain customer confidence.",
+          "evidence_ids": [
+            "EVT-00608"
+          ],
+          "rationale": "The unresolved deployment issue is high-priority and may affect customer confidence if not resolved quickly."
+        }
+      ],
+      "risks": [
+        {
+          "category": "deployment",
+          "description": "A high-priority deployment issue remains unresolved and may affect customer confidence.",
+          "evidence_ids": [
+            "EVT-00608"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-035",
+      "cross_team_activity": [
+        {
+          "event_ids": [
+            "EVT-00627",
+            "EVT-00628",
+            "EVT-00629"
+          ],
+          "importance": "High",
+          "summary": "Drew Lee coordinated cross-departmental efforts and facilitated executive introductions."
+        },
+        {
+          "event_ids": [
+            "EVT-00630",
+            "EVT-00631",
+            "EVT-00632"
+          ],
+          "importance": "High",
+          "summary": "Alex Lim's financial authority is crucial for contract approval."
+        },
+        {
+          "event_ids": [
+            "EVT-00633",
+            "EVT-00634",
+            "EVT-00635"
+          ],
+          "importance": "Medium",
+          "summary": "Drew Lee conducted technical evaluations and requested integration documentation."
+        },
+        {
+          "event_ids": [
+            "EVT-00636",
+            "EVT-00637",
+            "EVT-00638"
+          ],
+          "importance": "Medium",
+          "summary": "Casey Smith handled contract reviews and procurement compliance."
+        },
+        {
+          "event_ids": [
+            "EVT-00639",
+            "EVT-00640",
+            "EVT-00641"
+          ],
+          "importance": "Medium",
+          "summary": "Cameron Wong engaged in end-user testing and pilot preparation."
+        }
+      ],
+      "decision_roles": [
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0205",
+          "evidence_ids": [
+            "EVT-00627",
+            "EVT-00628",
+            "EVT-00629"
+          ],
+          "reason": "Drew Lee coordinated stakeholders, volunteered for follow-ups, persuaded colleagues, and introduced the team to executives, indicating champion behavior.",
+          "role": "champion",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.95,
+          "contact_id": "CON-0206",
+          "evidence_ids": [
+            "EVT-00630",
+            "EVT-00631",
+            "EVT-00632"
+          ],
+          "reason": "Alex Lim has authority to release funds and financial consent is required for purchase, indicating economic buyer role.",
+          "role": "economic_buyer",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0207",
+          "evidence_ids": [
+            "EVT-00633",
+            "EVT-00634",
+            "EVT-00635"
+          ],
+          "reason": "Drew Lee evaluated integration architecture, security, and requested technical documentation, indicating technical evaluator role.",
+          "role": "technical_evaluator",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0208",
+          "evidence_ids": [
+            "EVT-00636",
+            "EVT-00637",
+            "EVT-00638"
+          ],
+          "reason": "Casey Smith reviewed contracts, requested procurement documents, and negotiated terms, indicating procurement/legal role.",
+          "role": "procurement_legal",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0209",
+          "evidence_ids": [
+            "EVT-00639",
+            "EVT-00640",
+            "EVT-00641"
+          ],
+          "reason": "Cameron Wong tested workflows, provided usability feedback, and prepared for user pilot, indicating end user role.",
+          "role": "end_user",
+          "source": "llm"
+        },
+        {
+          "abstained": true,
+          "confidence": 0.8,
+          "contact_id": "CON-0210",
+          "evidence_ids": [
+            "EVT-00642",
+            "EVT-00643",
+            "EVT-00644"
+          ],
+          "reason": "Morgan Kumar's activities were administrative and lacked decision-making evidence, leading to an unknown role classification.",
+          "role": "unknown",
+          "source": "llm"
+        }
+      ],
+      "limitations": [
+        "Morgan Kumar's role is unclear due to lack of decision-making evidence.",
+        "Overlap in Drew Lee's roles as Programme Lead and Enterprise Architect may cause confusion."
+      ],
+      "recommended_actions": [
+        {
+          "action": "Engage Alex Lim to confirm financial approval and address any concerns.",
+          "evidence_ids": [
+            "EVT-00632"
+          ],
+          "rationale": "Alex Lim's consent is necessary for contract finalization."
+        },
+        {
+          "action": "Support Drew Lee in stakeholder coordination to ensure alignment.",
+          "evidence_ids": [
+            "EVT-00627",
+            "EVT-00628"
+          ],
+          "rationale": "Drew Lee is actively championing the initiative and coordinating efforts."
+        }
+      ],
+      "risks": [
+        {
+          "category": "Contracting",
+          "description": "The purchase cannot proceed without Alex Lim's financial consent.",
+          "evidence_ids": [
+            "EVT-00632"
+          ],
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-036",
+      "cross_team_activity": [
+        {
+          "event_ids": [
+            "EVT-00645",
+            "EVT-00646",
+            "EVT-00647"
+          ],
+          "importance": "High",
+          "summary": "Avery Wong coordinated departments, persuaded colleagues, and introduced executives."
+        },
+        {
+          "event_ids": [
+            "EVT-00648",
+            "EVT-00649",
+            "EVT-00650"
+          ],
+          "importance": "High",
+          "summary": "Quinn Smith reviewed budget and commercial value, requiring executive sign-off."
+        },
+        {
+          "event_ids": [
+            "EVT-00651",
+            "EVT-00652",
+            "EVT-00653"
+          ],
+          "importance": "High",
+          "summary": "Morgan Lee evaluated technical aspects including architecture and security."
+        },
+        {
+          "event_ids": [
+            "EVT-00654",
+            "EVT-00655",
+            "EVT-00656"
+          ],
+          "importance": "High",
+          "summary": "Casey Garcia handled contract review and procurement compliance."
+        }
+      ],
+      "decision_roles": [
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0211",
+          "evidence_ids": [
+            "EVT-00645",
+            "EVT-00646",
+            "EVT-00647"
+          ],
+          "reason": "Avery Wong coordinated multiple departments, persuaded colleagues to join the evaluation, and introduced the team to executives, indicating advocacy and internal navigation.",
+          "role": "champion",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0212",
+          "evidence_ids": [
+            "EVT-00648",
+            "EVT-00649",
+            "EVT-00650"
+          ],
+          "reason": "Quinn Smith reviewed commercial value, funding availability, and final budget approval, and confirmed executive sign-off is required, indicating budget ownership and approval authority.",
+          "role": "economic_buyer",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0213",
+          "evidence_ids": [
+            "EVT-00651",
+            "EVT-00652",
+            "EVT-00653"
+          ],
+          "reason": "Morgan Lee evaluated integration architecture, security requirements, and requested technical documentation, indicating technical evaluation responsibilities.",
+          "role": "technical_evaluator",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0214",
+          "evidence_ids": [
+            "EVT-00654",
+            "EVT-00655",
+            "EVT-00656"
+          ],
+          "reason": "Casey Garcia reviewed contract clauses, requested procurement compliance evidence, and negotiated terms, indicating procurement and legal responsibilities.",
+          "role": "procurement_legal",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0215",
+          "evidence_ids": [
+            "EVT-00657",
+            "EVT-00658",
+            "EVT-00659"
+          ],
+          "reason": "Jordan Garcia operates the system, demonstrated manual steps, and described practical challenges, indicating end-user responsibilities.",
+          "role": "end_user",
+          "source": "llm"
+        },
+        {
+          "abstained": true,
+          "confidence": 0.8,
+          "contact_id": "CON-0216",
+          "evidence_ids": [
+            "EVT-00660",
+            "EVT-00661",
+            "EVT-00662"
+          ],
+          "reason": "Quinn Wong's activities are limited to scheduling and receiving updates, with no decision-making evidence.",
+          "role": "unknown",
+          "source": "llm"
+        }
+      ],
+      "limitations": [
+        "Limited information on Quinn Wong's role beyond administrative tasks.",
+        "No direct evidence of final decision-making authority beyond Quinn Smith's confirmation of executive sign-off."
+      ],
+      "recommended_actions": [
+        {
+          "action": "Address the unresolved deployment issue urgently.",
+          "evidence_ids": [
+            "EVT-00663"
+          ],
+          "rationale": "The unresolved deployment issue is high-priority and may affect customer confidence."
+        }
+      ],
+      "risks": [
+        {
+          "category": "Deployment",
+          "description": "A high-priority deployment issue remains unresolved, potentially affecting customer confidence.",
+          "evidence_ids": [
+            "EVT-00663"
+          ],
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-037",
+      "cross_team_activity": [
+        {
+          "event_ids": [
+            "EVT-00664",
+            "EVT-00665",
+            "EVT-00666"
+          ],
+          "importance": "High",
+          "summary": "Taylor Patel coordinated stakeholders, promoted the solution, and prepared for executive discussions."
+        },
+        {
+          "event_ids": [
+            "EVT-00667",
+            "EVT-00668",
+            "EVT-00669"
+          ],
+          "importance": "High",
+          "summary": "Casey Kumar reviewed commercial value, funding, and required executive sign-off."
+        },
+        {
+          "event_ids": [
+            "EVT-00670",
+            "EVT-00671",
+            "EVT-00672"
+          ],
+          "importance": "High",
+          "summary": "Drew Lee evaluated integration architecture, security, and requested technical documentation."
+        },
+        {
+          "event_ids": [
+            "EVT-00673",
+            "EVT-00674",
+            "EVT-00675"
+          ],
+          "importance": "High",
+          "summary": "Avery Garcia handled supplier onboarding, purchasing conditions, and third-party reviews."
+        },
+        {
+          "event_ids": [
+            "EVT-00676",
+            "EVT-00677",
+            "EVT-00678"
+          ],
+          "importance": "Medium",
+          "summary": "Alex Lee will operate the system and provided insights on current and future workflows."
+        }
+      ],
+      "decision_roles": [
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0217",
+          "evidence_ids": [
+            "EVT-00664",
+            "EVT-00665",
+            "EVT-00666"
+          ],
+          "reason": "Taylor Patel coordinated stakeholders, promoted the solution, and prepared for executive discussions, indicating a champion role.",
+          "role": "champion",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0218",
+          "evidence_ids": [
+            "EVT-00667",
+            "EVT-00668",
+            "EVT-00669"
+          ],
+          "reason": "Casey Kumar reviewed commercial value, funding, and required executive sign-off, indicating economic buyer responsibilities.",
+          "role": "economic_buyer",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0219",
+          "evidence_ids": [
+            "EVT-00670",
+            "EVT-00671",
+            "EVT-00672"
+          ],
+          "reason": "Drew Lee evaluated integration architecture, security, and requested technical documentation, indicating a technical evaluator role.",
+          "role": "technical_evaluator",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0220",
+          "evidence_ids": [
+            "EVT-00673",
+            "EVT-00674",
+            "EVT-00675"
+          ],
+          "reason": "Avery Garcia handled supplier onboarding, purchasing conditions, and third-party reviews, indicating a procurement/legal role.",
+          "role": "procurement_legal",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0221",
+          "evidence_ids": [
+            "EVT-00676",
+            "EVT-00677",
+            "EVT-00678"
+          ],
+          "reason": "Alex Lee will operate the system and provided insights on current and future workflows, indicating an end user role.",
+          "role": "end_user",
+          "source": "llm"
+        },
+        {
+          "abstained": true,
+          "confidence": 0.6,
+          "contact_id": "CON-0222",
+          "evidence_ids": [
+            "EVT-00679",
+            "EVT-00680",
+            "EVT-00681"
+          ],
+          "reason": "Riley Smith's activities were administrative and did not indicate a specific decision-making role.",
+          "role": "unknown",
+          "source": "llm"
+        }
+      ],
+      "limitations": [
+        "The role of Riley Smith remains unclear due to lack of decision-making activities.",
+        "The account is in the discovery stage, so roles and responsibilities may evolve as the engagement progresses."
+      ],
+      "recommended_actions": [
+        {
+          "action": "Engage Taylor Patel to facilitate further stakeholder alignment and adoption planning.",
+          "evidence_ids": [
+            "EVT-00664",
+            "EVT-00665"
+          ],
+          "rationale": "Taylor Patel has shown strong advocacy and coordination skills, which can be leveraged to drive the project forward."
+        },
+        {
+          "action": "Prepare a detailed ROI analysis for Casey Kumar to support budget approval.",
+          "evidence_ids": [
+            "EVT-00668"
+          ],
+          "rationale": "Casey Kumar requires quantified ROI for purchase approval, which is critical for advancing the deal."
+        },
+        {
+          "action": "Provide Drew Lee with comprehensive API documentation and a technical proof of concept.",
+          "evidence_ids": [
+            "EVT-00672"
+          ],
+          "rationale": "Drew Lee's technical evaluation is crucial for integration feasibility, and providing requested materials will aid in their assessment."
+        }
+      ],
+      "risks": []
+    },
+    {
+      "account_id": "ACC-038",
+      "cross_team_activity": [
+        {
+          "event_ids": [
+            "EVT-00682",
+            "EVT-00683",
+            "EVT-00684"
+          ],
+          "importance": "high",
+          "summary": "Alex Garcia coordinated stakeholders, promoted the solution, and organized adoption planning sessions."
+        },
+        {
+          "event_ids": [
+            "EVT-00685",
+            "EVT-00686",
+            "EVT-00687"
+          ],
+          "importance": "high",
+          "summary": "Riley Tan reviewed commercial value, requested ROI, and confirmed executive sign-off."
+        },
+        {
+          "event_ids": [
+            "EVT-00688",
+            "EVT-00689",
+            "EVT-00690"
+          ],
+          "importance": "high",
+          "summary": "Cameron Ng evaluated design compatibility and production standards, and requested a compatibility trial."
+        },
+        {
+          "event_ids": [
+            "EVT-00691",
+            "EVT-00692",
+            "EVT-00693"
+          ],
+          "importance": "high",
+          "summary": "Avery Smith handled supplier onboarding, negotiated purchasing conditions, and reviewed third-party compliance."
+        },
+        {
+          "event_ids": [
+            "EVT-00694",
+            "EVT-00695",
+            "EVT-00696"
+          ],
+          "importance": "medium",
+          "summary": "Quinn Wong tested workflows, provided usability feedback, and prepared for user pilot."
+        }
+      ],
+      "decision_roles": [
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0223",
+          "evidence_ids": [
+            "EVT-00682",
+            "EVT-00683",
+            "EVT-00684"
+          ],
+          "reason": "Alex Garcia coordinated stakeholders, promoted the solution, and organized adoption planning sessions, indicating a champion role.",
+          "role": "champion",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0224",
+          "evidence_ids": [
+            "EVT-00685",
+            "EVT-00686",
+            "EVT-00687"
+          ],
+          "reason": "Riley Tan reviewed commercial value, requested ROI, and confirmed executive sign-off, indicating economic buyer responsibilities.",
+          "role": "economic_buyer",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0225",
+          "evidence_ids": [
+            "EVT-00688",
+            "EVT-00689",
+            "EVT-00690"
+          ],
+          "reason": "Cameron Ng evaluated design compatibility, production standards, and requested a compatibility trial, indicating a technical evaluator role.",
+          "role": "technical_evaluator",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0226",
+          "evidence_ids": [
+            "EVT-00691",
+            "EVT-00692",
+            "EVT-00693"
+          ],
+          "reason": "Avery Smith handled supplier onboarding, negotiated purchasing conditions, and reviewed third-party compliance, indicating a procurement/legal role.",
+          "role": "procurement_legal",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0227",
+          "evidence_ids": [
+            "EVT-00694",
+            "EVT-00695",
+            "EVT-00696"
+          ],
+          "reason": "Quinn Wong tested workflows, provided usability feedback, and prepared for user pilot, indicating an end user role.",
+          "role": "end_user",
+          "source": "llm"
+        },
+        {
+          "abstained": true,
+          "confidence": 0.6,
+          "contact_id": "CON-0228",
+          "evidence_ids": [
+            "EVT-00697",
+            "EVT-00698",
+            "EVT-00699"
+          ],
+          "reason": "Cameron Smith's activities were administrative and lacked decision-making evidence, leading to an unknown role classification.",
+          "role": "unknown",
+          "source": "llm"
+        }
+      ],
+      "limitations": [
+        "The role of Cameron Smith remains unclear due to lack of decision-making evidence."
+      ],
+      "recommended_actions": [
+        {
+          "action": "Engage with Riley Tan to finalize budget approval and executive sign-off.",
+          "evidence_ids": [
+            "EVT-00685",
+            "EVT-00686",
+            "EVT-00687"
+          ],
+          "rationale": "Riley Tan is identified as the economic buyer and is involved in budget review and approval processes."
+        },
+        {
+          "action": "Coordinate with Alex Garcia to ensure continued stakeholder alignment and solution promotion.",
+          "evidence_ids": [
+            "EVT-00682",
+            "EVT-00683",
+            "EVT-00684"
+          ],
+          "rationale": "Alex Garcia is actively promoting the solution and coordinating stakeholders, crucial for adoption."
+        }
+      ],
+      "risks": []
+    },
+    {
+      "account_id": "ACC-039",
+      "cross_team_activity": [
+        {
+          "event_ids": [
+            "EVT-00700",
+            "EVT-00701",
+            "EVT-00702"
+          ],
+          "importance": "high",
+          "summary": "Cameron Tan coordinated stakeholders, promoted the solution, and prepared for executive discussions."
+        },
+        {
+          "event_ids": [
+            "EVT-00703",
+            "EVT-00704",
+            "EVT-00705"
+          ],
+          "importance": "high",
+          "summary": "Taylor Patel confirmed as the economic buyer with authority to release funds."
+        },
+        {
+          "event_ids": [
+            "EVT-00706",
+            "EVT-00707",
+            "EVT-00708"
+          ],
+          "importance": "medium",
+          "summary": "Taylor Lim evaluated technical compatibility and standards compliance."
+        },
+        {
+          "event_ids": [
+            "EVT-00709",
+            "EVT-00710",
+            "EVT-00711"
+          ],
+          "importance": "medium",
+          "summary": "Drew Lim handled contract review and procurement requirements."
+        }
+      ],
+      "decision_roles": [
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0229",
+          "evidence_ids": [
+            "EVT-00700",
+            "EVT-00701",
+            "EVT-00702"
+          ],
+          "reason": "Cameron Tan coordinated stakeholders, promoted the solution, and prepared for executive discussions, indicating a champion role.",
+          "role": "champion",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.95,
+          "contact_id": "CON-0230",
+          "evidence_ids": [
+            "EVT-00703",
+            "EVT-00704",
+            "EVT-00705"
+          ],
+          "reason": "Taylor Patel has the authority to release funds and their consent is required for the purchase, indicating an economic buyer role.",
+          "role": "economic_buyer",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0231",
+          "evidence_ids": [
+            "EVT-00706",
+            "EVT-00707",
+            "EVT-00708"
+          ],
+          "reason": "Taylor Lim evaluated design compatibility and production standards, indicating a technical evaluator role.",
+          "role": "technical_evaluator",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0232",
+          "evidence_ids": [
+            "EVT-00709",
+            "EVT-00710",
+            "EVT-00711"
+          ],
+          "reason": "Drew Lim reviewed contract clauses and requested procurement documents, indicating a procurement/legal role.",
+          "role": "procurement_legal",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0233",
+          "evidence_ids": [
+            "EVT-00712",
+            "EVT-00713",
+            "EVT-00714"
+          ],
+          "reason": "Casey Patel tested workflows and provided usability feedback, indicating an end user role.",
+          "role": "end_user",
+          "source": "llm"
+        },
+        {
+          "abstained": true,
+          "confidence": 0.6,
+          "contact_id": "CON-0234",
+          "evidence_ids": [
+            "EVT-00715",
+            "EVT-00716",
+            "EVT-00717"
+          ],
+          "reason": "Quinn Patel's activities were administrative and did not indicate a specific decision-making role.",
+          "role": "unknown",
+          "source": "llm"
+        }
+      ],
+      "limitations": [
+        "The role of Quinn Patel remains unclear due to lack of decision-making activities."
+      ],
+      "recommended_actions": [
+        {
+          "action": "Address the unresolved deployment issue urgently to maintain customer confidence.",
+          "evidence_ids": [
+            "EVT-00718"
+          ],
+          "rationale": "The unresolved deployment issue is high-priority and may affect customer confidence if not resolved quickly."
+        }
+      ],
+      "risks": [
+        {
+          "category": "deployment",
+          "description": "A high-priority deployment issue remains unresolved and may affect customer confidence.",
+          "evidence_ids": [
+            "EVT-00718"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-043",
+      "cross_team_activity": [
+        {
+          "event_ids": [
+            "EVT-00775",
+            "EVT-00776",
+            "EVT-00777"
+          ],
+          "importance": "High",
+          "summary": "Avery Garcia coordinated stakeholders, promoted the solution, and prepared for executive discussions."
+        },
+        {
+          "event_ids": [
+            "EVT-00778",
+            "EVT-00779",
+            "EVT-00780"
+          ],
+          "importance": "High",
+          "summary": "Riley Ng reviewed budget approval, requested ROI, and confirmed executive sign-off."
+        },
+        {
+          "event_ids": [
+            "EVT-00781",
+            "EVT-00782",
+            "EVT-00783"
+          ],
+          "importance": "High",
+          "summary": "Avery Smith tested design compatibility and compared solutions against standards."
+        },
+        {
+          "event_ids": [
+            "EVT-00784",
+            "EVT-00785",
+            "EVT-00786"
+          ],
+          "importance": "High",
+          "summary": "Morgan Tan handled supplier onboarding, purchasing conditions, and compliance checks."
+        },
+        {
+          "event_ids": [
+            "EVT-00787",
+            "EVT-00788",
+            "EVT-00789"
+          ],
+          "importance": "Medium",
+          "summary": "Morgan Patel tested workflows, provided usability feedback, and prepared for user training."
+        }
+      ],
+      "decision_roles": [
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0253",
+          "evidence_ids": [
+            "EVT-00775",
+            "EVT-00776",
+            "EVT-00777"
+          ],
+          "reason": "Avery Garcia coordinated stakeholders, promoted the solution, and prepared for executive discussions, indicating a champion role.",
+          "role": "champion",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0254",
+          "evidence_ids": [
+            "EVT-00778",
+            "EVT-00779",
+            "EVT-00780"
+          ],
+          "reason": "Riley Ng reviewed budget approval, requested ROI, and confirmed executive sign-off, indicating economic buyer responsibilities.",
+          "role": "economic_buyer",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0255",
+          "evidence_ids": [
+            "EVT-00781",
+            "EVT-00782",
+            "EVT-00783"
+          ],
+          "reason": "Avery Smith tested design compatibility and compared solutions against standards, indicating a technical evaluator role.",
+          "role": "technical_evaluator",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0256",
+          "evidence_ids": [
+            "EVT-00784",
+            "EVT-00785",
+            "EVT-00786"
+          ],
+          "reason": "Morgan Tan handled supplier onboarding, purchasing conditions, and compliance checks, indicating a procurement/legal role.",
+          "role": "procurement_legal",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.85,
+          "contact_id": "CON-0257",
+          "evidence_ids": [
+            "EVT-00787",
+            "EVT-00788",
+            "EVT-00789"
+          ],
+          "reason": "Morgan Patel tested workflows, provided usability feedback, and prepared for user training, indicating an end user role.",
+          "role": "end_user",
+          "source": "llm"
+        },
+        {
+          "abstained": true,
+          "confidence": 0.6,
+          "contact_id": "CON-0258",
+          "evidence_ids": [
+            "EVT-00790",
+            "EVT-00791",
+            "EVT-00792"
+          ],
+          "reason": "Casey Kumar's activities were administrative and did not indicate a specific decision-making role.",
+          "role": "unknown",
+          "source": "llm"
+        }
+      ],
+      "limitations": [
+        "Casey Kumar's role is unclear due to lack of decision-making activities."
+      ],
+      "recommended_actions": [
+        {
+          "action": "Engage with Avery Garcia to leverage their champion role for smoother stakeholder alignment.",
+          "evidence_ids": [
+            "EVT-00775",
+            "EVT-00776",
+            "EVT-00777"
+          ],
+          "rationale": "Avery Garcia has shown strong advocacy and coordination skills, which can be pivotal in driving the project forward."
+        },
+        {
+          "action": "Ensure Riley Ng is provided with a detailed ROI analysis to facilitate budget approval.",
+          "evidence_ids": [
+            "EVT-00778",
+            "EVT-00779"
+          ],
+          "rationale": "Riley Ng's role as economic buyer requires clear financial justification to proceed with the purchase."
+        }
+      ],
+      "risks": []
+    },
+    {
+      "account_id": "ACC-045",
+      "cross_team_activity": [
+        {
+          "event_ids": [
+            "EVT-00811",
+            "EVT-00812",
+            "EVT-00813"
+          ],
+          "importance": "High",
+          "summary": "Taylor Lim coordinated cross-departmental efforts and facilitated executive introductions."
+        },
+        {
+          "event_ids": [
+            "EVT-00814",
+            "EVT-00815",
+            "EVT-00816"
+          ],
+          "importance": "High",
+          "summary": "Jordan Lee's financial authority confirmed, crucial for purchase decisions."
+        },
+        {
+          "event_ids": [
+            "EVT-00817",
+            "EVT-00818",
+            "EVT-00819"
+          ],
+          "importance": "High",
+          "summary": "Jordan Chen conducted technical evaluations and requested integration documentation."
+        },
+        {
+          "event_ids": [
+            "EVT-00820",
+            "EVT-00821",
+            "EVT-00822"
+          ],
+          "importance": "High",
+          "summary": "Casey Tan handled contract reviews and procurement compliance."
+        }
+      ],
+      "decision_roles": [
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0265",
+          "evidence_ids": [
+            "EVT-00811",
+            "EVT-00812",
+            "EVT-00813"
+          ],
+          "reason": "Taylor Lim has coordinated multiple departments, persuaded colleagues to join evaluations, and introduced the team to executives, indicating a champion role.",
+          "role": "champion",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0266",
+          "evidence_ids": [
+            "EVT-00814",
+            "EVT-00815",
+            "EVT-00816"
+          ],
+          "reason": "Jordan Lee is confirmed to have the authority to release funds and make final financial decisions, indicating an economic buyer role.",
+          "role": "economic_buyer",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0267",
+          "evidence_ids": [
+            "EVT-00817",
+            "EVT-00818",
+            "EVT-00819"
+          ],
+          "reason": "Jordan Chen evaluated integration architecture, security, and requested technical documentation, indicating a technical evaluator role.",
+          "role": "technical_evaluator",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0268",
+          "evidence_ids": [
+            "EVT-00820",
+            "EVT-00821",
+            "EVT-00822"
+          ],
+          "reason": "Casey Tan reviewed contracts, requested procurement documents, and negotiated terms, indicating a procurement/legal role.",
+          "role": "procurement_legal",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0269",
+          "evidence_ids": [
+            "EVT-00823",
+            "EVT-00824",
+            "EVT-00825"
+          ],
+          "reason": "Avery Lee tested workflows, provided usability feedback, and prepared for user training, indicating an end user role.",
+          "role": "end_user",
+          "source": "llm"
+        },
+        {
+          "abstained": true,
+          "confidence": 0.8,
+          "contact_id": "CON-0270",
+          "evidence_ids": [
+            "EVT-00826",
+            "EVT-00827",
+            "EVT-00828"
+          ],
+          "reason": "Alex Lim's activities are administrative and lack decision-making evidence, leading to an unknown role.",
+          "role": "unknown",
+          "source": "llm"
+        }
+      ],
+      "limitations": [
+        "Alex Lim's role is unclear due to lack of decision-making evidence.",
+        "The account is in technical validation stage, which may limit commercial insights."
+      ],
+      "recommended_actions": [
+        {
+          "action": "Address the unresolved deployment issue urgently.",
+          "evidence_ids": [
+            "EVT-00829"
+          ],
+          "rationale": "The issue is high-priority and may affect customer confidence if not resolved."
+        }
+      ],
+      "risks": [
+        {
+          "category": "Deployment",
+          "description": "A high-priority deployment issue remains unresolved, potentially affecting customer confidence.",
+          "evidence_ids": [
+            "EVT-00829"
+          ],
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-048",
+      "cross_team_activity": [
+        {
+          "event_ids": [
+            "EVT-00866",
+            "EVT-00867",
+            "EVT-00868"
+          ],
+          "importance": "High",
+          "summary": "Jordan Lim coordinated stakeholders, promoted the solution, and prepared for executive discussions."
+        },
+        {
+          "event_ids": [
+            "EVT-00869",
+            "EVT-00870",
+            "EVT-00871"
+          ],
+          "importance": "High",
+          "summary": "Morgan Tan reviewed budget approval, requested ROI, and confirmed executive sign-off."
+        },
+        {
+          "event_ids": [
+            "EVT-00872",
+            "EVT-00873",
+            "EVT-00874"
+          ],
+          "importance": "Medium",
+          "summary": "Avery Lim tested design compatibility and compared solutions against standards."
+        },
+        {
+          "event_ids": [
+            "EVT-00875",
+            "EVT-00876",
+            "EVT-00877"
+          ],
+          "importance": "Medium",
+          "summary": "Avery Chen controlled supplier onboarding and negotiated purchasing conditions."
+        },
+        {
+          "event_ids": [
+            "EVT-00878",
+            "EVT-00879",
+            "EVT-00880"
+          ],
+          "importance": "Medium",
+          "summary": "Jordan Tan tested workflows and described end user concerns."
+        }
+      ],
+      "decision_roles": [
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0283",
+          "evidence_ids": [
+            "EVT-00866",
+            "EVT-00867",
+            "EVT-00868"
+          ],
+          "reason": "Jordan Lim coordinated stakeholders, promoted the solution, and prepared for executive discussions, indicating a champion role.",
+          "role": "champion",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0284",
+          "evidence_ids": [
+            "EVT-00869",
+            "EVT-00870",
+            "EVT-00871"
+          ],
+          "reason": "Morgan Tan reviewed budget approval, requested ROI, and confirmed executive sign-off, indicating economic buyer responsibilities.",
+          "role": "economic_buyer",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0285",
+          "evidence_ids": [
+            "EVT-00872",
+            "EVT-00873",
+            "EVT-00874"
+          ],
+          "reason": "Avery Lim tested design compatibility and compared solutions against standards, indicating technical evaluation activities.",
+          "role": "technical_evaluator",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0286",
+          "evidence_ids": [
+            "EVT-00875",
+            "EVT-00876",
+            "EVT-00877"
+          ],
+          "reason": "Avery Chen controlled supplier onboarding and negotiated purchasing conditions, indicating procurement responsibilities.",
+          "role": "procurement_legal",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0287",
+          "evidence_ids": [
+            "EVT-00878",
+            "EVT-00879",
+            "EVT-00880"
+          ],
+          "reason": "Jordan Tan tested workflows and described end user concerns, indicating an end user role.",
+          "role": "end_user",
+          "source": "llm"
+        },
+        {
+          "abstained": true,
+          "confidence": 0.8,
+          "contact_id": "CON-0288",
+          "evidence_ids": [
+            "EVT-00881",
+            "EVT-00882",
+            "EVT-00883"
+          ],
+          "reason": "Cameron Garcia's activities were administrative with no decision-making evidence, leading to an unknown role classification.",
+          "role": "unknown",
+          "source": "llm"
+        }
+      ],
+      "limitations": [
+        "Cameron Garcia's role is unclear due to lack of decision-making evidence.",
+        "The account is in the contracting stage, which may limit insights into post-contract activities."
+      ],
+      "recommended_actions": [
+        {
+          "action": "Address the unresolved deployment issue urgently.",
+          "evidence_ids": [
+            "EVT-00884"
+          ],
+          "rationale": "The unresolved deployment issue is high-priority and may affect customer confidence."
+        },
+        {
+          "action": "Engage with Morgan Tan to finalize budget approval and executive sign-off.",
+          "evidence_ids": [
+            "EVT-00869",
+            "EVT-00870",
+            "EVT-00871"
+          ],
+          "rationale": "Morgan Tan is identified as the economic buyer and is involved in budget approval and executive sign-off processes."
+        }
+      ],
+      "risks": [
+        {
+          "category": "Deployment",
+          "description": "A high-priority deployment issue remains unresolved and may affect customer confidence.",
+          "evidence_ids": [
+            "EVT-00884"
+          ],
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-056",
+      "cross_team_activity": [
+        {
+          "event_ids": [
+            "EVT-01014",
+            "EVT-01015",
+            "EVT-01016"
+          ],
+          "importance": "High",
+          "summary": "Jordan Patel coordinated cross-departmental efforts and facilitated executive introductions."
+        },
+        {
+          "event_ids": [
+            "EVT-01017",
+            "EVT-01018",
+            "EVT-01019"
+          ],
+          "importance": "High",
+          "summary": "Alex Wong engaged in budget discussions and executive approval processes."
+        },
+        {
+          "event_ids": [
+            "EVT-01020",
+            "EVT-01021",
+            "EVT-01022"
+          ],
+          "importance": "High",
+          "summary": "Riley Garcia conducted technical evaluations and integration workshops."
+        },
+        {
+          "event_ids": [
+            "EVT-01023",
+            "EVT-01024",
+            "EVT-01025"
+          ],
+          "importance": "High",
+          "summary": "Casey Lim managed contract reviews and procurement compliance."
+        }
+      ],
+      "decision_roles": [
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0331",
+          "evidence_ids": [
+            "EVT-01014",
+            "EVT-01015",
+            "EVT-01016"
+          ],
+          "reason": "Jordan Patel coordinated stakeholders, volunteered for follow-ups, persuaded colleagues, and introduced the team to executives, indicating champion behavior.",
+          "role": "champion",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0332",
+          "evidence_ids": [
+            "EVT-01017",
+            "EVT-01018",
+            "EVT-01019"
+          ],
+          "reason": "Alex Wong reviewed budget approval, requested ROI, and confirmed executive sign-off, indicating economic buyer behavior.",
+          "role": "economic_buyer",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0333",
+          "evidence_ids": [
+            "EVT-01020",
+            "EVT-01021",
+            "EVT-01022"
+          ],
+          "reason": "Riley Garcia evaluated architecture, raised security requirements, and requested API documentation, indicating technical evaluator behavior.",
+          "role": "technical_evaluator",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0334",
+          "evidence_ids": [
+            "EVT-01023",
+            "EVT-01024",
+            "EVT-01025"
+          ],
+          "reason": "Casey Lim reviewed contracts, requested procurement documents, and negotiated terms, indicating procurement/legal behavior.",
+          "role": "procurement_legal",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0335",
+          "evidence_ids": [
+            "EVT-01026",
+            "EVT-01027",
+            "EVT-01028"
+          ],
+          "reason": "Alex Tan demonstrated manual steps, tried tasks, and explained current practices, indicating end user behavior.",
+          "role": "end_user",
+          "source": "llm"
+        },
+        {
+          "abstained": true,
+          "confidence": 0.8,
+          "contact_id": "CON-0336",
+          "evidence_ids": [
+            "EVT-01029",
+            "EVT-01030",
+            "EVT-01031"
+          ],
+          "reason": "Drew Garcia's activities were administrative and lacked decision-making evidence, leading to an unknown role classification.",
+          "role": "unknown",
+          "source": "llm"
+        }
+      ],
+      "limitations": [
+        "Limited information on Drew Garcia's role and influence within the account.",
+        "No direct evidence of final decision-making authority beyond Alex Wong's confirmation of executive sign-off."
+      ],
+      "recommended_actions": [
+        {
+          "action": "Strengthen relationship with Jordan Patel.",
+          "evidence_ids": [
+            "EVT-01014",
+            "EVT-01015",
+            "EVT-01016"
+          ],
+          "rationale": "Jordan Patel is actively coordinating stakeholders and driving the initiative forward, making them a key champion."
+        },
+        {
+          "action": "Ensure Alex Wong has all necessary ROI data.",
+          "evidence_ids": [
+            "EVT-01018"
+          ],
+          "rationale": "Alex Wong requires quantified ROI for budget approval, which is crucial for moving forward."
+        }
+      ],
+      "risks": [
+        {
+          "category": "Procurement",
+          "description": "Potential delays in procurement due to complex contract negotiations and compliance requirements.",
+          "evidence_ids": [
+            "EVT-01023",
+            "EVT-01024",
+            "EVT-01025"
+          ],
+          "severity": "Medium"
+        }
+      ]
+    },
+    {
+      "account_id": "ACC-059",
+      "cross_team_activity": [
+        {
+          "event_ids": [
+            "EVT-01069",
+            "EVT-01070",
+            "EVT-01071"
+          ],
+          "importance": "High",
+          "summary": "Morgan Kumar actively coordinated stakeholders, promoted the solution, and prepared for executive discussions."
+        },
+        {
+          "event_ids": [
+            "EVT-01072",
+            "EVT-01073",
+            "EVT-01074"
+          ],
+          "importance": "High",
+          "summary": "Jordan Lim confirmed funding authority and discussed financial consent and value justification."
+        },
+        {
+          "event_ids": [
+            "EVT-01075",
+            "EVT-01076",
+            "EVT-01077"
+          ],
+          "importance": "Medium",
+          "summary": "Cameron Lee evaluated design compatibility and standards compliance."
+        },
+        {
+          "event_ids": [
+            "EVT-01078",
+            "EVT-01079",
+            "EVT-01080"
+          ],
+          "importance": "Medium",
+          "summary": "Avery Patel handled contract review and procurement compliance."
+        },
+        {
+          "event_ids": [
+            "EVT-01081",
+            "EVT-01082",
+            "EVT-01083"
+          ],
+          "importance": "Medium",
+          "summary": "Riley Tan provided usability feedback and prepared for user pilot."
+        }
+      ],
+      "decision_roles": [
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0349",
+          "evidence_ids": [
+            "EVT-01069",
+            "EVT-01070",
+            "EVT-01071"
+          ],
+          "reason": "Morgan Kumar coordinated stakeholders, promoted the solution, and prepared the team for executive discussions, indicating a champion role.",
+          "role": "champion",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.95,
+          "contact_id": "CON-0350",
+          "evidence_ids": [
+            "EVT-01072",
+            "EVT-01073",
+            "EVT-01074"
+          ],
+          "reason": "Jordan Lim is confirmed to have the authority to release funds and is involved in discussions about financial consent and value justification, indicating an economic buyer role.",
+          "role": "economic_buyer",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0351",
+          "evidence_ids": [
+            "EVT-01075",
+            "EVT-01076",
+            "EVT-01077"
+          ],
+          "reason": "Cameron Lee tested design compatibility, compared solutions against standards, and requested a compatibility trial, indicating a technical evaluator role.",
+          "role": "technical_evaluator",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0352",
+          "evidence_ids": [
+            "EVT-01078",
+            "EVT-01079",
+            "EVT-01080"
+          ],
+          "reason": "Avery Patel reviewed contracts, requested procurement documents, and negotiated terms, indicating a procurement/legal role.",
+          "role": "procurement_legal",
+          "source": "llm"
+        },
+        {
+          "abstained": false,
+          "confidence": 0.9,
+          "contact_id": "CON-0353",
+          "evidence_ids": [
+            "EVT-01081",
+            "EVT-01082",
+            "EVT-01083"
+          ],
+          "reason": "Riley Tan tested workflows, reported usability feedback, and prepared user pilot cases, indicating an end user role.",
+          "role": "end_user",
+          "source": "llm"
+        },
+        {
+          "abstained": true,
+          "confidence": 0.8,
+          "contact_id": "CON-0354",
+          "evidence_ids": [
+            "EVT-01084",
+            "EVT-01085",
+            "EVT-01086"
+          ],
+          "reason": "Avery Kumar's activities are limited to scheduling and receiving updates, with no clear decision-making role evidenced.",
+          "role": "unknown",
+          "source": "llm"
+        }
+      ],
+      "limitations": [
+        "Limited information on Avery Kumar's role beyond administrative tasks.",
+        "No direct evidence of final purchase decision-making beyond Jordan Lim's financial authority."
+      ],
+      "recommended_actions": [
+        {
+          "action": "Engage with Morgan Kumar to leverage their champion role for smoother stakeholder alignment.",
+          "evidence_ids": [
+            "EVT-01069",
+            "EVT-01070",
+            "EVT-01071"
+          ],
+          "rationale": "Morgan Kumar has shown active involvement in promoting the solution and coordinating stakeholders."
+        },
+        {
+          "action": "Confirm final budget approval with Jordan Lim to ensure economic buy-in.",
+          "evidence_ids": [
+            "EVT-01072",
+            "EVT-01073",
+            "EVT-01074"
+          ],
+          "rationale": "Jordan Lim holds the authority to release funds and is involved in financial discussions."
+        }
+      ],
+      "risks": [
+        {
+          "category": "Procurement",
+          "description": "Potential delays in procurement due to ongoing negotiations and compliance checks.",
+          "evidence_ids": [
+            "EVT-01078",
+            "EVT-01079",
+            "EVT-01080"
+          ],
+          "severity": "Medium"
+        }
+      ]
+    }
+  ],
+  "critical_event_recall": 1.0,
+  "evidence_precision": 1.0,
+  "experiment": "M2",
+  "metrics": {
+    "accuracy": 1.0,
+    "confusion_matrix": {
+      "champion": {
+        "champion": 20,
+        "economic_buyer": 0,
+        "end_user": 0,
+        "procurement_legal": 0,
+        "technical_evaluator": 0,
+        "unknown": 0
+      },
+      "economic_buyer": {
+        "champion": 0,
+        "economic_buyer": 20,
+        "end_user": 0,
+        "procurement_legal": 0,
+        "technical_evaluator": 0,
+        "unknown": 0
+      },
+      "end_user": {
+        "champion": 0,
+        "economic_buyer": 0,
+        "end_user": 20,
+        "procurement_legal": 0,
+        "technical_evaluator": 0,
+        "unknown": 0
+      },
+      "procurement_legal": {
+        "champion": 0,
+        "economic_buyer": 0,
+        "end_user": 0,
+        "procurement_legal": 20,
+        "technical_evaluator": 0,
+        "unknown": 0
+      },
+      "technical_evaluator": {
+        "champion": 0,
+        "economic_buyer": 0,
+        "end_user": 0,
+        "procurement_legal": 0,
+        "technical_evaluator": 20,
+        "unknown": 0
+      },
+      "unknown": {
+        "champion": 0,
+        "economic_buyer": 0,
+        "end_user": 0,
+        "procurement_legal": 0,
+        "technical_evaluator": 0,
+        "unknown": 20
+      }
+    },
+    "coverage": 0.8333,
+    "macro_f1": 1.0,
+    "per_class": {
+      "champion": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 20
+      },
+      "economic_buyer": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 20
+      },
+      "end_user": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 20
+      },
+      "procurement_legal": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 20
+      },
+      "technical_evaluator": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 20
+      },
+      "unknown": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "support": 20
+      }
+    },
+    "samples": 120
+  },
+  "mode": "live",
+  "model": "openai/gpt-4o",
+  "predictions": [
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0013",
+      "evidence_ids": [
+        "EVT-00037",
+        "EVT-00038",
+        "EVT-00039"
+      ],
+      "reason": "Alex Patel coordinated stakeholders, promoted the solution, and prepared for executive discussions, indicating a champion role.",
+      "role": "champion",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0014",
+      "evidence_ids": [
+        "EVT-00040",
+        "EVT-00041",
+        "EVT-00042"
+      ],
+      "reason": "Drew Lim reviewed budget approval, requested ROI, and confirmed executive sign-off, indicating economic buyer responsibilities.",
+      "role": "economic_buyer",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0015",
+      "evidence_ids": [
+        "EVT-00043",
+        "EVT-00044",
+        "EVT-00045"
+      ],
+      "reason": "Jordan Tan tested design compatibility and compared solutions against standards, indicating a technical evaluator role.",
+      "role": "technical_evaluator",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0016",
+      "evidence_ids": [
+        "EVT-00046",
+        "EVT-00047",
+        "EVT-00048"
+      ],
+      "reason": "Cameron Smith handled supplier onboarding and negotiated purchasing conditions, indicating procurement responsibilities.",
+      "role": "procurement_legal",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0017",
+      "evidence_ids": [
+        "EVT-00049",
+        "EVT-00050",
+        "EVT-00051"
+      ],
+      "reason": "Drew Garcia tested workflows and provided user feedback, indicating an end user role.",
+      "role": "end_user",
+      "source": "llm"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.8,
+      "contact_id": "CON-0018",
+      "evidence_ids": [
+        "EVT-00052",
+        "EVT-00053",
+        "EVT-00054"
+      ],
+      "reason": "Jordan Ng's activities were administrative and did not indicate a specific decision-making role.",
+      "role": "unknown",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0031",
+      "evidence_ids": [
+        "EVT-00092",
+        "EVT-00093",
+        "EVT-00094"
+      ],
+      "reason": "Cameron Lee has coordinated multiple departments, persuaded colleagues to join evaluations, and introduced the team to executives, indicating strong advocacy and internal navigation skills.",
+      "role": "champion",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0032",
+      "evidence_ids": [
+        "EVT-00095",
+        "EVT-00096",
+        "EVT-00097"
+      ],
+      "reason": "Riley Patel reviewed commercial value, funding availability, and confirmed executive sign-off is required, indicating budget ownership and final purchase authority.",
+      "role": "economic_buyer",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0033",
+      "evidence_ids": [
+        "EVT-00098",
+        "EVT-00099",
+        "EVT-00100"
+      ],
+      "reason": "Drew Patel evaluated integration architecture, raised security requirements, and requested API documentation, indicating a focus on technical feasibility and implementation.",
+      "role": "technical_evaluator",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0034",
+      "evidence_ids": [
+        "EVT-00101",
+        "EVT-00102",
+        "EVT-00103"
+      ],
+      "reason": "Taylor Ng reviewed contract clauses, requested procurement documents, and proposed changes to commercial terms, indicating involvement in procurement and legal processes.",
+      "role": "procurement_legal",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0035",
+      "evidence_ids": [
+        "EVT-00104",
+        "EVT-00105",
+        "EVT-00106"
+      ],
+      "reason": "Quinn Patel operates the system during shifts and demonstrated current manual steps, indicating direct usage and operational requirements.",
+      "role": "end_user",
+      "source": "llm"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.8,
+      "contact_id": "CON-0036",
+      "evidence_ids": [
+        "EVT-00107",
+        "EVT-00108",
+        "EVT-00109"
+      ],
+      "reason": "Jordan Patel's activities are administrative and lack decision-making evidence, such as scheduling meetings and receiving updates.",
+      "role": "unknown",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0037",
+      "evidence_ids": [
+        "EVT-00111",
+        "EVT-00112",
+        "EVT-00113"
+      ],
+      "reason": "Taylor Wong coordinated stakeholders, promoted the solution, and prepared for executive discussions, indicating a champion role.",
+      "role": "champion",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.95,
+      "contact_id": "CON-0038",
+      "evidence_ids": [
+        "EVT-00114",
+        "EVT-00115",
+        "EVT-00116"
+      ],
+      "reason": "Jordan Chen reviewed commercial value, funding availability, and confirmed executive sign-off, indicating economic buyer responsibilities.",
+      "role": "economic_buyer",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0039",
+      "evidence_ids": [
+        "EVT-00117",
+        "EVT-00118",
+        "EVT-00119"
+      ],
+      "reason": "Taylor Lee evaluated integration architecture, security requirements, and requested technical documentation, indicating a technical evaluator role.",
+      "role": "technical_evaluator",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0040",
+      "evidence_ids": [
+        "EVT-00120",
+        "EVT-00121",
+        "EVT-00122"
+      ],
+      "reason": "Taylor Ng controls supplier onboarding and negotiated purchasing conditions, indicating a procurement/legal role.",
+      "role": "procurement_legal",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0041",
+      "evidence_ids": [
+        "EVT-00123",
+        "EVT-00124",
+        "EVT-00125"
+      ],
+      "reason": "Avery Garcia will operate the system and described current manual steps, indicating an end user role.",
+      "role": "end_user",
+      "source": "llm"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.8,
+      "contact_id": "CON-0042",
+      "evidence_ids": [
+        "EVT-00126",
+        "EVT-00127",
+        "EVT-00128"
+      ],
+      "reason": "Riley Smith's activities were administrative and lacked decision-making evidence, leading to an unknown role classification.",
+      "role": "unknown",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0043",
+      "evidence_ids": [
+        "EVT-00129",
+        "EVT-00130",
+        "EVT-00131"
+      ],
+      "reason": "Cameron Wong coordinated stakeholders, promoted the solution, and prepared the team for executive discussions, indicating a champion role.",
+      "role": "champion",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0044",
+      "evidence_ids": [
+        "EVT-00132",
+        "EVT-00133",
+        "EVT-00134"
+      ],
+      "reason": "Taylor Lim reviewed commercial value, requested ROI, and confirmed executive sign-off, indicating budget ownership and purchase authority.",
+      "role": "economic_buyer",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0045",
+      "evidence_ids": [
+        "EVT-00135",
+        "EVT-00136",
+        "EVT-00137"
+      ],
+      "reason": "Quinn Kumar tested design compatibility and compared solutions against standards, indicating a technical evaluation role.",
+      "role": "technical_evaluator",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0046",
+      "evidence_ids": [
+        "EVT-00138",
+        "EVT-00139",
+        "EVT-00140"
+      ],
+      "reason": "Alex Patel controlled supplier onboarding and negotiated purchasing conditions, indicating a procurement role.",
+      "role": "procurement_legal",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0047",
+      "evidence_ids": [
+        "EVT-00141",
+        "EVT-00142",
+        "EVT-00143"
+      ],
+      "reason": "Casey Lee tested workflows and reported usability feedback, indicating an end user role.",
+      "role": "end_user",
+      "source": "llm"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.8,
+      "contact_id": "CON-0048",
+      "evidence_ids": [
+        "EVT-00144",
+        "EVT-00145",
+        "EVT-00146"
+      ],
+      "reason": "Taylor Kumar's activities were administrative and did not indicate a specific decision-making role.",
+      "role": "unknown",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0061",
+      "evidence_ids": [
+        "EVT-00185",
+        "EVT-00186",
+        "EVT-00187"
+      ],
+      "reason": "Alex Kumar coordinated multiple departments, persuaded colleagues to join evaluations, and introduced the team to executives, indicating a champion role.",
+      "role": "champion",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.95,
+      "contact_id": "CON-0062",
+      "evidence_ids": [
+        "EVT-00188",
+        "EVT-00189",
+        "EVT-00190"
+      ],
+      "reason": "Avery Garcia reviewed budget approval, requested ROI, and confirmed executive sign-off, indicating economic buyer responsibilities.",
+      "role": "economic_buyer",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0063",
+      "evidence_ids": [
+        "EVT-00191",
+        "EVT-00192",
+        "EVT-00193"
+      ],
+      "reason": "Morgan Kumar evaluated integration architecture, security requirements, and requested technical documentation, indicating a technical evaluator role.",
+      "role": "technical_evaluator",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0064",
+      "evidence_ids": [
+        "EVT-00194",
+        "EVT-00195",
+        "EVT-00196"
+      ],
+      "reason": "Alex Patel reviewed contract clauses, requested procurement documents, and negotiated terms, indicating a procurement/legal role.",
+      "role": "procurement_legal",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0065",
+      "evidence_ids": [
+        "EVT-00197",
+        "EVT-00198",
+        "EVT-00199"
+      ],
+      "reason": "Avery Wong demonstrated manual steps, tried tasks, and reviewed working practices, indicating an end user role.",
+      "role": "end_user",
+      "source": "llm"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.8,
+      "contact_id": "CON-0066",
+      "evidence_ids": [
+        "EVT-00200",
+        "EVT-00201",
+        "EVT-00202"
+      ],
+      "reason": "Jordan Chen's activities were administrative and lacked decision-making evidence, leading to an unknown role classification.",
+      "role": "unknown",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0067",
+      "evidence_ids": [
+        "EVT-00203",
+        "EVT-00204",
+        "EVT-00205"
+      ],
+      "reason": "Morgan Lee coordinated stakeholders, promoted the solution, and prepared the team for executive discussions, indicating a champion role.",
+      "role": "champion",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0068",
+      "evidence_ids": [
+        "EVT-00206",
+        "EVT-00207",
+        "EVT-00208"
+      ],
+      "reason": "Drew Ng reviewed budget approval, requested ROI, and confirmed executive sign-off, indicating economic buyer responsibilities.",
+      "role": "economic_buyer",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0069",
+      "evidence_ids": [
+        "EVT-00209",
+        "EVT-00210",
+        "EVT-00211"
+      ],
+      "reason": "Quinn Smith evaluated integration architecture, security requirements, and requested technical documentation, indicating a technical evaluator role.",
+      "role": "technical_evaluator",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0070",
+      "evidence_ids": [
+        "EVT-00212",
+        "EVT-00213",
+        "EVT-00214"
+      ],
+      "reason": "Alex Chen controls supplier onboarding, negotiates purchasing conditions, and reviews third-party compliance, indicating a procurement/legal role.",
+      "role": "procurement_legal",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0071",
+      "evidence_ids": [
+        "EVT-00215",
+        "EVT-00216",
+        "EVT-00217"
+      ],
+      "reason": "Drew Lim operates the system, trials tasks, and reviews working practices, indicating an end user role.",
+      "role": "end_user",
+      "source": "llm"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.8,
+      "contact_id": "CON-0072",
+      "evidence_ids": [
+        "EVT-00218",
+        "EVT-00219",
+        "EVT-00220"
+      ],
+      "reason": "Taylor Wong's activities are administrative with no decision-making evidence, leading to an unknown role classification.",
+      "role": "unknown",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0097",
+      "evidence_ids": [
+        "EVT-00295",
+        "EVT-00296",
+        "EVT-00297"
+      ],
+      "reason": "Quinn Ng coordinated stakeholders, promoted the solution, and planned adoption activities, indicating a champion role.",
+      "role": "champion",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0098",
+      "evidence_ids": [
+        "EVT-00298",
+        "EVT-00299",
+        "EVT-00300"
+      ],
+      "reason": "Quinn Kumar reviewed budget approval, requested ROI, and confirmed executive sign-off, indicating economic buyer responsibilities.",
+      "role": "economic_buyer",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0099",
+      "evidence_ids": [
+        "EVT-00301",
+        "EVT-00302",
+        "EVT-00303"
+      ],
+      "reason": "Alex Tan evaluated architecture, security, and requested technical documentation, indicating a technical evaluator role.",
+      "role": "technical_evaluator",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0100",
+      "evidence_ids": [
+        "EVT-00304",
+        "EVT-00305",
+        "EVT-00306"
+      ],
+      "reason": "Riley Lim handled supplier onboarding, purchasing conditions, and third-party reviews, indicating procurement/legal responsibilities.",
+      "role": "procurement_legal",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0101",
+      "evidence_ids": [
+        "EVT-00307",
+        "EVT-00308",
+        "EVT-00309"
+      ],
+      "reason": "Drew Patel demonstrated manual steps, tried tasks, and explained current practices, indicating end-user involvement.",
+      "role": "end_user",
+      "source": "llm"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.8,
+      "contact_id": "CON-0102",
+      "evidence_ids": [
+        "EVT-00310",
+        "EVT-00311",
+        "EVT-00312"
+      ],
+      "reason": "Alex Garcia's activities were administrative and lacked decision-making evidence, leading to an unknown role classification.",
+      "role": "unknown",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0151",
+      "evidence_ids": [
+        "EVT-00461",
+        "EVT-00462",
+        "EVT-00463"
+      ],
+      "reason": "Drew Wong coordinated stakeholders, volunteered for follow-ups, and introduced the team to executives, indicating advocacy and internal navigation.",
+      "role": "champion",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0152",
+      "evidence_ids": [
+        "EVT-00464",
+        "EVT-00465",
+        "EVT-00466"
+      ],
+      "reason": "Cameron Lim reviewed budget approval, requested ROI, and confirmed executive sign-off, indicating budget ownership and final purchase authority.",
+      "role": "economic_buyer",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0153",
+      "evidence_ids": [
+        "EVT-00467",
+        "EVT-00468",
+        "EVT-00469"
+      ],
+      "reason": "Quinn Lim evaluated integration architecture, security requirements, and requested technical documentation, indicating technical evaluation responsibilities.",
+      "role": "technical_evaluator",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0154",
+      "evidence_ids": [
+        "EVT-00470",
+        "EVT-00471",
+        "EVT-00472"
+      ],
+      "reason": "Drew Ng reviewed contract clauses, requested procurement documents, and negotiated terms, indicating procurement and legal responsibilities.",
+      "role": "procurement_legal",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0155",
+      "evidence_ids": [
+        "EVT-00473",
+        "EVT-00474",
+        "EVT-00475"
+      ],
+      "reason": "Casey Ng demonstrated manual steps, tried tasks, and explained current practices, indicating end-user responsibilities.",
+      "role": "end_user",
+      "source": "llm"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.8,
+      "contact_id": "CON-0156",
+      "evidence_ids": [
+        "EVT-00476",
+        "EVT-00477",
+        "EVT-00478"
+      ],
+      "reason": "Cameron Smith's activities were administrative and lacked decision-making evidence, leading to an unknown role classification.",
+      "role": "unknown",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0187",
+      "evidence_ids": [
+        "EVT-00572",
+        "EVT-00573",
+        "EVT-00574"
+      ],
+      "reason": "Taylor Lim coordinated stakeholders, promoted the solution, and prepared for executive discussions, indicating a champion role.",
+      "role": "champion",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0188",
+      "evidence_ids": [
+        "EVT-00575",
+        "EVT-00576",
+        "EVT-00577"
+      ],
+      "reason": "Casey Tan reviewed commercial value, requested ROI, and confirmed executive sign-off, indicating economic buyer responsibilities.",
+      "role": "economic_buyer",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0189",
+      "evidence_ids": [
+        "EVT-00578",
+        "EVT-00579",
+        "EVT-00580"
+      ],
+      "reason": "Quinn Lim evaluated integration architecture, raised security requirements, and requested technical documentation, indicating a technical evaluator role.",
+      "role": "technical_evaluator",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0190",
+      "evidence_ids": [
+        "EVT-00581",
+        "EVT-00582",
+        "EVT-00583"
+      ],
+      "reason": "Quinn Wong handled supplier onboarding, negotiated purchasing conditions, and reviewed third-party compliance, indicating a procurement/legal role.",
+      "role": "procurement_legal",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0191",
+      "evidence_ids": [
+        "EVT-00584",
+        "EVT-00585",
+        "EVT-00586"
+      ],
+      "reason": "Quinn Ng will operate the system, demonstrated manual steps, and described workflow changes, indicating an end user role.",
+      "role": "end_user",
+      "source": "llm"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.6,
+      "contact_id": "CON-0192",
+      "evidence_ids": [
+        "EVT-00587",
+        "EVT-00588",
+        "EVT-00589"
+      ],
+      "reason": "Alex Lim's activities were limited to scheduling and receiving updates, with no decision-making evidence.",
+      "role": "unknown",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0193",
+      "evidence_ids": [
+        "EVT-00590",
+        "EVT-00591",
+        "EVT-00592"
+      ],
+      "reason": "Avery Ng coordinated stakeholders, promoted the solution, and prepared for executive discussions, indicating a champion role.",
+      "role": "champion",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0194",
+      "evidence_ids": [
+        "EVT-00593",
+        "EVT-00594",
+        "EVT-00595"
+      ],
+      "reason": "Avery Smith reviewed budget approval, requested ROI, and confirmed executive sign-off, indicating economic buyer responsibilities.",
+      "role": "economic_buyer",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0195",
+      "evidence_ids": [
+        "EVT-00596",
+        "EVT-00597",
+        "EVT-00598"
+      ],
+      "reason": "Alex Wong tested design compatibility and compared solutions against standards, indicating a technical evaluator role.",
+      "role": "technical_evaluator",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0196",
+      "evidence_ids": [
+        "EVT-00599",
+        "EVT-00600",
+        "EVT-00601"
+      ],
+      "reason": "Riley Wong handled supplier onboarding and negotiated purchasing conditions, indicating a procurement/legal role.",
+      "role": "procurement_legal",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0197",
+      "evidence_ids": [
+        "EVT-00602",
+        "EVT-00603",
+        "EVT-00604"
+      ],
+      "reason": "Cameron Smith tested workflows and provided user feedback, indicating an end user role.",
+      "role": "end_user",
+      "source": "llm"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.6,
+      "contact_id": "CON-0198",
+      "evidence_ids": [
+        "EVT-00605",
+        "EVT-00606",
+        "EVT-00607"
+      ],
+      "reason": "Drew Chen's activities were administrative and did not indicate a specific decision-making role.",
+      "role": "unknown",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0205",
+      "evidence_ids": [
+        "EVT-00627",
+        "EVT-00628",
+        "EVT-00629"
+      ],
+      "reason": "Drew Lee coordinated stakeholders, volunteered for follow-ups, persuaded colleagues, and introduced the team to executives, indicating champion behavior.",
+      "role": "champion",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.95,
+      "contact_id": "CON-0206",
+      "evidence_ids": [
+        "EVT-00630",
+        "EVT-00631",
+        "EVT-00632"
+      ],
+      "reason": "Alex Lim has authority to release funds and financial consent is required for purchase, indicating economic buyer role.",
+      "role": "economic_buyer",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0207",
+      "evidence_ids": [
+        "EVT-00633",
+        "EVT-00634",
+        "EVT-00635"
+      ],
+      "reason": "Drew Lee evaluated integration architecture, security, and requested technical documentation, indicating technical evaluator role.",
+      "role": "technical_evaluator",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0208",
+      "evidence_ids": [
+        "EVT-00636",
+        "EVT-00637",
+        "EVT-00638"
+      ],
+      "reason": "Casey Smith reviewed contracts, requested procurement documents, and negotiated terms, indicating procurement/legal role.",
+      "role": "procurement_legal",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0209",
+      "evidence_ids": [
+        "EVT-00639",
+        "EVT-00640",
+        "EVT-00641"
+      ],
+      "reason": "Cameron Wong tested workflows, provided usability feedback, and prepared for user pilot, indicating end user role.",
+      "role": "end_user",
+      "source": "llm"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.8,
+      "contact_id": "CON-0210",
+      "evidence_ids": [
+        "EVT-00642",
+        "EVT-00643",
+        "EVT-00644"
+      ],
+      "reason": "Morgan Kumar's activities were administrative and lacked decision-making evidence, leading to an unknown role classification.",
+      "role": "unknown",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0211",
+      "evidence_ids": [
+        "EVT-00645",
+        "EVT-00646",
+        "EVT-00647"
+      ],
+      "reason": "Avery Wong coordinated multiple departments, persuaded colleagues to join the evaluation, and introduced the team to executives, indicating advocacy and internal navigation.",
+      "role": "champion",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0212",
+      "evidence_ids": [
+        "EVT-00648",
+        "EVT-00649",
+        "EVT-00650"
+      ],
+      "reason": "Quinn Smith reviewed commercial value, funding availability, and final budget approval, and confirmed executive sign-off is required, indicating budget ownership and approval authority.",
+      "role": "economic_buyer",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0213",
+      "evidence_ids": [
+        "EVT-00651",
+        "EVT-00652",
+        "EVT-00653"
+      ],
+      "reason": "Morgan Lee evaluated integration architecture, security requirements, and requested technical documentation, indicating technical evaluation responsibilities.",
+      "role": "technical_evaluator",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0214",
+      "evidence_ids": [
+        "EVT-00654",
+        "EVT-00655",
+        "EVT-00656"
+      ],
+      "reason": "Casey Garcia reviewed contract clauses, requested procurement compliance evidence, and negotiated terms, indicating procurement and legal responsibilities.",
+      "role": "procurement_legal",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0215",
+      "evidence_ids": [
+        "EVT-00657",
+        "EVT-00658",
+        "EVT-00659"
+      ],
+      "reason": "Jordan Garcia operates the system, demonstrated manual steps, and described practical challenges, indicating end-user responsibilities.",
+      "role": "end_user",
+      "source": "llm"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.8,
+      "contact_id": "CON-0216",
+      "evidence_ids": [
+        "EVT-00660",
+        "EVT-00661",
+        "EVT-00662"
+      ],
+      "reason": "Quinn Wong's activities are limited to scheduling and receiving updates, with no decision-making evidence.",
+      "role": "unknown",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0217",
+      "evidence_ids": [
+        "EVT-00664",
+        "EVT-00665",
+        "EVT-00666"
+      ],
+      "reason": "Taylor Patel coordinated stakeholders, promoted the solution, and prepared for executive discussions, indicating a champion role.",
+      "role": "champion",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0218",
+      "evidence_ids": [
+        "EVT-00667",
+        "EVT-00668",
+        "EVT-00669"
+      ],
+      "reason": "Casey Kumar reviewed commercial value, funding, and required executive sign-off, indicating economic buyer responsibilities.",
+      "role": "economic_buyer",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0219",
+      "evidence_ids": [
+        "EVT-00670",
+        "EVT-00671",
+        "EVT-00672"
+      ],
+      "reason": "Drew Lee evaluated integration architecture, security, and requested technical documentation, indicating a technical evaluator role.",
+      "role": "technical_evaluator",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0220",
+      "evidence_ids": [
+        "EVT-00673",
+        "EVT-00674",
+        "EVT-00675"
+      ],
+      "reason": "Avery Garcia handled supplier onboarding, purchasing conditions, and third-party reviews, indicating a procurement/legal role.",
+      "role": "procurement_legal",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0221",
+      "evidence_ids": [
+        "EVT-00676",
+        "EVT-00677",
+        "EVT-00678"
+      ],
+      "reason": "Alex Lee will operate the system and provided insights on current and future workflows, indicating an end user role.",
+      "role": "end_user",
+      "source": "llm"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.6,
+      "contact_id": "CON-0222",
+      "evidence_ids": [
+        "EVT-00679",
+        "EVT-00680",
+        "EVT-00681"
+      ],
+      "reason": "Riley Smith's activities were administrative and did not indicate a specific decision-making role.",
+      "role": "unknown",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0223",
+      "evidence_ids": [
+        "EVT-00682",
+        "EVT-00683",
+        "EVT-00684"
+      ],
+      "reason": "Alex Garcia coordinated stakeholders, promoted the solution, and organized adoption planning sessions, indicating a champion role.",
+      "role": "champion",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0224",
+      "evidence_ids": [
+        "EVT-00685",
+        "EVT-00686",
+        "EVT-00687"
+      ],
+      "reason": "Riley Tan reviewed commercial value, requested ROI, and confirmed executive sign-off, indicating economic buyer responsibilities.",
+      "role": "economic_buyer",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0225",
+      "evidence_ids": [
+        "EVT-00688",
+        "EVT-00689",
+        "EVT-00690"
+      ],
+      "reason": "Cameron Ng evaluated design compatibility, production standards, and requested a compatibility trial, indicating a technical evaluator role.",
+      "role": "technical_evaluator",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0226",
+      "evidence_ids": [
+        "EVT-00691",
+        "EVT-00692",
+        "EVT-00693"
+      ],
+      "reason": "Avery Smith handled supplier onboarding, negotiated purchasing conditions, and reviewed third-party compliance, indicating a procurement/legal role.",
+      "role": "procurement_legal",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0227",
+      "evidence_ids": [
+        "EVT-00694",
+        "EVT-00695",
+        "EVT-00696"
+      ],
+      "reason": "Quinn Wong tested workflows, provided usability feedback, and prepared for user pilot, indicating an end user role.",
+      "role": "end_user",
+      "source": "llm"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.6,
+      "contact_id": "CON-0228",
+      "evidence_ids": [
+        "EVT-00697",
+        "EVT-00698",
+        "EVT-00699"
+      ],
+      "reason": "Cameron Smith's activities were administrative and lacked decision-making evidence, leading to an unknown role classification.",
+      "role": "unknown",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0229",
+      "evidence_ids": [
+        "EVT-00700",
+        "EVT-00701",
+        "EVT-00702"
+      ],
+      "reason": "Cameron Tan coordinated stakeholders, promoted the solution, and prepared for executive discussions, indicating a champion role.",
+      "role": "champion",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.95,
+      "contact_id": "CON-0230",
+      "evidence_ids": [
+        "EVT-00703",
+        "EVT-00704",
+        "EVT-00705"
+      ],
+      "reason": "Taylor Patel has the authority to release funds and their consent is required for the purchase, indicating an economic buyer role.",
+      "role": "economic_buyer",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0231",
+      "evidence_ids": [
+        "EVT-00706",
+        "EVT-00707",
+        "EVT-00708"
+      ],
+      "reason": "Taylor Lim evaluated design compatibility and production standards, indicating a technical evaluator role.",
+      "role": "technical_evaluator",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0232",
+      "evidence_ids": [
+        "EVT-00709",
+        "EVT-00710",
+        "EVT-00711"
+      ],
+      "reason": "Drew Lim reviewed contract clauses and requested procurement documents, indicating a procurement/legal role.",
+      "role": "procurement_legal",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0233",
+      "evidence_ids": [
+        "EVT-00712",
+        "EVT-00713",
+        "EVT-00714"
+      ],
+      "reason": "Casey Patel tested workflows and provided usability feedback, indicating an end user role.",
+      "role": "end_user",
+      "source": "llm"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.6,
+      "contact_id": "CON-0234",
+      "evidence_ids": [
+        "EVT-00715",
+        "EVT-00716",
+        "EVT-00717"
+      ],
+      "reason": "Quinn Patel's activities were administrative and did not indicate a specific decision-making role.",
+      "role": "unknown",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0253",
+      "evidence_ids": [
+        "EVT-00775",
+        "EVT-00776",
+        "EVT-00777"
+      ],
+      "reason": "Avery Garcia coordinated stakeholders, promoted the solution, and prepared for executive discussions, indicating a champion role.",
+      "role": "champion",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0254",
+      "evidence_ids": [
+        "EVT-00778",
+        "EVT-00779",
+        "EVT-00780"
+      ],
+      "reason": "Riley Ng reviewed budget approval, requested ROI, and confirmed executive sign-off, indicating economic buyer responsibilities.",
+      "role": "economic_buyer",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0255",
+      "evidence_ids": [
+        "EVT-00781",
+        "EVT-00782",
+        "EVT-00783"
+      ],
+      "reason": "Avery Smith tested design compatibility and compared solutions against standards, indicating a technical evaluator role.",
+      "role": "technical_evaluator",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0256",
+      "evidence_ids": [
+        "EVT-00784",
+        "EVT-00785",
+        "EVT-00786"
+      ],
+      "reason": "Morgan Tan handled supplier onboarding, purchasing conditions, and compliance checks, indicating a procurement/legal role.",
+      "role": "procurement_legal",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.85,
+      "contact_id": "CON-0257",
+      "evidence_ids": [
+        "EVT-00787",
+        "EVT-00788",
+        "EVT-00789"
+      ],
+      "reason": "Morgan Patel tested workflows, provided usability feedback, and prepared for user training, indicating an end user role.",
+      "role": "end_user",
+      "source": "llm"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.6,
+      "contact_id": "CON-0258",
+      "evidence_ids": [
+        "EVT-00790",
+        "EVT-00791",
+        "EVT-00792"
+      ],
+      "reason": "Casey Kumar's activities were administrative and did not indicate a specific decision-making role.",
+      "role": "unknown",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0265",
+      "evidence_ids": [
+        "EVT-00811",
+        "EVT-00812",
+        "EVT-00813"
+      ],
+      "reason": "Taylor Lim has coordinated multiple departments, persuaded colleagues to join evaluations, and introduced the team to executives, indicating a champion role.",
+      "role": "champion",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0266",
+      "evidence_ids": [
+        "EVT-00814",
+        "EVT-00815",
+        "EVT-00816"
+      ],
+      "reason": "Jordan Lee is confirmed to have the authority to release funds and make final financial decisions, indicating an economic buyer role.",
+      "role": "economic_buyer",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0267",
+      "evidence_ids": [
+        "EVT-00817",
+        "EVT-00818",
+        "EVT-00819"
+      ],
+      "reason": "Jordan Chen evaluated integration architecture, security, and requested technical documentation, indicating a technical evaluator role.",
+      "role": "technical_evaluator",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0268",
+      "evidence_ids": [
+        "EVT-00820",
+        "EVT-00821",
+        "EVT-00822"
+      ],
+      "reason": "Casey Tan reviewed contracts, requested procurement documents, and negotiated terms, indicating a procurement/legal role.",
+      "role": "procurement_legal",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0269",
+      "evidence_ids": [
+        "EVT-00823",
+        "EVT-00824",
+        "EVT-00825"
+      ],
+      "reason": "Avery Lee tested workflows, provided usability feedback, and prepared for user training, indicating an end user role.",
+      "role": "end_user",
+      "source": "llm"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.8,
+      "contact_id": "CON-0270",
+      "evidence_ids": [
+        "EVT-00826",
+        "EVT-00827",
+        "EVT-00828"
+      ],
+      "reason": "Alex Lim's activities are administrative and lack decision-making evidence, leading to an unknown role.",
+      "role": "unknown",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0283",
+      "evidence_ids": [
+        "EVT-00866",
+        "EVT-00867",
+        "EVT-00868"
+      ],
+      "reason": "Jordan Lim coordinated stakeholders, promoted the solution, and prepared for executive discussions, indicating a champion role.",
+      "role": "champion",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0284",
+      "evidence_ids": [
+        "EVT-00869",
+        "EVT-00870",
+        "EVT-00871"
+      ],
+      "reason": "Morgan Tan reviewed budget approval, requested ROI, and confirmed executive sign-off, indicating economic buyer responsibilities.",
+      "role": "economic_buyer",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0285",
+      "evidence_ids": [
+        "EVT-00872",
+        "EVT-00873",
+        "EVT-00874"
+      ],
+      "reason": "Avery Lim tested design compatibility and compared solutions against standards, indicating technical evaluation activities.",
+      "role": "technical_evaluator",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0286",
+      "evidence_ids": [
+        "EVT-00875",
+        "EVT-00876",
+        "EVT-00877"
+      ],
+      "reason": "Avery Chen controlled supplier onboarding and negotiated purchasing conditions, indicating procurement responsibilities.",
+      "role": "procurement_legal",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0287",
+      "evidence_ids": [
+        "EVT-00878",
+        "EVT-00879",
+        "EVT-00880"
+      ],
+      "reason": "Jordan Tan tested workflows and described end user concerns, indicating an end user role.",
+      "role": "end_user",
+      "source": "llm"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.8,
+      "contact_id": "CON-0288",
+      "evidence_ids": [
+        "EVT-00881",
+        "EVT-00882",
+        "EVT-00883"
+      ],
+      "reason": "Cameron Garcia's activities were administrative with no decision-making evidence, leading to an unknown role classification.",
+      "role": "unknown",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0331",
+      "evidence_ids": [
+        "EVT-01014",
+        "EVT-01015",
+        "EVT-01016"
+      ],
+      "reason": "Jordan Patel coordinated stakeholders, volunteered for follow-ups, persuaded colleagues, and introduced the team to executives, indicating champion behavior.",
+      "role": "champion",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0332",
+      "evidence_ids": [
+        "EVT-01017",
+        "EVT-01018",
+        "EVT-01019"
+      ],
+      "reason": "Alex Wong reviewed budget approval, requested ROI, and confirmed executive sign-off, indicating economic buyer behavior.",
+      "role": "economic_buyer",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0333",
+      "evidence_ids": [
+        "EVT-01020",
+        "EVT-01021",
+        "EVT-01022"
+      ],
+      "reason": "Riley Garcia evaluated architecture, raised security requirements, and requested API documentation, indicating technical evaluator behavior.",
+      "role": "technical_evaluator",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0334",
+      "evidence_ids": [
+        "EVT-01023",
+        "EVT-01024",
+        "EVT-01025"
+      ],
+      "reason": "Casey Lim reviewed contracts, requested procurement documents, and negotiated terms, indicating procurement/legal behavior.",
+      "role": "procurement_legal",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0335",
+      "evidence_ids": [
+        "EVT-01026",
+        "EVT-01027",
+        "EVT-01028"
+      ],
+      "reason": "Alex Tan demonstrated manual steps, tried tasks, and explained current practices, indicating end user behavior.",
+      "role": "end_user",
+      "source": "llm"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.8,
+      "contact_id": "CON-0336",
+      "evidence_ids": [
+        "EVT-01029",
+        "EVT-01030",
+        "EVT-01031"
+      ],
+      "reason": "Drew Garcia's activities were administrative and lacked decision-making evidence, leading to an unknown role classification.",
+      "role": "unknown",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0349",
+      "evidence_ids": [
+        "EVT-01069",
+        "EVT-01070",
+        "EVT-01071"
+      ],
+      "reason": "Morgan Kumar coordinated stakeholders, promoted the solution, and prepared the team for executive discussions, indicating a champion role.",
+      "role": "champion",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.95,
+      "contact_id": "CON-0350",
+      "evidence_ids": [
+        "EVT-01072",
+        "EVT-01073",
+        "EVT-01074"
+      ],
+      "reason": "Jordan Lim is confirmed to have the authority to release funds and is involved in discussions about financial consent and value justification, indicating an economic buyer role.",
+      "role": "economic_buyer",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0351",
+      "evidence_ids": [
+        "EVT-01075",
+        "EVT-01076",
+        "EVT-01077"
+      ],
+      "reason": "Cameron Lee tested design compatibility, compared solutions against standards, and requested a compatibility trial, indicating a technical evaluator role.",
+      "role": "technical_evaluator",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0352",
+      "evidence_ids": [
+        "EVT-01078",
+        "EVT-01079",
+        "EVT-01080"
+      ],
+      "reason": "Avery Patel reviewed contracts, requested procurement documents, and negotiated terms, indicating a procurement/legal role.",
+      "role": "procurement_legal",
+      "source": "llm"
+    },
+    {
+      "abstained": false,
+      "confidence": 0.9,
+      "contact_id": "CON-0353",
+      "evidence_ids": [
+        "EVT-01081",
+        "EVT-01082",
+        "EVT-01083"
+      ],
+      "reason": "Riley Tan tested workflows, reported usability feedback, and prepared user pilot cases, indicating an end user role.",
+      "role": "end_user",
+      "source": "llm"
+    },
+    {
+      "abstained": true,
+      "confidence": 0.8,
+      "contact_id": "CON-0354",
+      "evidence_ids": [
+        "EVT-01084",
+        "EVT-01085",
+        "EVT-01086"
+      ],
+      "reason": "Avery Kumar's activities are limited to scheduling and receiving updates, with no clear decision-making role evidenced.",
+      "role": "unknown",
+      "source": "llm"
+    }
+  ],
+  "runs": [
+    {
+      "account_id": "ACC-003",
+      "usage": {
+        "attempts": 1,
+        "error_type": null,
+        "estimated_cost_usd": 0.015685,
+        "experiment": "M2",
+        "input_tokens": 3234,
+        "latency_seconds": 5.4672,
+        "model": "openai/gpt-4o",
+        "output_tokens": 760,
+        "prompt_version": "account_briefing_v2",
+        "request_id": "gen-1789980255-Tuyf9LH93JEOPUTHE9w2",
+        "status": "success",
+        "total_tokens": 3994,
+        "validation_passed": true
+      },
+      "validation": {
+        "errors": [],
+        "evidence_precision": 1.0,
+        "passed": true,
+        "total_reference_count": 35,
+        "valid_reference_count": 35,
+        "warnings": []
+      }
+    },
+    {
+      "account_id": "ACC-006",
+      "usage": {
+        "attempts": 1,
+        "error_type": null,
+        "estimated_cost_usd": 0.015483,
+        "experiment": "M2",
+        "input_tokens": 3249,
+        "latency_seconds": 5.7021,
+        "model": "openai/gpt-4o",
+        "output_tokens": 736,
+        "prompt_version": "account_briefing_v2",
+        "request_id": "gen-1789980260-CPXyhOk6jDjWHCXZZQ9i",
+        "status": "success",
+        "total_tokens": 3985,
+        "validation_passed": true
+      },
+      "validation": {
+        "errors": [],
+        "evidence_precision": 1.0,
+        "passed": true,
+        "total_reference_count": 29,
+        "valid_reference_count": 29,
+        "warnings": []
+      }
+    },
+    {
+      "account_id": "ACC-007",
+      "usage": {
+        "attempts": 1,
+        "error_type": null,
+        "estimated_cost_usd": 0.017078,
+        "experiment": "M2",
+        "input_tokens": 3135,
+        "latency_seconds": 6.4768,
+        "model": "openai/gpt-4o",
+        "output_tokens": 924,
+        "prompt_version": "account_briefing_v2",
+        "request_id": "gen-1789980266-MGR8YCyf9sEEDs3J1q9T",
+        "status": "success",
+        "total_tokens": 4059,
+        "validation_passed": true
+      },
+      "validation": {
+        "errors": [],
+        "evidence_precision": 1.0,
+        "passed": true,
+        "total_reference_count": 41,
+        "valid_reference_count": 41,
+        "warnings": []
+      }
+    },
+    {
+      "account_id": "ACC-008",
+      "usage": {
+        "attempts": 1,
+        "error_type": null,
+        "estimated_cost_usd": 0.016043,
+        "experiment": "M2",
+        "input_tokens": 3129,
+        "latency_seconds": 5.8056,
+        "model": "openai/gpt-4o",
+        "output_tokens": 822,
+        "prompt_version": "account_briefing_v2",
+        "request_id": "gen-1789980272-eFeqFgIemuBzeGh20mjt",
+        "status": "success",
+        "total_tokens": 3951,
+        "validation_passed": true
+      },
+      "validation": {
+        "errors": [],
+        "evidence_precision": 1.0,
+        "passed": true,
+        "total_reference_count": 37,
+        "valid_reference_count": 37,
+        "warnings": []
+      }
+    },
+    {
+      "account_id": "ACC-011",
+      "usage": {
+        "attempts": 1,
+        "error_type": null,
+        "estimated_cost_usd": 0.014542,
+        "experiment": "M2",
+        "input_tokens": 3137,
+        "latency_seconds": 5.2371,
+        "model": "openai/gpt-4o",
+        "output_tokens": 670,
+        "prompt_version": "account_briefing_v2",
+        "request_id": "gen-1789980278-vWCi90IHAkROrUHGPGKH",
+        "status": "success",
+        "total_tokens": 3807,
+        "validation_passed": true
+      },
+      "validation": {
+        "errors": [],
+        "evidence_precision": 1.0,
+        "passed": true,
+        "total_reference_count": 26,
+        "valid_reference_count": 26,
+        "warnings": []
+      }
+    },
+    {
+      "account_id": "ACC-012",
+      "usage": {
+        "attempts": 1,
+        "error_type": null,
+        "estimated_cost_usd": 0.016407,
+        "experiment": "M2",
+        "input_tokens": 3239,
+        "latency_seconds": 6.8321,
+        "model": "openai/gpt-4o",
+        "output_tokens": 831,
+        "prompt_version": "account_briefing_v2",
+        "request_id": "gen-1789980283-IhpESazSoVDBp3Lf9PNA",
+        "status": "success",
+        "total_tokens": 4070,
+        "validation_passed": true
+      },
+      "validation": {
+        "errors": [],
+        "evidence_precision": 1.0,
+        "passed": true,
+        "total_reference_count": 35,
+        "valid_reference_count": 35,
+        "warnings": []
+      }
+    },
+    {
+      "account_id": "ACC-017",
+      "usage": {
+        "attempts": 1,
+        "error_type": null,
+        "estimated_cost_usd": 0.01531,
+        "experiment": "M2",
+        "input_tokens": 3132,
+        "latency_seconds": 5.9484,
+        "model": "openai/gpt-4o",
+        "output_tokens": 748,
+        "prompt_version": "account_briefing_v2",
+        "request_id": "gen-1789980290-VE7KZVIAPmoyZ8LVFj01",
+        "status": "success",
+        "total_tokens": 3880,
+        "validation_passed": true
+      },
+      "validation": {
+        "errors": [],
+        "evidence_precision": 1.0,
+        "passed": true,
+        "total_reference_count": 30,
+        "valid_reference_count": 30,
+        "warnings": []
+      }
+    },
+    {
+      "account_id": "ACC-026",
+      "usage": {
+        "attempts": 1,
+        "error_type": null,
+        "estimated_cost_usd": 0.016645,
+        "experiment": "M2",
+        "input_tokens": 3146,
+        "latency_seconds": 5.9551,
+        "model": "openai/gpt-4o",
+        "output_tokens": 878,
+        "prompt_version": "account_briefing_v2",
+        "request_id": "gen-1789980296-eUaU6BOg97TDQc5Us2yC",
+        "status": "success",
+        "total_tokens": 4024,
+        "validation_passed": true
+      },
+      "validation": {
+        "errors": [],
+        "evidence_precision": 1.0,
+        "passed": true,
+        "total_reference_count": 42,
+        "valid_reference_count": 42,
+        "warnings": []
+      }
+    },
+    {
+      "account_id": "ACC-032",
+      "usage": {
+        "attempts": 1,
+        "error_type": null,
+        "estimated_cost_usd": 0.016795,
+        "experiment": "M2",
+        "input_tokens": 3134,
+        "latency_seconds": 8.1254,
+        "model": "openai/gpt-4o",
+        "output_tokens": 896,
+        "prompt_version": "account_briefing_v2",
+        "request_id": "gen-1789980302-PGcKDMBsWrnHE0xx7osS",
+        "status": "success",
+        "total_tokens": 4030,
+        "validation_passed": true
+      },
+      "validation": {
+        "errors": [],
+        "evidence_precision": 1.0,
+        "passed": true,
+        "total_reference_count": 39,
+        "valid_reference_count": 39,
+        "warnings": []
+      }
+    },
+    {
+      "account_id": "ACC-033",
+      "usage": {
+        "attempts": 1,
+        "error_type": null,
+        "estimated_cost_usd": 0.015848,
+        "experiment": "M2",
+        "input_tokens": 3235,
+        "latency_seconds": 7.947,
+        "model": "openai/gpt-4o",
+        "output_tokens": 776,
+        "prompt_version": "account_briefing_v2",
+        "request_id": "gen-1789980310-4tiErf2Eao9EwK7UREnr",
+        "status": "success",
+        "total_tokens": 4011,
+        "validation_passed": true
+      },
+      "validation": {
+        "errors": [],
+        "evidence_precision": 1.0,
+        "passed": true,
+        "total_reference_count": 35,
+        "valid_reference_count": 35,
+        "warnings": []
+      }
+    },
+    {
+      "account_id": "ACC-035",
+      "usage": {
+        "attempts": 1,
+        "error_type": null,
+        "estimated_cost_usd": 0.016225,
+        "experiment": "M2",
+        "input_tokens": 3142,
+        "latency_seconds": 5.6778,
+        "model": "openai/gpt-4o",
+        "output_tokens": 837,
+        "prompt_version": "account_briefing_v2",
+        "request_id": "gen-1789980318-LTbExgTw6och0na0U4uf",
+        "status": "success",
+        "total_tokens": 3979,
+        "validation_passed": true
+      },
+      "validation": {
+        "errors": [],
+        "evidence_precision": 1.0,
+        "passed": true,
+        "total_reference_count": 37,
+        "valid_reference_count": 37,
+        "warnings": []
+      }
+    },
+    {
+      "account_id": "ACC-036",
+      "usage": {
+        "attempts": 1,
+        "error_type": null,
+        "estimated_cost_usd": 0.015758,
+        "experiment": "M2",
+        "input_tokens": 3251,
+        "latency_seconds": 6.2463,
+        "model": "openai/gpt-4o",
+        "output_tokens": 763,
+        "prompt_version": "account_briefing_v2",
+        "request_id": "gen-1789980324-yclhnIzsspNKwsS16vlW",
+        "status": "success",
+        "total_tokens": 4014,
+        "validation_passed": true
+      },
+      "validation": {
+        "errors": [],
+        "evidence_precision": 1.0,
+        "passed": true,
+        "total_reference_count": 32,
+        "valid_reference_count": 32,
+        "warnings": []
+      }
+    },
+    {
+      "account_id": "ACC-037",
+      "usage": {
+        "attempts": 1,
+        "error_type": null,
+        "estimated_cost_usd": 0.016705,
+        "experiment": "M2",
+        "input_tokens": 3138,
+        "latency_seconds": 8.3008,
+        "model": "openai/gpt-4o",
+        "output_tokens": 886,
+        "prompt_version": "account_briefing_v2",
+        "request_id": "gen-1789980330-YIw9YXmvkb9pZf1uHNgg",
+        "status": "success",
+        "total_tokens": 4024,
+        "validation_passed": true
+      },
+      "validation": {
+        "errors": [],
+        "evidence_precision": 1.0,
+        "passed": true,
+        "total_reference_count": 37,
+        "valid_reference_count": 37,
+        "warnings": []
+      }
+    },
+    {
+      "account_id": "ACC-038",
+      "usage": {
+        "attempts": 1,
+        "error_type": null,
+        "estimated_cost_usd": 0.016305,
+        "experiment": "M2",
+        "input_tokens": 3134,
+        "latency_seconds": 7.384,
+        "model": "openai/gpt-4o",
+        "output_tokens": 847,
+        "prompt_version": "account_briefing_v2",
+        "request_id": "gen-1789980338-mCqik2rYWhaN0IyRpQE3",
+        "status": "success",
+        "total_tokens": 3981,
+        "validation_passed": true
+      },
+      "validation": {
+        "errors": [],
+        "evidence_precision": 1.0,
+        "passed": true,
+        "total_reference_count": 39,
+        "valid_reference_count": 39,
+        "warnings": []
+      }
+    },
+    {
+      "account_id": "ACC-039",
+      "usage": {
+        "attempts": 1,
+        "error_type": null,
+        "estimated_cost_usd": 0.015433,
+        "experiment": "M2",
+        "input_tokens": 3245,
+        "latency_seconds": 5.5828,
+        "model": "openai/gpt-4o",
+        "output_tokens": 732,
+        "prompt_version": "account_briefing_v2",
+        "request_id": "gen-1789980346-RMuYQquAYbYbq5qA1327",
+        "status": "success",
+        "total_tokens": 3977,
+        "validation_passed": true
+      },
+      "validation": {
+        "errors": [],
+        "evidence_precision": 1.0,
+        "passed": true,
+        "total_reference_count": 32,
+        "valid_reference_count": 32,
+        "warnings": []
+      }
+    },
+    {
+      "account_id": "ACC-043",
+      "usage": {
+        "attempts": 1,
+        "error_type": null,
+        "estimated_cost_usd": 0.016085,
+        "experiment": "M2",
+        "input_tokens": 3126,
+        "latency_seconds": 7.6966,
+        "model": "openai/gpt-4o",
+        "output_tokens": 827,
+        "prompt_version": "account_briefing_v2",
+        "request_id": "gen-1789980351-TEuAbCo2Q1vxCF49n7Sl",
+        "status": "success",
+        "total_tokens": 3953,
+        "validation_passed": true
+      },
+      "validation": {
+        "errors": [],
+        "evidence_precision": 1.0,
+        "passed": true,
+        "total_reference_count": 38,
+        "valid_reference_count": 38,
+        "warnings": []
+      }
+    },
+    {
+      "account_id": "ACC-045",
+      "usage": {
+        "attempts": 1,
+        "error_type": null,
+        "estimated_cost_usd": 0.015637,
+        "experiment": "M2",
+        "input_tokens": 3251,
+        "latency_seconds": 5.5845,
+        "model": "openai/gpt-4o",
+        "output_tokens": 751,
+        "prompt_version": "account_briefing_v2",
+        "request_id": "gen-1789980359-9e4FO0XSY8dojCDxSP8c",
+        "status": "success",
+        "total_tokens": 4002,
+        "validation_passed": true
+      },
+      "validation": {
+        "errors": [],
+        "evidence_precision": 1.0,
+        "passed": true,
+        "total_reference_count": 32,
+        "valid_reference_count": 32,
+        "warnings": []
+      }
+    },
+    {
+      "account_id": "ACC-048",
+      "usage": {
+        "attempts": 1,
+        "error_type": null,
+        "estimated_cost_usd": 0.016523,
+        "experiment": "M2",
+        "input_tokens": 3229,
+        "latency_seconds": 6.6964,
+        "model": "openai/gpt-4o",
+        "output_tokens": 845,
+        "prompt_version": "account_briefing_v2",
+        "request_id": "gen-1789980365-TIFynWbwKOh74wxYeWFa",
+        "status": "success",
+        "total_tokens": 4074,
+        "validation_passed": true
+      },
+      "validation": {
+        "errors": [],
+        "evidence_precision": 1.0,
+        "passed": true,
+        "total_reference_count": 38,
+        "valid_reference_count": 38,
+        "warnings": []
+      }
+    },
+    {
+      "account_id": "ACC-056",
+      "usage": {
+        "attempts": 1,
+        "error_type": null,
+        "estimated_cost_usd": 0.01603,
+        "experiment": "M2",
+        "input_tokens": 3148,
+        "latency_seconds": 6.3225,
+        "model": "openai/gpt-4o",
+        "output_tokens": 816,
+        "prompt_version": "account_briefing_v2",
+        "request_id": "gen-1789980371-7u2oQwxxMDEvqB4mVbL5",
+        "status": "success",
+        "total_tokens": 3964,
+        "validation_passed": true
+      },
+      "validation": {
+        "errors": [],
+        "evidence_precision": 1.0,
+        "passed": true,
+        "total_reference_count": 37,
+        "valid_reference_count": 37,
+        "warnings": []
+      }
+    },
+    {
+      "account_id": "ACC-059",
+      "usage": {
+        "attempts": 1,
+        "error_type": null,
+        "estimated_cost_usd": 0.016753,
+        "experiment": "M2",
+        "input_tokens": 3133,
+        "latency_seconds": 6.3522,
+        "model": "openai/gpt-4o",
+        "output_tokens": 892,
+        "prompt_version": "account_briefing_v2",
+        "request_id": "gen-1789980378-Cqv0WzySfgt6JqjAVCLM",
+        "status": "success",
+        "total_tokens": 4025,
+        "validation_passed": true
+      },
+      "validation": {
+        "errors": [],
+        "evidence_precision": 1.0,
+        "passed": true,
+        "total_reference_count": 42,
+        "valid_reference_count": 42,
+        "warnings": []
+      }
+    }
+  ],
+  "split": "test",
+  "threshold": 0.65,
+  "usage": {
+    "estimated_cost_usd": 0.32129,
+    "input_tokens": 63567,
+    "output_tokens": 16237,
+    "p95_latency_seconds": 8.1254
+  }
+}

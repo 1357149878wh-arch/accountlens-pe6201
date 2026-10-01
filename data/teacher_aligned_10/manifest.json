@@ -1,0 +1,36 @@
+{
+  "counts": {
+    "accounts": 10,
+    "contacts": 60,
+    "critical_truth": 30,
+    "crm_notes": 10,
+    "emails": 20,
+    "interactions": 60,
+    "meetings": 10,
+    "role_truth": 60,
+    "tickets": 20
+  },
+  "dataset": "teacher_aligned_10",
+  "hand_authored": true,
+  "requirements": {
+    "accounts": 10,
+    "attendee_lists_required": true,
+    "cc_lists_required": true,
+    "email_threads_per_account": 2,
+    "meetings_per_account": 1,
+    "tickets_per_account": 2,
+    "true_signatory_required": true
+  },
+  "schema_version": 1,
+  "sha256": {
+    "accounts.jsonl": "3a764e96e2cc350ef07094125c9ef6a2cafd11a22bcbf9621b5da5b85e304af5",
+    "contacts.jsonl": "66641097d27b14159cdf75b75725a4de847eb3263f8543e2f4bd8b759b07332d",
+    "critical_event_ground_truth.jsonl": "ce34b6377bccb0488f6df33b8b934a882f472c56b059ce8231bfc7069a77c4db",
+    "crm_notes.jsonl": "0b443034fdd970303dd6f34e3c32f7997c34430548f5d7d18af7b5ec3c315b57",
+    "emails.jsonl": "e92749ca88ef9c62b831d56feaf1d310ed27907634dbf076606d6f5f98c41371",
+    "interactions.jsonl": "6689f14c89c29d8ccf4765eeb55facf19f0cbf5dbce0f8917f55eb5ab2f39140",
+    "meetings.jsonl": "d730d3236ead33642909c8f50b40fc43963ca7e76027b532e59386ac7cf31d3b",
+    "role_ground_truth.jsonl": "8be5d05ac2ec0be345cb0193aac0718848d54593904df85b0390deb68b5cf05d",
+    "tickets.jsonl": "9eacd8f28ff704e5afea9ef56921be298ec87c20099e000cf2548518148ae4ef"
+  }
+}

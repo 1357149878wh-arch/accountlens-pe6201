@@ -1,0 +1,2 @@
+"""Non-AI comparison baseline."""
+

@@ -1,0 +1,1370 @@
+{
+  "study_type": "synthetic_simulation_not_human_subject_research",
+  "warning": "SIMULATED RESULTS - DO NOT REPORT AS REAL PARTICIPANT DATA",
+  "seed": 6201,
+  "accounts": [
+    "ACC-014",
+    "ACC-020",
+    "ACC-040",
+    "ACC-058"
+  ],
+  "personas": [
+    {
+      "participant": "VP01",
+      "role": "Key Account Manager",
+      "experience": "8 years managing enterprise software accounts",
+      "base_time_seconds": 145,
+      "bias": {
+        "role_usefulness": 0.2,
+        "action_usefulness": 0.3
+      }
+    },
+    {
+      "participant": "VP02",
+      "role": "Sales Director",
+      "experience": "12 years reviewing strategic opportunities",
+      "base_time_seconds": 125,
+      "bias": {
+        "role_usefulness": 0.3,
+        "action_usefulness": 0.2
+      }
+    },
+    {
+      "participant": "VP03",
+      "role": "Presales Engineer",
+      "experience": "6 years in solution design and technical validation",
+      "base_time_seconds": 155,
+      "bias": {
+        "evidence_trust": 0.3,
+        "confidence_calibration": 0.2
+      }
+    },
+    {
+      "participant": "VP04",
+      "role": "Customer Success Manager",
+      "experience": "7 years managing adoption and service risks",
+      "base_time_seconds": 150,
+      "bias": {
+        "risk_relevance": 0.35,
+        "action_usefulness": 0.1
+      }
+    },
+    {
+      "participant": "VP05",
+      "role": "Revenue Operations Analyst",
+      "experience": "5 years in CRM governance and pipeline analysis",
+      "base_time_seconds": 165,
+      "bias": {
+        "evidence_trust": 0.35,
+        "clarity": 0.15
+      }
+    }
+  ],
+  "systems": {
+    "B0": "deterministic role-inference baseline",
+    "M2": "frozen evidence-grounded validation output"
+  },
+  "aggregate": {
+    "B0": {
+      "observations": 20,
+      "median_time_seconds": 158.0,
+      "median_mean_rating": 3.34,
+      "median_ratings": {
+        "role_usefulness": 3.6,
+        "evidence_trust": 4.9,
+        "risk_relevance": 1.5,
+        "action_usefulness": 1.1,
+        "clarity": 4.4,
+        "confidence_calibration": 4.7
+      }
+    },
+    "M2": {
+      "observations": 20,
+      "median_time_seconds": 139.0,
+      "median_mean_rating": 4.58,
+      "median_ratings": {
+        "role_usefulness": 4.9,
+        "evidence_trust": 5.0,
+        "risk_relevance": 3.8,
+        "action_usefulness": 5.0,
+        "clarity": 4.3,
+        "confidence_calibration": 4.7
+      }
+    }
+  },
+  "preference_counts_across_account_pairs": {
+    "B0": 0,
+    "M2": 20,
+    "tie": 0
+  },
+  "preferences": [
+    {
+      "participant": "VP01",
+      "account_id": "ACC-014",
+      "preferred_system": "M2"
+    },
+    {
+      "participant": "VP01",
+      "account_id": "ACC-020",
+      "preferred_system": "M2"
+    },
+    {
+      "participant": "VP01",
+      "account_id": "ACC-040",
+      "preferred_system": "M2"
+    },
+    {
+      "participant": "VP01",
+      "account_id": "ACC-058",
+      "preferred_system": "M2"
+    },
+    {
+      "participant": "VP02",
+      "account_id": "ACC-014",
+      "preferred_system": "M2"
+    },
+    {
+      "participant": "VP02",
+      "account_id": "ACC-020",
+      "preferred_system": "M2"
+    },
+    {
+      "participant": "VP02",
+      "account_id": "ACC-040",
+      "preferred_system": "M2"
+    },
+    {
+      "participant": "VP02",
+      "account_id": "ACC-058",
+      "preferred_system": "M2"
+    },
+    {
+      "participant": "VP03",
+      "account_id": "ACC-014",
+      "preferred_system": "M2"
+    },
+    {
+      "participant": "VP03",
+      "account_id": "ACC-020",
+      "preferred_system": "M2"
+    },
+    {
+      "participant": "VP03",
+      "account_id": "ACC-040",
+      "preferred_system": "M2"
+    },
+    {
+      "participant": "VP03",
+      "account_id": "ACC-058",
+      "preferred_system": "M2"
+    },
+    {
+      "participant": "VP04",
+      "account_id": "ACC-014",
+      "preferred_system": "M2"
+    },
+    {
+      "participant": "VP04",
+      "account_id": "ACC-020",
+      "preferred_system": "M2"
+    },
+    {
+      "participant": "VP04",
+      "account_id": "ACC-040",
+      "preferred_system": "M2"
+    },
+    {
+      "participant": "VP04",
+      "account_id": "ACC-058",
+      "preferred_system": "M2"
+    },
+    {
+      "participant": "VP05",
+      "account_id": "ACC-014",
+      "preferred_system": "M2"
+    },
+    {
+      "participant": "VP05",
+      "account_id": "ACC-020",
+      "preferred_system": "M2"
+    },
+    {
+      "participant": "VP05",
+      "account_id": "ACC-040",
+      "preferred_system": "M2"
+    },
+    {
+      "participant": "VP05",
+      "account_id": "ACC-058",
+      "preferred_system": "M2"
+    }
+  ],
+  "records": [
+    {
+      "participant": "VP01",
+      "persona_role": "Key Account Manager",
+      "account_id": "ACC-014",
+      "masked_label": "A",
+      "system": "B0",
+      "time_seconds": 160,
+      "ratings": {
+        "role_usefulness": 3.7,
+        "evidence_trust": 4.9,
+        "risk_relevance": 1.3,
+        "action_usefulness": 1.1,
+        "clarity": 4.2,
+        "confidence_calibration": 4.4
+      },
+      "mean_rating": 3.27,
+      "objective_features": {
+        "role_usefulness": 0.6167,
+        "evidence_trust": 0.9375,
+        "risk_relevance": 0.1,
+        "action_usefulness": 0.0,
+        "clarity": 0.86,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 0.6667,
+        "coverage": 0.5,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP01",
+      "persona_role": "Key Account Manager",
+      "account_id": "ACC-014",
+      "masked_label": "B",
+      "system": "M2",
+      "time_seconds": 139,
+      "ratings": {
+        "role_usefulness": 5.0,
+        "evidence_trust": 4.8,
+        "risk_relevance": 3.5,
+        "action_usefulness": 5.0,
+        "clarity": 4.1,
+        "confidence_calibration": 4.8
+      },
+      "mean_rating": 4.53,
+      "objective_features": {
+        "role_usefulness": 0.95,
+        "evidence_trust": 1.0,
+        "risk_relevance": 0.65,
+        "action_usefulness": 1.0,
+        "clarity": 0.8,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 1.0,
+        "coverage": 0.8333,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP01",
+      "persona_role": "Key Account Manager",
+      "account_id": "ACC-020",
+      "masked_label": "A",
+      "system": "M2",
+      "time_seconds": 139,
+      "ratings": {
+        "role_usefulness": 5.0,
+        "evidence_trust": 5.0,
+        "risk_relevance": 3.8,
+        "action_usefulness": 5.0,
+        "clarity": 4.4,
+        "confidence_calibration": 4.5
+      },
+      "mean_rating": 4.62,
+      "objective_features": {
+        "role_usefulness": 0.95,
+        "evidence_trust": 1.0,
+        "risk_relevance": 0.65,
+        "action_usefulness": 1.0,
+        "clarity": 0.8,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 1.0,
+        "coverage": 0.8333,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP01",
+      "persona_role": "Key Account Manager",
+      "account_id": "ACC-020",
+      "masked_label": "B",
+      "system": "B0",
+      "time_seconds": 151,
+      "ratings": {
+        "role_usefulness": 3.7,
+        "evidence_trust": 4.6,
+        "risk_relevance": 1.4,
+        "action_usefulness": 1.2,
+        "clarity": 4.4,
+        "confidence_calibration": 4.6
+      },
+      "mean_rating": 3.32,
+      "objective_features": {
+        "role_usefulness": 0.6167,
+        "evidence_trust": 0.9583,
+        "risk_relevance": 0.1,
+        "action_usefulness": 0.0,
+        "clarity": 0.86,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 0.6667,
+        "coverage": 0.5,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP01",
+      "persona_role": "Key Account Manager",
+      "account_id": "ACC-040",
+      "masked_label": "A",
+      "system": "M2",
+      "time_seconds": 140,
+      "ratings": {
+        "role_usefulness": 5.0,
+        "evidence_trust": 5.0,
+        "risk_relevance": 3.5,
+        "action_usefulness": 3.2,
+        "clarity": 4.3,
+        "confidence_calibration": 4.4
+      },
+      "mean_rating": 4.23,
+      "objective_features": {
+        "role_usefulness": 0.95,
+        "evidence_trust": 1.0,
+        "risk_relevance": 0.65,
+        "action_usefulness": 0.5,
+        "clarity": 0.8,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 1.0,
+        "coverage": 0.8333,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP01",
+      "persona_role": "Key Account Manager",
+      "account_id": "ACC-040",
+      "masked_label": "B",
+      "system": "B0",
+      "time_seconds": 142,
+      "ratings": {
+        "role_usefulness": 3.5,
+        "evidence_trust": 4.8,
+        "risk_relevance": 1.5,
+        "action_usefulness": 1.2,
+        "clarity": 4.5,
+        "confidence_calibration": 4.7
+      },
+      "mean_rating": 3.37,
+      "objective_features": {
+        "role_usefulness": 0.6167,
+        "evidence_trust": 0.9583,
+        "risk_relevance": 0.1,
+        "action_usefulness": 0.0,
+        "clarity": 0.86,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 0.6667,
+        "coverage": 0.5,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP01",
+      "persona_role": "Key Account Manager",
+      "account_id": "ACC-058",
+      "masked_label": "A",
+      "system": "B0",
+      "time_seconds": 154,
+      "ratings": {
+        "role_usefulness": 3.9,
+        "evidence_trust": 4.8,
+        "risk_relevance": 1.5,
+        "action_usefulness": 1.3,
+        "clarity": 4.4,
+        "confidence_calibration": 4.5
+      },
+      "mean_rating": 3.4,
+      "objective_features": {
+        "role_usefulness": 0.6167,
+        "evidence_trust": 0.9375,
+        "risk_relevance": 0.1,
+        "action_usefulness": 0.0,
+        "clarity": 0.86,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 0.6667,
+        "coverage": 0.5,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP01",
+      "persona_role": "Key Account Manager",
+      "account_id": "ACC-058",
+      "masked_label": "B",
+      "system": "M2",
+      "time_seconds": 137,
+      "ratings": {
+        "role_usefulness": 5.0,
+        "evidence_trust": 5.0,
+        "risk_relevance": 4.8,
+        "action_usefulness": 5.0,
+        "clarity": 4.3,
+        "confidence_calibration": 4.7
+      },
+      "mean_rating": 4.8,
+      "objective_features": {
+        "role_usefulness": 0.95,
+        "evidence_trust": 1.0,
+        "risk_relevance": 1.0,
+        "action_usefulness": 1.0,
+        "clarity": 0.8,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 1.0,
+        "coverage": 0.8333,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP02",
+      "persona_role": "Sales Director",
+      "account_id": "ACC-014",
+      "masked_label": "A",
+      "system": "B0",
+      "time_seconds": 124,
+      "ratings": {
+        "role_usefulness": 4.0,
+        "evidence_trust": 4.5,
+        "risk_relevance": 1.4,
+        "action_usefulness": 1.2,
+        "clarity": 4.5,
+        "confidence_calibration": 4.7
+      },
+      "mean_rating": 3.38,
+      "objective_features": {
+        "role_usefulness": 0.6167,
+        "evidence_trust": 0.9375,
+        "risk_relevance": 0.1,
+        "action_usefulness": 0.0,
+        "clarity": 0.86,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 0.6667,
+        "coverage": 0.5,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP02",
+      "persona_role": "Sales Director",
+      "account_id": "ACC-014",
+      "masked_label": "B",
+      "system": "M2",
+      "time_seconds": 116,
+      "ratings": {
+        "role_usefulness": 5.0,
+        "evidence_trust": 5.0,
+        "risk_relevance": 3.7,
+        "action_usefulness": 5.0,
+        "clarity": 4.2,
+        "confidence_calibration": 4.7
+      },
+      "mean_rating": 4.6,
+      "objective_features": {
+        "role_usefulness": 0.95,
+        "evidence_trust": 1.0,
+        "risk_relevance": 0.65,
+        "action_usefulness": 1.0,
+        "clarity": 0.8,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 1.0,
+        "coverage": 0.8333,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP02",
+      "persona_role": "Sales Director",
+      "account_id": "ACC-020",
+      "masked_label": "A",
+      "system": "B0",
+      "time_seconds": 139,
+      "ratings": {
+        "role_usefulness": 3.9,
+        "evidence_trust": 4.9,
+        "risk_relevance": 1.5,
+        "action_usefulness": 1.2,
+        "clarity": 4.3,
+        "confidence_calibration": 4.4
+      },
+      "mean_rating": 3.37,
+      "objective_features": {
+        "role_usefulness": 0.6167,
+        "evidence_trust": 0.9583,
+        "risk_relevance": 0.1,
+        "action_usefulness": 0.0,
+        "clarity": 0.86,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 0.6667,
+        "coverage": 0.5,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP02",
+      "persona_role": "Sales Director",
+      "account_id": "ACC-020",
+      "masked_label": "B",
+      "system": "M2",
+      "time_seconds": 118,
+      "ratings": {
+        "role_usefulness": 5.0,
+        "evidence_trust": 5.0,
+        "risk_relevance": 3.5,
+        "action_usefulness": 5.0,
+        "clarity": 4.2,
+        "confidence_calibration": 4.8
+      },
+      "mean_rating": 4.58,
+      "objective_features": {
+        "role_usefulness": 0.95,
+        "evidence_trust": 1.0,
+        "risk_relevance": 0.65,
+        "action_usefulness": 1.0,
+        "clarity": 0.8,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 1.0,
+        "coverage": 0.8333,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP02",
+      "persona_role": "Sales Director",
+      "account_id": "ACC-040",
+      "masked_label": "A",
+      "system": "B0",
+      "time_seconds": 137,
+      "ratings": {
+        "role_usefulness": 3.7,
+        "evidence_trust": 5.0,
+        "risk_relevance": 1.3,
+        "action_usefulness": 1.0,
+        "clarity": 4.5,
+        "confidence_calibration": 4.4
+      },
+      "mean_rating": 3.32,
+      "objective_features": {
+        "role_usefulness": 0.6167,
+        "evidence_trust": 0.9583,
+        "risk_relevance": 0.1,
+        "action_usefulness": 0.0,
+        "clarity": 0.86,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 0.6667,
+        "coverage": 0.5,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP02",
+      "persona_role": "Sales Director",
+      "account_id": "ACC-040",
+      "masked_label": "B",
+      "system": "M2",
+      "time_seconds": 119,
+      "ratings": {
+        "role_usefulness": 4.9,
+        "evidence_trust": 5.0,
+        "risk_relevance": 3.8,
+        "action_usefulness": 3.3,
+        "clarity": 4.3,
+        "confidence_calibration": 4.6
+      },
+      "mean_rating": 4.32,
+      "objective_features": {
+        "role_usefulness": 0.95,
+        "evidence_trust": 1.0,
+        "risk_relevance": 0.65,
+        "action_usefulness": 0.5,
+        "clarity": 0.8,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 1.0,
+        "coverage": 0.8333,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP02",
+      "persona_role": "Sales Director",
+      "account_id": "ACC-058",
+      "masked_label": "A",
+      "system": "M2",
+      "time_seconds": 113,
+      "ratings": {
+        "role_usefulness": 5.0,
+        "evidence_trust": 4.8,
+        "risk_relevance": 5.0,
+        "action_usefulness": 5.0,
+        "clarity": 4.4,
+        "confidence_calibration": 4.7
+      },
+      "mean_rating": 4.82,
+      "objective_features": {
+        "role_usefulness": 0.95,
+        "evidence_trust": 1.0,
+        "risk_relevance": 1.0,
+        "action_usefulness": 1.0,
+        "clarity": 0.8,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 1.0,
+        "coverage": 0.8333,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP02",
+      "persona_role": "Sales Director",
+      "account_id": "ACC-058",
+      "masked_label": "B",
+      "system": "B0",
+      "time_seconds": 124,
+      "ratings": {
+        "role_usefulness": 3.7,
+        "evidence_trust": 4.7,
+        "risk_relevance": 1.5,
+        "action_usefulness": 1.3,
+        "clarity": 4.3,
+        "confidence_calibration": 4.5
+      },
+      "mean_rating": 3.33,
+      "objective_features": {
+        "role_usefulness": 0.6167,
+        "evidence_trust": 0.9375,
+        "risk_relevance": 0.1,
+        "action_usefulness": 0.0,
+        "clarity": 0.86,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 0.6667,
+        "coverage": 0.5,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP03",
+      "persona_role": "Presales Engineer",
+      "account_id": "ACC-014",
+      "masked_label": "A",
+      "system": "M2",
+      "time_seconds": 135,
+      "ratings": {
+        "role_usefulness": 4.7,
+        "evidence_trust": 5.0,
+        "risk_relevance": 3.5,
+        "action_usefulness": 4.9,
+        "clarity": 4.4,
+        "confidence_calibration": 4.9
+      },
+      "mean_rating": 4.57,
+      "objective_features": {
+        "role_usefulness": 0.95,
+        "evidence_trust": 1.0,
+        "risk_relevance": 0.65,
+        "action_usefulness": 1.0,
+        "clarity": 0.8,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 1.0,
+        "coverage": 0.8333,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP03",
+      "persona_role": "Presales Engineer",
+      "account_id": "ACC-014",
+      "masked_label": "B",
+      "system": "B0",
+      "time_seconds": 167,
+      "ratings": {
+        "role_usefulness": 3.5,
+        "evidence_trust": 5.0,
+        "risk_relevance": 1.4,
+        "action_usefulness": 1.1,
+        "clarity": 4.2,
+        "confidence_calibration": 4.7
+      },
+      "mean_rating": 3.32,
+      "objective_features": {
+        "role_usefulness": 0.6167,
+        "evidence_trust": 0.9375,
+        "risk_relevance": 0.1,
+        "action_usefulness": 0.0,
+        "clarity": 0.86,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 0.6667,
+        "coverage": 0.5,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP03",
+      "persona_role": "Presales Engineer",
+      "account_id": "ACC-020",
+      "masked_label": "A",
+      "system": "M2",
+      "time_seconds": 147,
+      "ratings": {
+        "role_usefulness": 5.0,
+        "evidence_trust": 5.0,
+        "risk_relevance": 3.5,
+        "action_usefulness": 4.9,
+        "clarity": 4.1,
+        "confidence_calibration": 4.6
+      },
+      "mean_rating": 4.52,
+      "objective_features": {
+        "role_usefulness": 0.95,
+        "evidence_trust": 1.0,
+        "risk_relevance": 0.65,
+        "action_usefulness": 1.0,
+        "clarity": 0.8,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 1.0,
+        "coverage": 0.8333,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP03",
+      "persona_role": "Presales Engineer",
+      "account_id": "ACC-020",
+      "masked_label": "B",
+      "system": "B0",
+      "time_seconds": 157,
+      "ratings": {
+        "role_usefulness": 3.3,
+        "evidence_trust": 4.9,
+        "risk_relevance": 1.5,
+        "action_usefulness": 1.0,
+        "clarity": 4.2,
+        "confidence_calibration": 4.7
+      },
+      "mean_rating": 3.27,
+      "objective_features": {
+        "role_usefulness": 0.6167,
+        "evidence_trust": 0.9583,
+        "risk_relevance": 0.1,
+        "action_usefulness": 0.0,
+        "clarity": 0.86,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 0.6667,
+        "coverage": 0.5,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP03",
+      "persona_role": "Presales Engineer",
+      "account_id": "ACC-040",
+      "masked_label": "A",
+      "system": "B0",
+      "time_seconds": 165,
+      "ratings": {
+        "role_usefulness": 3.5,
+        "evidence_trust": 5.0,
+        "risk_relevance": 1.2,
+        "action_usefulness": 1.2,
+        "clarity": 4.3,
+        "confidence_calibration": 4.9
+      },
+      "mean_rating": 3.35,
+      "objective_features": {
+        "role_usefulness": 0.6167,
+        "evidence_trust": 0.9583,
+        "risk_relevance": 0.1,
+        "action_usefulness": 0.0,
+        "clarity": 0.86,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 0.6667,
+        "coverage": 0.5,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP03",
+      "persona_role": "Presales Engineer",
+      "account_id": "ACC-040",
+      "masked_label": "B",
+      "system": "M2",
+      "time_seconds": 155,
+      "ratings": {
+        "role_usefulness": 4.8,
+        "evidence_trust": 5.0,
+        "risk_relevance": 3.7,
+        "action_usefulness": 3.2,
+        "clarity": 4.0,
+        "confidence_calibration": 4.6
+      },
+      "mean_rating": 4.22,
+      "objective_features": {
+        "role_usefulness": 0.95,
+        "evidence_trust": 1.0,
+        "risk_relevance": 0.65,
+        "action_usefulness": 0.5,
+        "clarity": 0.8,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 1.0,
+        "coverage": 0.8333,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP03",
+      "persona_role": "Presales Engineer",
+      "account_id": "ACC-058",
+      "masked_label": "A",
+      "system": "M2",
+      "time_seconds": 136,
+      "ratings": {
+        "role_usefulness": 4.8,
+        "evidence_trust": 5.0,
+        "risk_relevance": 5.0,
+        "action_usefulness": 5.0,
+        "clarity": 4.4,
+        "confidence_calibration": 4.7
+      },
+      "mean_rating": 4.82,
+      "objective_features": {
+        "role_usefulness": 0.95,
+        "evidence_trust": 1.0,
+        "risk_relevance": 1.0,
+        "action_usefulness": 1.0,
+        "clarity": 0.8,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 1.0,
+        "coverage": 0.8333,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP03",
+      "persona_role": "Presales Engineer",
+      "account_id": "ACC-058",
+      "masked_label": "B",
+      "system": "B0",
+      "time_seconds": 170,
+      "ratings": {
+        "role_usefulness": 3.4,
+        "evidence_trust": 4.9,
+        "risk_relevance": 1.4,
+        "action_usefulness": 1.0,
+        "clarity": 4.3,
+        "confidence_calibration": 4.7
+      },
+      "mean_rating": 3.28,
+      "objective_features": {
+        "role_usefulness": 0.6167,
+        "evidence_trust": 0.9375,
+        "risk_relevance": 0.1,
+        "action_usefulness": 0.0,
+        "clarity": 0.86,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 0.6667,
+        "coverage": 0.5,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP04",
+      "persona_role": "Customer Success Manager",
+      "account_id": "ACC-014",
+      "masked_label": "A",
+      "system": "B0",
+      "time_seconds": 161,
+      "ratings": {
+        "role_usefulness": 3.3,
+        "evidence_trust": 4.6,
+        "risk_relevance": 1.7,
+        "action_usefulness": 1.0,
+        "clarity": 4.4,
+        "confidence_calibration": 4.7
+      },
+      "mean_rating": 3.28,
+      "objective_features": {
+        "role_usefulness": 0.6167,
+        "evidence_trust": 0.9375,
+        "risk_relevance": 0.1,
+        "action_usefulness": 0.0,
+        "clarity": 0.86,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 0.6667,
+        "coverage": 0.5,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP04",
+      "persona_role": "Customer Success Manager",
+      "account_id": "ACC-014",
+      "masked_label": "B",
+      "system": "M2",
+      "time_seconds": 139,
+      "ratings": {
+        "role_usefulness": 5.0,
+        "evidence_trust": 5.0,
+        "risk_relevance": 4.1,
+        "action_usefulness": 5.0,
+        "clarity": 4.0,
+        "confidence_calibration": 4.7
+      },
+      "mean_rating": 4.63,
+      "objective_features": {
+        "role_usefulness": 0.95,
+        "evidence_trust": 1.0,
+        "risk_relevance": 0.65,
+        "action_usefulness": 1.0,
+        "clarity": 0.8,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 1.0,
+        "coverage": 0.8333,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP04",
+      "persona_role": "Customer Success Manager",
+      "account_id": "ACC-020",
+      "masked_label": "A",
+      "system": "B0",
+      "time_seconds": 159,
+      "ratings": {
+        "role_usefulness": 3.5,
+        "evidence_trust": 4.7,
+        "risk_relevance": 1.9,
+        "action_usefulness": 1.2,
+        "clarity": 4.6,
+        "confidence_calibration": 4.7
+      },
+      "mean_rating": 3.43,
+      "objective_features": {
+        "role_usefulness": 0.6167,
+        "evidence_trust": 0.9583,
+        "risk_relevance": 0.1,
+        "action_usefulness": 0.0,
+        "clarity": 0.86,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 0.6667,
+        "coverage": 0.5,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP04",
+      "persona_role": "Customer Success Manager",
+      "account_id": "ACC-020",
+      "masked_label": "B",
+      "system": "M2",
+      "time_seconds": 141,
+      "ratings": {
+        "role_usefulness": 4.6,
+        "evidence_trust": 4.9,
+        "risk_relevance": 3.9,
+        "action_usefulness": 5.0,
+        "clarity": 4.3,
+        "confidence_calibration": 4.7
+      },
+      "mean_rating": 4.57,
+      "objective_features": {
+        "role_usefulness": 0.95,
+        "evidence_trust": 1.0,
+        "risk_relevance": 0.65,
+        "action_usefulness": 1.0,
+        "clarity": 0.8,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 1.0,
+        "coverage": 0.8333,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP04",
+      "persona_role": "Customer Success Manager",
+      "account_id": "ACC-040",
+      "masked_label": "A",
+      "system": "B0",
+      "time_seconds": 151,
+      "ratings": {
+        "role_usefulness": 3.7,
+        "evidence_trust": 4.7,
+        "risk_relevance": 1.6,
+        "action_usefulness": 1.3,
+        "clarity": 4.5,
+        "confidence_calibration": 4.8
+      },
+      "mean_rating": 3.43,
+      "objective_features": {
+        "role_usefulness": 0.6167,
+        "evidence_trust": 0.9583,
+        "risk_relevance": 0.1,
+        "action_usefulness": 0.0,
+        "clarity": 0.86,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 0.6667,
+        "coverage": 0.5,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP04",
+      "persona_role": "Customer Success Manager",
+      "account_id": "ACC-040",
+      "masked_label": "B",
+      "system": "M2",
+      "time_seconds": 134,
+      "ratings": {
+        "role_usefulness": 4.9,
+        "evidence_trust": 4.8,
+        "risk_relevance": 4.2,
+        "action_usefulness": 3.1,
+        "clarity": 4.0,
+        "confidence_calibration": 4.5
+      },
+      "mean_rating": 4.25,
+      "objective_features": {
+        "role_usefulness": 0.95,
+        "evidence_trust": 1.0,
+        "risk_relevance": 0.65,
+        "action_usefulness": 0.5,
+        "clarity": 0.8,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 1.0,
+        "coverage": 0.8333,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP04",
+      "persona_role": "Customer Success Manager",
+      "account_id": "ACC-058",
+      "masked_label": "A",
+      "system": "B0",
+      "time_seconds": 156,
+      "ratings": {
+        "role_usefulness": 3.7,
+        "evidence_trust": 5.0,
+        "risk_relevance": 1.6,
+        "action_usefulness": 1.0,
+        "clarity": 4.5,
+        "confidence_calibration": 4.6
+      },
+      "mean_rating": 3.4,
+      "objective_features": {
+        "role_usefulness": 0.6167,
+        "evidence_trust": 0.9375,
+        "risk_relevance": 0.1,
+        "action_usefulness": 0.0,
+        "clarity": 0.86,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 0.6667,
+        "coverage": 0.5,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP04",
+      "persona_role": "Customer Success Manager",
+      "account_id": "ACC-058",
+      "masked_label": "B",
+      "system": "M2",
+      "time_seconds": 132,
+      "ratings": {
+        "role_usefulness": 4.6,
+        "evidence_trust": 5.0,
+        "risk_relevance": 5.0,
+        "action_usefulness": 5.0,
+        "clarity": 4.3,
+        "confidence_calibration": 4.7
+      },
+      "mean_rating": 4.77,
+      "objective_features": {
+        "role_usefulness": 0.95,
+        "evidence_trust": 1.0,
+        "risk_relevance": 1.0,
+        "action_usefulness": 1.0,
+        "clarity": 0.8,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 1.0,
+        "coverage": 0.8333,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP05",
+      "persona_role": "Revenue Operations Analyst",
+      "account_id": "ACC-014",
+      "masked_label": "A",
+      "system": "M2",
+      "time_seconds": 153,
+      "ratings": {
+        "role_usefulness": 4.9,
+        "evidence_trust": 5.0,
+        "risk_relevance": 3.8,
+        "action_usefulness": 5.0,
+        "clarity": 4.4,
+        "confidence_calibration": 4.4
+      },
+      "mean_rating": 4.58,
+      "objective_features": {
+        "role_usefulness": 0.95,
+        "evidence_trust": 1.0,
+        "risk_relevance": 0.65,
+        "action_usefulness": 1.0,
+        "clarity": 0.8,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 1.0,
+        "coverage": 0.8333,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP05",
+      "persona_role": "Revenue Operations Analyst",
+      "account_id": "ACC-014",
+      "masked_label": "B",
+      "system": "B0",
+      "time_seconds": 172,
+      "ratings": {
+        "role_usefulness": 3.3,
+        "evidence_trust": 5.0,
+        "risk_relevance": 1.5,
+        "action_usefulness": 1.2,
+        "clarity": 4.4,
+        "confidence_calibration": 4.7
+      },
+      "mean_rating": 3.35,
+      "objective_features": {
+        "role_usefulness": 0.6167,
+        "evidence_trust": 0.9375,
+        "risk_relevance": 0.1,
+        "action_usefulness": 0.0,
+        "clarity": 0.86,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 0.6667,
+        "coverage": 0.5,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP05",
+      "persona_role": "Revenue Operations Analyst",
+      "account_id": "ACC-020",
+      "masked_label": "A",
+      "system": "M2",
+      "time_seconds": 150,
+      "ratings": {
+        "role_usefulness": 4.8,
+        "evidence_trust": 5.0,
+        "risk_relevance": 3.5,
+        "action_usefulness": 5.0,
+        "clarity": 4.4,
+        "confidence_calibration": 4.6
+      },
+      "mean_rating": 4.55,
+      "objective_features": {
+        "role_usefulness": 0.95,
+        "evidence_trust": 1.0,
+        "risk_relevance": 0.65,
+        "action_usefulness": 1.0,
+        "clarity": 0.8,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 1.0,
+        "coverage": 0.8333,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP05",
+      "persona_role": "Revenue Operations Analyst",
+      "account_id": "ACC-020",
+      "masked_label": "B",
+      "system": "B0",
+      "time_seconds": 171,
+      "ratings": {
+        "role_usefulness": 3.7,
+        "evidence_trust": 5.0,
+        "risk_relevance": 1.6,
+        "action_usefulness": 1.0,
+        "clarity": 4.6,
+        "confidence_calibration": 4.7
+      },
+      "mean_rating": 3.43,
+      "objective_features": {
+        "role_usefulness": 0.6167,
+        "evidence_trust": 0.9583,
+        "risk_relevance": 0.1,
+        "action_usefulness": 0.0,
+        "clarity": 0.86,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 0.6667,
+        "coverage": 0.5,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP05",
+      "persona_role": "Revenue Operations Analyst",
+      "account_id": "ACC-040",
+      "masked_label": "A",
+      "system": "B0",
+      "time_seconds": 170,
+      "ratings": {
+        "role_usefulness": 3.5,
+        "evidence_trust": 5.0,
+        "risk_relevance": 1.5,
+        "action_usefulness": 1.0,
+        "clarity": 4.4,
+        "confidence_calibration": 4.6
+      },
+      "mean_rating": 3.33,
+      "objective_features": {
+        "role_usefulness": 0.6167,
+        "evidence_trust": 0.9583,
+        "risk_relevance": 0.1,
+        "action_usefulness": 0.0,
+        "clarity": 0.86,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 0.6667,
+        "coverage": 0.5,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP05",
+      "persona_role": "Revenue Operations Analyst",
+      "account_id": "ACC-040",
+      "masked_label": "B",
+      "system": "M2",
+      "time_seconds": 159,
+      "ratings": {
+        "role_usefulness": 4.8,
+        "evidence_trust": 5.0,
+        "risk_relevance": 3.5,
+        "action_usefulness": 3.0,
+        "clarity": 4.2,
+        "confidence_calibration": 4.4
+      },
+      "mean_rating": 4.15,
+      "objective_features": {
+        "role_usefulness": 0.95,
+        "evidence_trust": 1.0,
+        "risk_relevance": 0.65,
+        "action_usefulness": 0.5,
+        "clarity": 0.8,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 1.0,
+        "coverage": 0.8333,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP05",
+      "persona_role": "Revenue Operations Analyst",
+      "account_id": "ACC-058",
+      "masked_label": "A",
+      "system": "M2",
+      "time_seconds": 142,
+      "ratings": {
+        "role_usefulness": 4.7,
+        "evidence_trust": 5.0,
+        "risk_relevance": 5.0,
+        "action_usefulness": 5.0,
+        "clarity": 4.3,
+        "confidence_calibration": 4.6
+      },
+      "mean_rating": 4.77,
+      "objective_features": {
+        "role_usefulness": 0.95,
+        "evidence_trust": 1.0,
+        "risk_relevance": 1.0,
+        "action_usefulness": 1.0,
+        "clarity": 0.8,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 1.0,
+        "coverage": 0.8333,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    },
+    {
+      "participant": "VP05",
+      "persona_role": "Revenue Operations Analyst",
+      "account_id": "ACC-058",
+      "masked_label": "B",
+      "system": "B0",
+      "time_seconds": 181,
+      "ratings": {
+        "role_usefulness": 3.3,
+        "evidence_trust": 5.0,
+        "risk_relevance": 1.4,
+        "action_usefulness": 1.1,
+        "clarity": 4.7,
+        "confidence_calibration": 4.4
+      },
+      "mean_rating": 3.32,
+      "objective_features": {
+        "role_usefulness": 0.6167,
+        "evidence_trust": 0.9375,
+        "risk_relevance": 0.1,
+        "action_usefulness": 0.0,
+        "clarity": 0.86,
+        "confidence_calibration": 0.9,
+        "role_accuracy": 0.6667,
+        "coverage": 0.5,
+        "critical_event_recall": 1.0,
+        "evidence_validity": 1.0
+      }
+    }
+  ],
+  "limitations": [
+    "No real person viewed or scored a briefing.",
+    "Likert ratings and preparation times are generated from disclosed heuristics.",
+    "The simulator is not independent of the project design and cannot validate business value.",
+    "Results are suitable only for piloting the study procedure and checking analysis code."
+  ]
+}
