@@ -2,7 +2,7 @@
 
 **AccountLens** is the short product name for this PE6201 end-of-course project. It helps a Key Account Manager prepare for a customer meeting by combining synthetic CRM, email, meeting, calendar, and support-ticket events into an evidence-grounded Account Panorama Briefing.
 
-The first project phase is already scaffolded. It includes:
+The completed course prototype includes:
 
 - a reproducible synthetic dataset generator for 60 accounts;
 - a separate instructor-aligned set of 10 hand-authored accounts with CC lists, meeting attendees, two tickets per account, and explicit true signatories;
@@ -28,6 +28,61 @@ Live Salesforce/Outlook/Jira connections, autonomous outbound actions, Pinecone,
 The decision-chain edges are workflow hypotheses rather than verified reporting lines or personal power relationships. Every relationship requires human confirmation.
 
 Under the Class 4 definition, AccountLens is a bounded AI-assisted workflow rather than a full agent. The application follows a predefined code path and uses one structured model inference; the model does not choose tools or run a variable thought-action-observation loop. See `docs/course_alignment_classes_1_to_5.md`.
+
+## Product documentation
+
+### Product at a glance
+
+| Item | Definition |
+|---|---|
+| Primary persona | Key Account Manager with less than 15 minutes to prepare for a client meeting |
+| Moment of use | Immediately before an enterprise-account meeting, when evidence is spread across teams and systems |
+| Desired change | Shift the user's work from searching and assembling records to verifying one evidence-linked hypothesis set |
+| Input | One fictional account with CRM notes, email threads and CC lists, meetings, calendar activity, support tickets and contact records |
+| Output | One Account Panorama Briefing with decision roles, a likely commercial signatory, workflow hypotheses, recent activity, risks, evidence IDs, limitations and no more than two next actions |
+| Human decision boundary | The system advises; the Key Account Manager verifies evidence, confirms roles and decides what action to take |
+| External intelligence | One structured GPT-4o-compatible model call through an OpenAI-compatible API; the model does not select tools or control the workflow |
+| Failure behaviour | Abstain on insufficient evidence, reject invalid IDs, retry once after validation failure, otherwise fail visibly |
+| Out of scope | Live enterprise connectors, autonomous writes, production identity controls, vector search, multi-agent orchestration and deployment |
+
+### High-level product architecture
+
+```mermaid
+flowchart LR
+    A["One fictional account<br/>CRM · email · meetings · tickets"] --> B["Exact account filter<br/>30-day context window"]
+    B --> C["Deterministic code<br/>risk checks · activity ranking · missing roles"]
+    C --> D["Structured prompt"]
+    D --> E["External intelligence<br/>GPT-4o-compatible model"]
+    E --> F["Pydantic schema and evidence validation<br/>retry once or fail visibly"]
+    F --> G["Account intelligence<br/>roles · signatory · workflow hypotheses"]
+    G --> H["Streamlit briefing<br/>PDF · Markdown"]
+    H --> I["Key Account Manager<br/>verify evidence and decide"]
+    J["Hidden ground truth<br/>roles · critical events · signatory"] --> K["Offline evaluation only"]
+    F --> K
+    K --> L["Metrics<br/>quality · coverage · latency · cost"]
+```
+
+Ground-truth labels never enter the model path. They are joined with saved predictions only inside the offline evaluation layer. The application treats all source content as untrusted data and provides no outbound write action.
+
+### Metrics targeted and reached
+
+| Metric | Target | Reached | Status |
+|---|---:|---:|---|
+| Frozen-test Macro-F1 | At least 0.75 | 1.0000 | Met on controlled fictional data |
+| Macro-F1 improvement over B0 | At least +0.15 | +0.2976 | Met |
+| Evidence precision | At least 0.90 | 1.0000 | Met; all cited event IDs were valid |
+| Selective accuracy | At least 0.85 | 1.0000 | Met at 0.8333 coverage |
+| Coverage | At least 0.70 | 0.8333 | Met; unknown contacts were deliberately abstained |
+| Critical-event recall | Supporting metric | 1.0000 | All labelled critical events surfaced |
+| p95 generation latency | Below 15 seconds | 8.1254 seconds | Met in the frozen provider run |
+| Variable model cost | Below USD 0.05 per briefing | USD 0.016065 | Met; excludes fixed and human-review costs |
+| Instructor-aligned signatory precision | At least 0.85 | 1.0000 | 10 correct selections from 10 |
+| Instructor-aligned selection rate | At least 0.70 | 1.0000 | A signatory selected for every account |
+| Blinded-pilot preparation-time reduction | At least 15% | 21.62% | Met; self-reported timing |
+| Blinded-pilot M2 preference | At least 60% | 100% | Met in 20 of 20 pairs |
+| Unsupported-claim rate | At most 0.05 | Not separately estimated | Partial: evidence-ID validity is narrower than semantic support |
+
+These results establish reproducibility on controlled fictional data, not production accuracy. The five-person pilot is descriptive rather than inferential. Metric definitions, artifact lineage and evaluation limits are documented in `docs/data_and_evaluation_guide.md`.
 
 ## Windows quick start
 
@@ -139,7 +194,7 @@ The core implementation, prompt development, validation, frozen test run, error 
 
 See `docs/data_and_evaluation_guide.md`, `docs/class5_business_case.md`, `docs/statement_alignment.md`, `docs/phase2_results.md`, `docs/final_evaluation.md`, `docs/real_user_evaluation.md`, `docs/clean_environment_verification.md`, and `docs/submission_requirements_audit.md` for data lineage, metric definitions, the business case, design rationale, verification record, and submission requirements. Remaining human-executed work is organised in `docs/demo_script.md` and `docs/submission_checklist.md`.
 
-A submission-ready analysis of no more than 1,200 words is available at `output/Wen_Hao_AccountLens_Final_Analysis.docx`, with a matching PDF in `output/pdf/Wen_Hao_AccountLens_Final_Analysis.pdf`. The longer working report is retained at `output/AccountLens_Final_Project_Report.docx`. The complete provisional four-minute narration is in `docs/final_video_narration.md`; adjust its timing only after the official Final Project Rubric confirms the required format and duration.
+A submission-ready 1,200-word analysis is available at `output/Wen_Hao_AccountLens_Final_Analysis.docx`, with a matching PDF in `output/pdf/Wen_Hao_AccountLens_Final_Analysis.pdf`. The longer working report is retained at `output/AccountLens_Final_Project_Report.docx`. The recording plan is in `docs/final_video_narration.md` and `docs/demo_script.md`; the submitted video must show the presenter and screen together and remain within the confirmed 2-to-8-minute window.
 
 `docs/simulated_user_evaluation.md` is a reproducible synthetic pilot of the blinded-study procedure. It is explicitly not human-participant evidence and must not be reported as a completed user study.
 
