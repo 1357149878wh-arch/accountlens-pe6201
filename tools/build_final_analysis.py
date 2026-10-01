@@ -1,3 +1,5 @@
+"""Build the submission-ready AccountLens final analysis in DOCX and PDF formats."""
+
 from __future__ import annotations
 
 import argparse
@@ -32,6 +34,7 @@ SECTIONS: list[tuple[str, list[str]]] = [
         "1 Problem and significance",
         [
             "Enterprise account teams often hold customer intelligence in separate CRM notes, email threads, meeting records, calendars and support tickets. A Key Account Manager preparing for a client meeting may spend valuable time reconstructing who influences the decision, who can approve the purchase, what changed recently and which risk requires attention. Fragmentation can produce a briefing that is slow, incomplete or overconfident. AccountLens addresses this bounded preparation task: one account enters the workflow and one evidence-grounded Account Panorama Briefing comes out for human review.",
+            "AccountLens does not remove the manager from the decision. It shifts work from assembling records to verifying one evidence-linked hypothesis set. In the blinded pilot, this shift reduced median preparation time by 40 seconds, or 21.6%, but fictional accounts and self-reported timing prevent a direct productivity or revenue claim.",
         ],
     ),
     (
@@ -63,8 +66,9 @@ SECTIONS: list[tuple[str, list[str]]] = [
         ],
     ),
     (
-        "6 Business and technical trade-offs",
+        "6 Tuning, business and technical trade-offs",
         [
+            "Prompt v1 misclassified three champions as unknown by conflating influence with final purchase authority. I added behavioural role definitions and separated advocacy from budget approval; development Macro-F1 rose from 0.8901 to 1.000. M2 then matched H1's validation quality with lower estimated cost and p95 latency, so I rejected the more complex hybrid. Thresholds from 0.50 to 0.85 tied; retaining 0.65 avoided tuning to a meaningless validation difference.",
             "The likely signatory is a Class 5 Archetype B output because the system manufactures a measurement that source systems do not directly record; briefing summarisation is an Archetype A subtask. The use case passes the prototype gates for worth, possibility, affordability, absorption and killability, but production affordability is unproven. The observed variable cost excludes integration, monitoring, maintenance, human review and governance. At the variable-only rate, a USD 10 balance supports about 622 briefings, but this is not a production budget.",
             "A future pilot should stop or be redesigned if signatory precision is below 0.85, selection rate below 0.70, evidence precision below 0.90, unsupported-claim rate above 0.05, p95 latency above 15 seconds, or full cost exceeds the measured value of preparation time saved.",
         ],
@@ -79,7 +83,7 @@ SECTIONS: list[tuple[str, list[str]]] = [
     (
         "8 Conclusion",
         [
-            "AccountLens demonstrates that a narrow, evidence-grounded workflow can turn fragmented account records into a faster and more actionable meeting briefing while preserving human authority. The contribution is not autonomy; it is a measurable combination of signatory selection, role coverage, evidence traceability, abstention, bounded recommendations and explicit failure handling. The prototype meets the course objective on fictional data and defines clear conditions that must be satisfied before any real-data pilot or production claim.",
+            "AccountLens demonstrates that a narrow, evidence-grounded workflow can turn fragmented account records into a faster and more actionable meeting briefing while preserving human authority. The contribution is not autonomy; it is a measurable combination of signatory selection, role coverage, evidence traceability, abstention, bounded recommendations and explicit failure handling. The prototype meets the course objective on fictional data and defines clear conditions that must be satisfied before any real-data pilot or production claim. The next step is a privacy-approved, read-only pilot with de-identified records, independent labels and observed user sessions; autonomy should wait until those gates are met.",
         ],
     ),
 ]
