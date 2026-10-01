@@ -33,3 +33,15 @@ A separate virtual environment named `.verify_venv` was created from the bundled
 **Pass.** The README installation path, automated tests, experiment dry-run, dataset integrity, and application startup are reproducible in a newly created environment. The final test split was not rerun and the frozen prompt, threshold, model configuration, and test artifacts were not changed.
 
 The temporary `.verify_venv` and `.verify_tmp` directories are disposable and excluded from version control.
+
+## Final submission re-verification
+
+Re-verification date: 2026-10-01
+
+The complete current test suite was rerun from submission commit `de2a35081a92cc8e6b42aa46fac7cac26fc4a8e9` with:
+
+```powershell
+python -m unittest discover -s tests -v
+```
+
+Result: **24 tests run, 24 passed, 0 failures and 0 errors** in 0.382 seconds. This run used no API call, did not execute the frozen test set again, and did not change saved model results, prompts, thresholds or evaluation metrics.
