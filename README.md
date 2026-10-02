@@ -80,7 +80,7 @@ Ground-truth labels never enter the model path. They are joined with saved predi
 | Instructor-aligned selection rate | At least 0.70 | 1.0000 | A signatory selected for every account |
 | Blinded-pilot preparation-time reduction | At least 15% | 21.62% | Met; self-reported timing |
 | Blinded-pilot M2 preference | At least 60% | 100% | Met in 20 of 20 pairs |
-| Unsupported-claim rate | At most 0.05 | Not separately estimated | Partial: evidence-ID validity is narrower than semantic support |
+| Unsupported-claim rate | At most 0.05 | Not separately estimated | Partial: evidence-ID validity is narrower; the two-reviewer protocol is documented |
 
 These results establish reproducibility on controlled fictional data, not production accuracy. The five-person pilot is descriptive rather than inferential. Metric definitions, artifact lineage and evaluation limits are documented in `docs/data_and_evaluation_guide.md`.
 
@@ -194,7 +194,7 @@ The core implementation, prompt development, validation, frozen test run, error 
 
 See `docs/data_and_evaluation_guide.md`, `docs/class5_business_case.md`, `docs/statement_alignment.md`, `docs/phase2_results.md`, `docs/final_evaluation.md`, `docs/real_user_evaluation.md`, `docs/clean_environment_verification.md`, and `docs/submission_requirements_audit.md` for data lineage, metric definitions, the business case, design rationale, verification record, and submission requirements. Remaining human-executed work is organised in `docs/demo_script.md` and `docs/submission_checklist.md`.
 
-A submission-ready 1,200-word analysis is available at `output/Wen_Hao_AccountLens_Final_Analysis.docx`, with a matching PDF in `output/pdf/Wen_Hao_AccountLens_Final_Analysis.pdf`. The longer working report is retained at `output/AccountLens_Final_Project_Report.docx`. The recording plan is in `docs/final_video_narration.md` and `docs/demo_script.md`; the submitted video must show the presenter and screen together and remain within the confirmed 2-to-8-minute window.
+The only final analysis in the repository is the submission-ready 1,200-word report at `output/Wen_Hao_AccountLens_Final_Analysis.docx`, with a matching PDF in `output/pdf/Wen_Hao_AccountLens_Final_Analysis.pdf`. The superseded long working report is intentionally excluded to prevent submission ambiguity. The recording plan is in `docs/final_video_narration.md` and `docs/demo_script.md`; the submitted video must show the presenter and screen together and remain within the confirmed 2-to-8-minute window.
 
 `docs/simulated_user_evaluation.md` is a reproducible synthetic pilot of the blinded-study procedure. It is explicitly not human-participant evidence and must not be reported as a completed user study.
 

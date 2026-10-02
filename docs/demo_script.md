@@ -5,10 +5,12 @@ The complete spoken narration is in `docs/final_video_narration.md`. This file r
 ## Recording setup
 
 - Use the local Streamlit app and synthetic data only.
+- Keep the presenter's face and the application screen visible together throughout the explanation.
 - Hide `.env`, terminals containing secrets, browser bookmarks, and notifications.
 - Keep the original title visible at the start.
 - Record at 1080p if possible and use a readable browser zoom.
 - State that the final metrics come from the already frozen, one-time test run; do not rerun it for the video.
+- Keep the recording between two and eight minutes; the narration below is intentionally concise at approximately four minutes.
 
 ## Demo 1: successful workflow (about 90 seconds)
 
@@ -50,7 +52,7 @@ Then:
 
 Expected result: the app reports the generation failure without inventing a briefing, leaking the key, sending a Slack message, or corrupting the frozen artifacts.
 
-## Suggested 4-minute final-video narration
+## Suggested concise final-video narration
 
 1. **Problem and user (0:00-0:30):** A Key Account Manager has less than 15 minutes to reconstruct a complex buying process from fragmented systems.
 2. **Scope and safety (0:30-0:55):** The MVP uses fictional records, an explicit 30-day window, evidence IDs, abstention, and mandatory human confirmation.

@@ -1,6 +1,6 @@
 # Final demonstration narration
 
-> This is a four-minute working script based on the available project evidence. The exact duration and submission format must be updated if the official Final Project Rubric specifies different requirements.
+This concise narration runs for approximately four minutes, within the instructor's confirmed two-to-eight-minute range. Record the presenter and the computer screen together throughout the explanation. Aim for precision, clear articulation and succinct transitions; if the final recording exceeds eight minutes, only the first eight minutes will be reviewed.
 
 ## 0:00 to 0:30 Problem and user
 
@@ -47,8 +47,9 @@ These results are directional, not production proof. The data is synthetic and t
 - [ ] Capture the successful workflow.
 - [ ] Capture calibrated abstention.
 - [ ] Capture handled API failure in a temporary session.
+- [ ] Keep the presenter's face and the application screen visible together.
 - [ ] Show the frozen test metrics and blinded-pilot results.
 - [ ] Show signatory precision with recall and selection rate.
 - [ ] Distinguish variable API cost from full cost to serve.
 - [ ] Keep the API key, personal data and unrelated notifications out of frame.
-- [ ] Confirm the official video duration and submission format before final export.
+- [ ] Keep the final recording between two and eight minutes and verify audio clarity before export.

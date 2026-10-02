@@ -35,7 +35,7 @@ Every role class achieved precision, recall, and F1 of 1.0. Coverage is 0.8333 b
 
 There were no role-classification errors, invalid evidence references, missing critical events, parsing failures, or retries in the frozen test run. The rules baseline made 40 errors, all caused by abstaining on supported non-unknown roles. Its largest recall gaps were procurement/legal (0.45), end user (0.50), technical evaluator (0.60), and champion (0.65).
 
-The absence of M2 errors must not be interpreted as real-world perfection. The dataset is synthetic, balanced, small, and generated from repeated role-specific patterns. The same generation process created the development, validation, and test records, so the test split measures generalisation across fictional accounts rather than across organisations, writing styles, CRM systems, languages, or real data quality problems. A production claim would require external data, independent annotation, calibration analysis, privacy review, and monitoring for distribution shift.
+The absence of M2 errors must not be interpreted as real-world perfection. The dataset is synthetic, balanced, small, and generated from repeated role-specific patterns. The same generation process created the development, validation, and test records, so the test split measures generalisation across fictional accounts rather than across organisations, writing styles, CRM systems, languages, or real data quality problems. Evidence precision verifies that cited IDs exist, not that every sentence is semantically entailed; the planned two-reviewer unsupported-claim audit was not completed and no result is claimed for it. A production claim would require external data, independent annotation, calibration analysis, privacy review, and monitoring for distribution shift.
 
 ## Reproducibility artifacts
 
@@ -58,7 +58,7 @@ These findings are descriptive, not inferential. The accounts are fictional, the
 
 ## Remaining project work
 
-The model evaluation, clean-environment setup verification, and five-person blinded pilot are complete. Remaining non-model work is to obtain the official final submission brief, record the demonstration/final communication artifact in the required format, and package the repository. The current four-minute video, self-appraisal, and release-tag plan is provisional until the separate Final Project Rubric is available.
+The model evaluation, clean-environment setup verification, five-person blinded pilot, 1,200-word report, data/evaluation explainers, product documentation and private assessment package are complete. The remaining student-executed work is to record and upload the final demonstration before 4 October at 23:59 Singapore time. The instructor requires both the presenter's face and the computer or mobile screen to be visible. The target is five minutes, with a permitted range of two to eight minutes; only the first eight minutes will be reviewed if the recording is longer.
 
 ## Post-evaluation Statement alignment
 

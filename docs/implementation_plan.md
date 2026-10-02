@@ -28,8 +28,9 @@
 - [x] Produce final charts and an error analysis.
 - [x] Conduct and import the small blinded user study; report descriptive results and limitations.
 - [x] Complete README setup verification on a clean environment.
+- [x] Produce the confirmed 1,200-word report, data/eval explainers, product documentation, architecture diagram, metrics table, and module-level code documentation.
 - [ ] Record success, abstention, and failure demonstrations.
-- [ ] Create the final communication artifacts required by the official brief; the current video, self-appraisal, and release-tag plan is provisional.
+- [ ] Record a concise 2-to-8-minute final video with presenter face and screen visible, then upload all deliverables before 4 October at 23:59 Singapore time.
 
 Prepared but still requiring student execution:
 

@@ -88,6 +88,8 @@ The signatory-selection rule chooses the highest-confidence, non-abstained `econ
 
 Unsupported-claim rate had a project target of at most `0.05`, but it was not estimated as a separate semantic-claim metric. The implemented evidence validator instead measured whether cited event IDs were valid and obtained evidence precision of `1.0000`. This is narrower than proving that every natural-language claim is fully supported.
 
+This gap is intentionally reported rather than replaced with an automated proxy. A future semantic-support evaluation should split every briefing into atomic claims, hide the generating system, and ask two independent reviewers to label each claim as entailed, partially supported, or unsupported by its cited records. Disagreements should be adjudicated before calculating `unsupported claims / all claims`, with results reported by claim type and alongside reviewer agreement. Because that review was not performed before the frozen submission, no unsupported-claim result is claimed here.
+
 ## 7 Artifact lineage
 
 | Question | Evaluation code | Input | Checked-in output |

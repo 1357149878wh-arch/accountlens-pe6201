@@ -45,3 +45,9 @@ python -m unittest discover -s tests -v
 ```
 
 Result: **24 tests run, 24 passed, 0 failures and 0 errors** in 0.382 seconds. This run used no API call, did not execute the frozen test set again, and did not change saved model results, prompts, thresholds or evaluation metrics.
+
+## Requirements-alignment re-verification
+
+Re-verification date: 2026-10-02
+
+After the submission audit, checklist, implementation plan, final evaluation and separate video guidance were aligned with the instructor's final clarification, the complete automated suite was rerun. Result: **24 tests run, 24 passed, 0 failures and 0 errors** in 0.384 seconds. The changes were documentation-only; this run made no API call, did not rerun the frozen model test split, and did not modify any saved prediction, prompt, threshold or evaluation metric.

@@ -1,51 +1,46 @@
 # Final submission checklist
 
-> Requirement audit: `docs/submission_requirements_audit.md`. The separate Final Project Rubric and final submission brief are not present in the workspace, so exact delivery formats remain unconfirmed.
+Confirmed deadline: Sunday, 4 October, 23:59 Singapore time.
 
-## Already complete
+## Complete
 
+- [x] Original Problem Statement included in the private submission package.
+- [x] Final report is well structured and exactly 1,200 displayed words.
+- [x] Report critiques impact, metric performance, evaluation quality, tuning, difficulties, rough edges, limitations and next steps.
 - [x] Original project title retained throughout the project.
-- [x] Synthetic multi-source dataset and deterministic generator.
-- [x] Frozen development, validation, and test splits.
-- [x] Non-AI baseline and evidence-grounded model variants.
-- [x] Frozen prompt, model, and abstention threshold.
-- [x] One-time final test execution and documented comparison.
-- [x] `true_signatory_contact_id` added to every account and excluded from model prompts.
-- [x] Separate teacher-aligned 10-account dataset contains two email threads with CC lists, one attendee list, two tickets, one CRM note and a true signatory per account.
-- [x] One-time M2 evaluation completed on the teacher-aligned set; signatory precision, recall and selection rate are all reported.
-- [x] Class 5 intake screen, archetype, data-readiness, cost-to-serve, break-even, sensitivity, ownership, and kill conditions documented.
-- [x] Classes 1-5 course concepts mapped to implementation evidence and limitations.
-- [x] Class 4 classification corrected: bounded workflow, not a full agent.
-- [x] Automated tests and dashboard QA.
-- [x] README installation and app startup verified in a clean environment.
-- [x] Decision-chain, 30-day activity, risks, actions, evidence, and exports.
-- [x] Responsible-use notice and mandatory human confirmation.
-- [x] Blinded user-study protocol prepared.
-- [x] Matched-layout A/B participant packets and private facilitator key prepared.
-- [x] Five printable, participant-specific Word questionnaires prepared and visually verified.
-- [x] Synthetic evaluator pilot completed and clearly labelled as non-human evidence.
-- [x] Five participant-provided completed questionnaires imported and checked for completeness.
-- [x] Blinded A/B results decoded, aggregated, and reported with limitations.
-- [x] Submission-ready final project report generated in Word format.
-- [x] Full four-minute demonstration narration prepared as a provisional script.
-- [x] Success, abstention, and failure demo script prepared.
-- [x] Self-appraisal draft prepared.
+- [x] Synthetic 60-account dataset, fixed generator and frozen 30/10/20 splits checked in.
+- [x] Separate instructor-aligned 10-account dataset includes CC lists, attendees, tickets, CRM notes and hidden `true_signatory_contact_id` labels.
+- [x] Data and evaluation explainers identify inputs, labels, leakage controls, metrics, targets, results, artifact lineage and limitations.
+- [x] Baseline, candidate systems, saved evaluation outputs and transparent cost analysis checked in.
+- [x] Model, prompt, threshold and frozen test artifacts preserved.
+- [x] Product documentation in `README.md` states persona, input, output, architecture, target metrics and reached metrics.
+- [x] README includes installation, test and application startup instructions.
+- [x] Python source, tools and tests include file- or module-level documentation.
+- [x] Class 4 classification corrected to a bounded AI-assisted workflow rather than a full agent.
+- [x] Class 5 worth, feasibility, affordability, absorption, killability and cost-to-serve analysis documented.
+- [x] Decision-chain, 30-day activity, risks, bounded actions, evidence and exports implemented.
+- [x] Responsible-use notice, abstention, evidence validation and mandatory human confirmation implemented.
+- [x] Five completed anonymous questionnaires imported and reported with explicit limitations.
+- [x] Complete automated suite rerun: 24/24 passed, with no API call and no change to frozen results.
+- [x] Private full submission package excludes API keys, `.env`, virtual environments, Git metadata and caches.
+- [x] Video narration and operational recording checklist prepared as a separate item.
 
-## Actions that still require the student
+## Student actions still required
 
-- [ ] Obtain the official Final Project Rubric and final submission instructions, then confirm deadline, platform, formats and video duration.
-- [ ] Record the three demonstrations in `docs/demo_script.md`.
-- [ ] Record and edit the final video to the official duration; use four minutes only if no different limit is specified.
-- [ ] If required by the final brief, review and personalise `docs/self_appraisal.md` so it accurately reflects individual contribution.
-- [ ] Inspect every submission file and ensure `.env` and API keys are absent.
-- [ ] Commit the final repository state; create a release tag as a reproducibility aid or if the final brief requires it.
+- [ ] Record the final video with face and screen visible at the same time.
+- [ ] Keep the video between 2 and 8 minutes; aim for approximately 4-5 minutes.
+- [ ] Present the problem, working demo, evaluation, cost, limitations and next step precisely and succinctly.
+- [ ] Confirm that no API key, personal data, browser notification or unrelated window is visible.
+- [ ] Upload the Problem Statement, report, repository link/private package and video to the course submission location before the deadline.
+- [ ] If the submission page specifies a file format, naming convention or resolution, apply it during the final upload.
 
-## Final integrity checks
+## Final integrity rules
 
-- Do not rerun the frozen test split.
-- Do not modify the frozen prompt, model, threshold, or reported test artifacts.
-- Keep `true_signatory_contact_id` out of every model prompt and describe the teacher-aligned result as a supplementary fictional-data metric.
-- Report the USD 0.016065 figure as observed variable model cost, not full production cost.
-- Report the five-person study as a small, participant-provided descriptive pilot; do not claim independent identity/session verification or population-level significance.
-- Do not show the API key in the video, screenshots, repository, or report.
-- Do not claim that decision-chain edges are verified reporting relationships.
+- Do not rerun or tune against the frozen model test split.
+- Do not modify the frozen prompt, model, threshold or reported model-test artifacts.
+- Keep `true_signatory_contact_id` and all evaluation labels out of model prompts.
+- Describe the signatory result as a supplementary fictional-data evaluation.
+- Present USD 0.016065 as observed variable model cost, not full production cost.
+- Present the participant study as a small descriptive pilot, not population-level proof.
+- State that decision-chain edges are hypotheses rather than verified reporting relationships.
+- Keep the private completed questionnaires and facilitator key out of the public GitHub repository.
